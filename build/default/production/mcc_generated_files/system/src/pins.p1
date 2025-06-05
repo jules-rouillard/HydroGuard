@@ -2216,8 +2216,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;mcc_generated_files/system/src/pins.c: 92:     INLVLB = 0x0;
 [e = _INLVLB -> -> 0 `i `uc ]
 "93
-[; ;mcc_generated_files/system/src/pins.c: 93:     INLVLC = 0x7;
-[e = _INLVLC -> -> 7 `i `uc ]
+[; ;mcc_generated_files/system/src/pins.c: 93:     INLVLC = 0x3;
+[e = _INLVLC -> -> 3 `i `uc ]
 "97
 [; ;mcc_generated_files/system/src/pins.c: 97:     U1RXPPS = 0xD;
 [e = _U1RXPPS -> -> 13 `i `uc ]

@@ -1,0 +1,160 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"48 ./mac_address.h
+[; ;./mac_address.h: 48:     struct{
+[s S2 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 ]
+[n S2 . n1 n2 n3 n4 n5 n6 ]
+"56
+[; ;./mac_address.h: 56:     struct{
+[s S3 `ul 1 `us 1 ]
+[n S3 . low_4bytes high_2bytes ]
+"45
+[; ;./mac_address.h: 45: typedef union{
+[u S1 `uc -> 6 `i `S2 1 `S3 1 ]
+[n S1 . block . . ]
+"121 C:\Program Files\Microchip\xc8\v3.00\pic\include\c99/stdio.h
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\c99/stdio.h: 121: int sprintf(char *restrict, const char *restrict, ...);
+[v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
+"40 mac_address.c
+[; ;mac_address.c: 40: mac_address_t str2mac( const char *str ){
+[v _str2mac `(S1 ~T0 @X0 1 ef1`*Cuc ]
+{
+[e :U _str2mac ]
+[v _str `*Cuc ~T0 @X0 1 r1 ]
+[f ]
+"41
+[; ;mac_address.c: 41:   mac_address_t ret;
+[v _ret `S1 ~T0 @X0 1 a ]
+"42
+[; ;mac_address.c: 42:   if( str == ((void*)0) )
+[e $ ! == _str -> -> -> 0 `i `*v `*Cuc 8  ]
+"43
+[; ;mac_address.c: 43:     return ret;
+[e ) _ret ]
+[e $UE 7  ]
+[e :U 8 ]
+"45
+[; ;mac_address.c: 45:   while( *str && !(('0' <= (*str) && (*str) <= '9') || ((unsigned char)((*str|32) - 'a') < 6)) )
+[e $U 9  ]
+[e :U 10 ]
+"46
+[; ;mac_address.c: 46:     str++;
+[e ++ _str * -> -> 1 `i `x -> -> # *U _str `i `x ]
+[e :U 9 ]
+"45
+[; ;mac_address.c: 45:   while( *str && !(('0' <= (*str) && (*str) <= '9') || ((unsigned char)((*str|32) - 'a') < 6)) )
+[e $ && != -> *U _str `i -> 0 `i ! || && <= -> 48 `ui -> *U _str `ui <= -> *U _str `ui -> 57 `ui < -> -> - -> | -> *U _str `i -> 32 `i `ui -> 97 `ui `uc `i -> 6 `i 10  ]
+[e :U 11 ]
+"48
+[; ;mac_address.c: 48:   uint8_t i = 0, v = 0;
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[v _v `uc ~T0 @X0 1 a ]
+[e = _v -> -> 0 `i `uc ]
+"50
+[; ;mac_address.c: 50:   while( 1 ){
+[e :U 13 ]
+{
+"51
+[; ;mac_address.c: 51:     if( (('0' <= (*str) && (*str) <= '9') || ((unsigned char)((*str|32) - 'a') < 6)) ){
+[e $ ! || && <= -> 48 `ui -> *U _str `ui <= -> *U _str `ui -> 57 `ui < -> -> - -> | -> *U _str `i -> 32 `i `ui -> 97 `ui `uc `i -> 6 `i 15  ]
+{
+"52
+[; ;mac_address.c: 52:       v <<= 4;
+[e =<< _v -> -> 4 `i `uc ]
+"53
+[; ;mac_address.c: 53:       if( ('0' <= (*str) && (*str) <= '9') ){
+[e $ ! && <= -> 48 `ui -> *U _str `ui <= -> *U _str `ui -> 57 `ui 16  ]
+{
+"54
+[; ;mac_address.c: 54:         v += (*str) - '0';
+[e =+ _v -> - -> *U _str `ui -> 48 `ui `uc ]
+"55
+[; ;mac_address.c: 55:       }
+}
+[e $U 17  ]
+"56
+[; ;mac_address.c: 56:       else{
+[e :U 16 ]
+{
+"57
+[; ;mac_address.c: 57:         v += ((((unsigned char)((*str)-'A')) < 26) ? (*str)|0x20 : (*str)) - 'a' + 10;
+[e =+ _v -> + - -> ? < -> -> - -> *U _str `ui -> 65 `ui `uc `i -> 26 `i : | -> *U _str `i -> 32 `i -> *U _str `i `ui -> 97 `ui -> -> 10 `i `ui `uc ]
+"58
+[; ;mac_address.c: 58:       }
+}
+[e :U 17 ]
+"59
+[; ;mac_address.c: 59:     }
+}
+[e $U 18  ]
+"60
+[; ;mac_address.c: 60:     else if( *str == ':' ){
+[e :U 15 ]
+[e $ ! == -> *U _str `ui -> 58 `ui 19  ]
+{
+"61
+[; ;mac_address.c: 61:       ret.block[i] = v;
+[e = *U + &U . _ret 0 * -> _i `ux -> -> # *U &U . _ret 0 `ui `ux _v ]
+"62
+[; ;mac_address.c: 62:       v = 0;
+[e = _v -> -> 0 `i `uc ]
+"63
+[; ;mac_address.c: 63:       i++;
+[e ++ _i -> -> 1 `i `uc ]
+"64
+[; ;mac_address.c: 64:     }
+}
+[e $U 20  ]
+"65
+[; ;mac_address.c: 65:     else{
+[e :U 19 ]
+{
+"66
+[; ;mac_address.c: 66:       ret.block[i] = v;
+[e = *U + &U . _ret 0 * -> _i `ux -> -> # *U &U . _ret 0 `ui `ux _v ]
+"67
+[; ;mac_address.c: 67:       break;
+[e $U 14  ]
+"68
+[; ;mac_address.c: 68:     }
+}
+[e :U 20 ]
+[e :U 18 ]
+"69
+[; ;mac_address.c: 69:     str++;
+[e ++ _str * -> -> 1 `i `x -> -> # *U _str `i `x ]
+"70
+[; ;mac_address.c: 70:   }
+}
+[e :U 12 ]
+[e $U 13  ]
+[e :U 14 ]
+"72
+[; ;mac_address.c: 72:   return ret;
+[e ) _ret ]
+[e $UE 7  ]
+"73
+[; ;mac_address.c: 73: }
+[e :UE 7 ]
+}
+"75
+[; ;mac_address.c: 75: char* mac2str( mac_address_t *mac, char *str ){
+[v _mac2str `(*uc ~T0 @X0 1 ef2`*S1`*uc ]
+{
+[e :U _mac2str ]
+[v _mac `*S1 ~T0 @X0 1 r1 ]
+[v _str `*uc ~T0 @X0 1 r2 ]
+[f ]
+"76
+[; ;mac_address.c: 76:   sprintf( str, "%02x:%02x:%02x:%02x:%02x:%02x", mac->n1,mac->n2,mac->n3,mac->n4,mac->n5,mac->n6 );
+[e ( _sprintf (1 , , , , , , (. , _str :s 1C -> . . *U _mac 1 0 `i -> . . *U _mac 1 1 `i -> . . *U _mac 1 2 `i -> . . *U _mac 1 3 `i -> . . *U _mac 1 4 `i -> . . *U _mac 1 5 `i ]
+"77
+[; ;mac_address.c: 77:   return str;
+[e ) _str ]
+[e $UE 21  ]
+"78
+[; ;mac_address.c: 78: }
+[e :UE 21 ]
+}
+[p f _sprintf 12615684 ]
+[a 1C 37 48 50 120 58 37 48 50 120 58 37 48 50 120 58 37 48 50 120 58 37 48 50 120 58 37 48 50 120 0 ]

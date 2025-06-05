@@ -1,9 +1,167 @@
-[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK ]
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
 [d version 1.1 ]
 [d edition pro ]
 [d chip 18F16Q41 ]
 [d frameptr 1249 ]
-"1177 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+"100 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/adc/src/adcc.c
+[e E13532 . `uc
+channel_OPA1 57
+channel_DAC2 58
+channel_VSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+channel_ANC2 18
+]
+"66 C:\Users\Jules\MPLABXProjects\HydroGuard\main.c
+[e E13535 . `uc
+channel_OPA1 57
+channel_DAC2 58
+channel_VSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+channel_ANC2 18
+]
+"88
+[e E14199 . `uc
+WIFI_MODE_STATION 1
+WIFI_MODE_SOFTAP 2
+WIFI_MODE_SOFTAP_AND_STATION 3
+WIFI_MODE_UNKNOWN 4
+]
+"320 C:\Users\Jules\MPLABXProjects\HydroGuard\esp8266.c
+[e E14491 . `uc
+CMD_AT 0
+CMD_RST 1
+CMD_GMR 2
+CMD_GSLP 3
+CMD_ATE 4
+CMD_RESTORE 5
+CMD_UART_CUR 6
+CMD_UART_DEF 7
+CMD_SLEEP 8
+CMD_RFPOWER 9
+CMD_RFVDD 10
+CMD_CWMODE_CUR 11
+CMD_CWMODE_DEF 12
+CMD_CWJAP_CUR 13
+CMD_CWJAP_DEF 14
+CMD_CWLAPOPT 15
+CMD_CWLAP 16
+CMD_CWQAP 17
+CMD_CWSAP_CUR 18
+CMD_CWSAP_DEF 19
+CMD_CWLIF 20
+CMD_CWDHCP_CUR 21
+CMD_CWDHCP_DEF 22
+CMD_CWDHCPS_CUR 23
+CMD_CWDHCPS_DEF 24
+CMD_CWAUTOCONN 25
+CMD_CIPSTAMAC_CUR 26
+CMD_CIPSTAMAC_DEF 27
+CMD_CIPAPMAC_CUR 28
+CMD_CIPAPMAC_DEF 29
+CMD_CIPSTA_CUR 30
+CMD_CIPSTA_DEF 31
+CMD_CIPAP_CUR 32
+CMD_CIPAP_DEF 33
+CMD_CWSTARTSMART 34
+CMD_CWSTOPSMART 35
+CMD_CWSTARTDISCOVER 36
+CMD_CWSTOPDISCOVER 37
+CMD_WPS 38
+CMD_MDNS 39
+CMD_CIPSTATUS 40
+CMD_CIPDOMAIN 41
+CMD_CIPSTART 42
+CMD_CIPSSLSIZE 43
+CMD_CIPSEND 44
+CMD_CIPSENDEX 45
+CMD_CIPSENDBUF 46
+CMD_CIPBUFSTATUS 47
+CMD_CIPCHECKSEQ 48
+CMD_CIPBUFRESET 49
+CMD_CIPCLOSE 50
+CMD_CIFSR 51
+CMD_CIPMUX 52
+CMD_CIPSERVER 53
+CMD_CIPMODE 54
+CMD_SAVETRANSLINK 55
+CMD_CIPSTO 56
+CMD_PING 57
+CMD_CIUPDATE 58
+CMD_CIPDINFO 59
+]
+"334
+[e E14474 . `uc
+ESP8266_RESPONSE_OK 0
+ESP8266_RESPONSE_READY 1
+ESP8266_RESPONSE_FAIL 2
+ESP8266_RESPONSE_NOCHANGE 3
+ESP8266_RESPONSE_LINKED 4
+ESP8266_RESPONSE_UNLINK 5
+ESP8266_RESPONSE_ERROR 6
+ESP8266_RESPONSE_QUANTITY 7
+ESP8266_RESPONSE_TIMEOUT 8
+]
+"446
+[e E14405 . `uc
+WIFI_MODE_STATION 1
+WIFI_MODE_SOFTAP 2
+WIFI_MODE_SOFTAP_AND_STATION 3
+WIFI_MODE_UNKNOWN 4
+]
+"502
+[e E14428 . `uc
+AP_ECN_OPEN 0
+AP_ECN_WEP 1
+AP_ECN_WPA_PSK 2
+AP_ECN_WPA2_PSK 3
+AP_ECN_WPA_WPA2_PSK 4
+]
+"589
+[e E14411 . `uc
+AP_CONN_OK 0
+AP_CONN_CONNECTING_TIMEOUT 1
+AP_CONN_WRONG_PASSWORD 2
+AP_CONN_AP_NOT_FOUND 3
+AP_CONN_CONNECT_FAIL 4
+AP_CONN_TIMEOUT 5
+]
+"1011
+[e E14435 . `uc
+TRANSPORT_PROTOCOL_TCP 0
+TRANSPORT_PROTOCOL_UDP 1
+TRANSPORT_PROTOCOL_SSL 2
+]
+[e E14485 . `uc
+LINK_STATUS_CONNECTED 0
+LINK_STATUS_CLOSED 1
+LINK_STATUS_ALREADY_CONNECTED 2
+LINK_STATUS_ERROR 3
+]
+"1 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"193 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+[v _pad pad `(v  1 s 1 pad ]
+"513
+[v _dtoa dtoa `(v  1 s 1 dtoa ]
+"1001
+[v _utoa utoa `(v  1 s 1 utoa ]
+"1055
+[v _xtoa xtoa `(v  1 s 1 xtoa ]
+"1158
+[v _read_prec_or_width read_prec_or_width `(i  1 s 2 read_prec_or_width ]
+"1177
 [v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
 "1817
 [v _vfprintf vfprintf `(i  1 e 2 0 ]
@@ -19,6 +177,10 @@
 [v ___ftmul __ftmul `(f  1 e 4 0 ]
 "19 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftsub.c
 [v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
 "8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
 [v _fputc fputc `(i  1 e 2 0 ]
 "8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputs.c
@@ -35,6 +197,16 @@
 [v ___fldiv __fldiv `(d  1 e 4 0 ]
 "8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcmul.c
 [v ___flmul __flmul `(d  1 e 4 0 ]
+"3 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\strchr.c
+[v _strchr strchr `(*.39uc  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"3 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\strstr.c
+[v _strstr strstr `(*.39uc  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
 "15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul64.c
@@ -45,8 +217,54 @@
 [v _is_sensor_start_detected is_sensor_start_detected `(v  1 e 1 0 ]
 "37
 [v _ReadData ReadData `(uc  1 e 1 0 ]
-"54
-[v _sensor_read sensor_read `(v  1 e 1 0 ]
+"33 C:\Users\Jules\MPLABXProjects\HydroGuard\esp8266.c
+[v _esp8266_ready2read esp8266_ready2read `(a  1 e 1 0 ]
+"38
+[v _esp8266_getchar esp8266_getchar `(uc  1 e 1 0 ]
+"56
+[v _esp8266_putchar esp8266_putchar `(v  1 e 1 0 ]
+"296
+[v _esp8266_puts esp8266_puts `(s  1 e 2 0 ]
+"320
+[v _esp8266_sendCommand esp8266_sendCommand `(v  1 s 1 esp8266_sendCommand ]
+"334
+[v _esp8266_readResponse esp8266_readResponse `(E14474  1 s 1 esp8266_readResponse ]
+"392
+[v _esp8266_readUntil esp8266_readUntil `(uc  1 s 1 esp8266_readUntil ]
+"433
+[v _clearBuffer clearBuffer `(v  1 s 1 clearBuffer ]
+"446
+[v _ESP8266_Initialize ESP8266_Initialize `(uc  1 e 1 0 ]
+"555
+[v _ESP8266_CheckCommunication ESP8266_CheckCommunication `(a  1 e 1 0 ]
+"567
+[v _ESP8266_SetWifiMode ESP8266_SetWifiMode `(E14474  1 e 1 0 ]
+"633
+[v _ESP8266_SetSoftApWifiSettings ESP8266_SetSoftApWifiSettings `(E14474  1 e 1 0 ]
+"758
+[v _ESP8266_EnableDHCP ESP8266_EnableDHCP `(E14474  1 e 1 0 ]
+"807
+[v _ESP8266_SetSoftApIpRange ESP8266_SetSoftApIpRange `(E14474  1 e 1 0 ]
+"867
+[v _ESP8266_SetStationMacAddress ESP8266_SetStationMacAddress `(E14474  1 e 1 0 ]
+"889
+[v _ESP8266_GetSoftApMacAddress ESP8266_GetSoftApMacAddress `(E14474  1 e 1 0 ]
+"907
+[v _ESP8266_SetSoftApMacAddress ESP8266_SetSoftApMacAddress `(E14474  1 e 1 0 ]
+"930
+[v _ESP8266_SetStationIP ESP8266_SetStationIP `(E14474  1 e 1 0 ]
+"1082
+[v _ESP8266_AvailableData ESP8266_AvailableData `(us  1 e 2 0 ]
+"1140
+[v _ESP8266_EnableMultipleConnections ESP8266_EnableMultipleConnections `(E14474  1 e 1 0 ]
+"45 C:\Users\Jules\MPLABXProjects\HydroGuard/ip_address.h
+"49
+[s S2046 . 4 `uc 1 n1 1 0 `uc 1 n2 1 1 `uc 1 n3 1 2 `uc 1 n4 1 3 ]
+"41 C:\Users\Jules\MPLABXProjects\HydroGuard\ip_address.c
+[u S2051 . 4 `[4]uc 1 values 4 0 `S2046 1 . 4 0 `ul 1 all 4 0 ]
+[v _str2ipv4 str2ipv4 `(S2051  1 e 4 0 ]
+"70
+[v _ip2str ip2str `(*.39uc  1 e 2 0 ]
 "17 C:\Users\Jules\MPLABXProjects\HydroGuard\lcd.c
 [v _ldc_set_data ldc_set_data `(v  1 e 1 0 ]
 "37
@@ -55,39 +273,54 @@
 [v _lcd_clear lcd_clear `(v  1 e 1 0 ]
 "56
 [v _lcd_init lcd_init `(v  1 e 1 0 ]
-"78
+"85
 [v _lcd_print_char lcd_print_char `(v  1 e 1 0 ]
-"94
+"101
 [v _lcd_set_cursor lcd_set_cursor `(v  1 e 1 0 ]
-"115
+"122
 [v _lcd_print_string lcd_print_string `(v  1 e 1 0 ]
-"42 C:\Users\Jules\MPLABXProjects\HydroGuard\main.c
+"45 C:\Users\Jules\MPLABXProjects\HydroGuard/mac_address.h
+"48
+[s S2055 . 6 `uc 1 n1 1 0 `uc 1 n2 1 1 `uc 1 n3 1 2 `uc 1 n4 1 3 `uc 1 n5 1 4 `uc 1 n6 1 5 ]
+"40 C:\Users\Jules\MPLABXProjects\HydroGuard\mac_address.c
+"56 C:\Users\Jules\MPLABXProjects\HydroGuard/mac_address.h
+[s S2062 . 6 `ul 1 low_4bytes 4 0 `us 1 high_2bytes 2 4 ]
+"40 C:\Users\Jules\MPLABXProjects\HydroGuard\mac_address.c
+[u S2065 . 6 `[6]uc 1 block 6 0 `S2055 1 . 6 0 `S2062 1 . 6 0 ]
+[v _str2mac str2mac `(S2065  1 e 6 0 ]
+"75
+[v _mac2str mac2str `(*.39uc  1 e 2 0 ]
+"43 C:\Users\Jules\MPLABXProjects\HydroGuard\main.c
 [v _myTimer0ISR myTimer0ISR `(v  1 e 1 0 ]
-"46
+"47
 [v _main main `(i  1 e 2 0 ]
+"45 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/adc/src/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+"121
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(us  1 e 2 0 ]
 "37 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/system/src/clock.c
 [v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
 "42 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/system/src/interrupt.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 "80
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
-"106
+"114
 [v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
-"115
+"123
 [v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
-"119
+"127
 [v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
-"132
+"140
 [v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
-"141
+"149
 [v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
-"145
+"153
 [v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
-"158
+"166
 [v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
-"167
+"175
 [v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
-"171
+"179
 [v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
 "38 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/system/src/pins.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
@@ -95,7 +328,7 @@
 [v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
 "44 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/system/src/system.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
-"54
+"55
 [v _CPU_Initialize CPU_Initialize `(v  1 e 1 0 ]
 "50 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/timer/src/tmr0.c
 [v _Timer0_Initialize Timer0_Initialize `(v  1 e 1 0 ]
@@ -111,42 +344,54 @@
 [v _Timer0_OverflowCallbackRegister Timer0_OverflowCallbackRegister `(v  1 e 1 0 ]
 "138
 [v _Timer0_DefaultOverflowCallback Timer0_DefaultOverflowCallback `(v  1 s 1 Timer0_DefaultOverflowCallback ]
-"95 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/uart/src/uart1.c
+"118 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/uart/src/uart1.c
 [v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
-"146
+"180
 [v _UART1_Deinitialize UART1_Deinitialize `(v  1 e 1 0 ]
-"179
+"215
 [v _UART1_TransmitEnable UART1_TransmitEnable `T(v  1 e 1 0 ]
-"184
+"220
 [v _UART1_TransmitDisable UART1_TransmitDisable `T(v  1 e 1 0 ]
-"209
+"245
 [v _UART1_AutoBaudSet UART1_AutoBaudSet `T(v  1 e 1 0 ]
-"222
+"258
 [v _UART1_AutoBaudQuery UART1_AutoBaudQuery `T(a  1 e 1 0 ]
-"242
-[v _UART1_IsRxReady UART1_IsRxReady `(a  1 e 1 0 ]
-"247
-[v _UART1_IsTxReady UART1_IsTxReady `(a  1 e 1 0 ]
-"252
-[v _UART1_IsTxDone UART1_IsTxDone `(a  1 e 1 0 ]
-"257
-[v _UART1_ErrorGet UART1_ErrorGet `(ui  1 e 2 0 ]
-"281
-[v _UART1_Read UART1_Read `(uc  1 e 1 0 ]
-"287
-[v _UART1_Write UART1_Write `(v  1 e 1 0 ]
 "297
-[v _UART1_DefaultFramingErrorCallback UART1_DefaultFramingErrorCallback `(v  1 s 1 UART1_DefaultFramingErrorCallback ]
+[v _UART1_IsRxReady UART1_IsRxReady `(a  1 e 1 0 ]
 "302
-[v _UART1_DefaultOverrunErrorCallback UART1_DefaultOverrunErrorCallback `(v  1 s 1 UART1_DefaultOverrunErrorCallback ]
+[v _UART1_IsTxReady UART1_IsTxReady `(a  1 e 1 0 ]
 "307
-[v _UART1_DefaultParityErrorCallback UART1_DefaultParityErrorCallback `(v  1 s 1 UART1_DefaultParityErrorCallback ]
+[v _UART1_IsTxDone UART1_IsTxDone `(a  1 e 1 0 ]
 "312
+[v _UART1_ErrorGet UART1_ErrorGet `(ui  1 e 2 0 ]
+"319
+[v _UART1_Read UART1_Read `(uc  1 e 1 0 ]
+"337
+[v _UART1_ReceiveISR UART1_ReceiveISR `(v  1 e 1 0 ]
+"381
+[v _UART1_Write UART1_Write `(v  1 e 1 0 ]
+"406
+[v _UART1_TransmitISR UART1_TransmitISR `(v  1 e 1 0 ]
+"432
+[v _UART1_DefaultFramingErrorCallback UART1_DefaultFramingErrorCallback `(v  1 s 1 UART1_DefaultFramingErrorCallback ]
+"437
+[v _UART1_DefaultOverrunErrorCallback UART1_DefaultOverrunErrorCallback `(v  1 s 1 UART1_DefaultOverrunErrorCallback ]
+"442
+[v _UART1_DefaultParityErrorCallback UART1_DefaultParityErrorCallback `(v  1 s 1 UART1_DefaultParityErrorCallback ]
+"447
 [v _UART1_FramingErrorCallbackRegister UART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
-"320
+"455
 [v _UART1_OverrunErrorCallbackRegister UART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
-"328
+"463
 [v _UART1_ParityErrorCallbackRegister UART1_ParityErrorCallbackRegister `(v  1 e 1 0 ]
+"470
+[v _UART1_RxCompleteCallbackRegister UART1_RxCompleteCallbackRegister `(v  1 e 1 0 ]
+"478
+[v _UART1_TxCompleteCallbackRegister UART1_TxCompleteCallbackRegister `(v  1 e 1 0 ]
+"354 C:\Users\Jules\MPLABXProjects\HydroGuard/mcc_generated_files/uart/uart1.h
+[v _UART1_TxInterruptHandler UART1_TxInterruptHandler `*.37(v  1 e 2 0 ]
+"379
+[v _UART1_RxInterruptHandler UART1_RxInterruptHandler `*.37(v  1 e 2 0 ]
 "5883 C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h
 [v _ACTCON ACTCON `VEuc  1 e 1 @172 ]
 "5953
@@ -205,34 +450,34 @@
 [v _U1P3H U1P3H `VEuc  1 e 1 @682 ]
 "15079
 [v _U1CON0 U1CON0 `VEuc  1 e 1 @683 ]
-[s S690 . 1 `uc 1 MODE0 1 0 :1:0 
+[s S1389 . 1 `uc 1 MODE0 1 0 :1:0 
 `uc 1 MODE1 1 0 :1:1 
 `uc 1 MODE2 1 0 :1:2 
 `uc 1 MODE3 1 0 :1:3 
 ]
 "15112
-[s S695 . 1 `uc 1 U1MODE 1 0 :4:0 
+[s S1394 . 1 `uc 1 U1MODE 1 0 :4:0 
 `uc 1 U1RXEN 1 0 :1:4 
 `uc 1 U1TXEN 1 0 :1:5 
 `uc 1 U1ABDEN 1 0 :1:6 
 `uc 1 U1BRGS 1 0 :1:7 
 ]
-[s S701 . 1 `uc 1 U1MODE0 1 0 :1:0 
+[s S1400 . 1 `uc 1 U1MODE0 1 0 :1:0 
 `uc 1 U1MODE1 1 0 :1:1 
 `uc 1 U1MODE2 1 0 :1:2 
 `uc 1 U1MODE3 1 0 :1:3 
 ]
-[s S706 . 1 `uc 1 MODE 1 0 :4:0 
+[s S1405 . 1 `uc 1 MODE 1 0 :4:0 
 `uc 1 RXEN 1 0 :1:4 
 `uc 1 TXEN 1 0 :1:5 
 `uc 1 ABDEN 1 0 :1:6 
 `uc 1 BRGS 1 0 :1:7 
 ]
-[u S712 . 1 `S690 1 . 1 0 `S695 1 . 1 0 `S701 1 . 1 0 `S706 1 . 1 0 ]
-[v _U1CON0bits U1CON0bits `VES712  1 e 1 @683 ]
+[u S1411 . 1 `S1389 1 . 1 0 `S1394 1 . 1 0 `S1400 1 . 1 0 `S1405 1 . 1 0 ]
+[v _U1CON0bits U1CON0bits `VES1411  1 e 1 @683 ]
 "15207
 [v _U1CON1 U1CON1 `VEuc  1 e 1 @684 ]
-[s S654 . 1 `uc 1 SENDB 1 0 :1:0 
+[s S1353 . 1 `uc 1 SENDB 1 0 :1:0 
 `uc 1 BRKOVR 1 0 :1:1 
 `uc 1 . 1 0 :1:2 
 `uc 1 RXBIMD 1 0 :1:3 
@@ -241,7 +486,7 @@
 `uc 1 ON 1 0 :1:7 
 ]
 "15232
-[s S662 . 1 `uc 1 U1SENDB 1 0 :1:0 
+[s S1361 . 1 `uc 1 U1SENDB 1 0 :1:0 
 `uc 1 U1BRKOVR 1 0 :1:1 
 `uc 1 . 1 0 :1:2 
 `uc 1 U1RXBIMD 1 0 :1:3 
@@ -249,8 +494,8 @@
 `uc 1 . 1 0 :2:5 
 `uc 1 U1ON 1 0 :1:7 
 ]
-[u S670 . 1 `S654 1 . 1 0 `S662 1 . 1 0 ]
-[v _U1CON1bits U1CON1bits `VES670  1 e 1 @684 ]
+[u S1369 . 1 `S1353 1 . 1 0 `S1361 1 . 1 0 ]
+[v _U1CON1bits U1CON1bits `VES1369  1 e 1 @684 ]
 "15287
 [v _U1CON2 U1CON2 `VEuc  1 e 1 @685 ]
 "15436
@@ -259,53 +504,26 @@
 [v _U1BRGH U1BRGH `VEuc  1 e 1 @687 ]
 "15476
 [v _U1FIFO U1FIFO `VEuc  1 e 1 @688 ]
-[s S808 . 1 `uc 1 RXBF 1 0 :1:0 
-`uc 1 RXBE 1 0 :1:1 
-`uc 1 XON 1 0 :1:2 
-`uc 1 RXIDL 1 0 :1:3 
-`uc 1 TXBF 1 0 :1:4 
-`uc 1 TXBE 1 0 :1:5 
-`uc 1 STPMD 1 0 :1:6 
-`uc 1 TXWRE 1 0 :1:7 
-]
-"15511
-[s S817 . 1 `uc 1 U1RXBF 1 0 :1:0 
-`uc 1 U1RXBE 1 0 :1:1 
-`uc 1 U1XON 1 0 :1:2 
-`uc 1 U1RXIDL 1 0 :1:3 
-`uc 1 U1TXBF 1 0 :1:4 
-`uc 1 U1TXBE 1 0 :1:5 
-`uc 1 U1STPMD 1 0 :1:6 
-`uc 1 U1TXWRE 1 0 :1:7 
-]
-[s S826 . 1 `uc 1 . 1 0 :3:0 
-`uc 1 U1RCIDL 1 0 :1:3 
-]
-[s S829 . 1 `uc 1 . 1 0 :3:0 
-`uc 1 RCIDL 1 0 :1:3 
-]
-[u S832 . 1 `S808 1 . 1 0 `S817 1 . 1 0 `S826 1 . 1 0 `S829 1 . 1 0 ]
-[v _U1FIFObits U1FIFObits `VES832  1 e 1 @688 ]
 "15606
 [v _U1UIR U1UIR `VEuc  1 e 1 @689 ]
-[s S740 . 1 `uc 1 . 1 0 :2:0 
+[s S1439 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 ABDIE 1 0 :1:2 
 `uc 1 . 1 0 :3:3 
 `uc 1 ABDIF 1 0 :1:6 
 `uc 1 WUIF 1 0 :1:7 
 ]
 "15627
-[s S746 . 1 `uc 1 . 1 0 :2:0 
+[s S1445 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 U1ABDIE 1 0 :1:2 
 `uc 1 . 1 0 :3:3 
 `uc 1 U1ABDIF 1 0 :1:6 
 `uc 1 U1WUIF 1 0 :1:7 
 ]
-[u S752 . 1 `S740 1 . 1 0 `S746 1 . 1 0 ]
-[v _U1UIRbits U1UIRbits `VES752  1 e 1 @689 ]
+[u S1451 . 1 `S1439 1 . 1 0 `S1445 1 . 1 0 ]
+[v _U1UIRbits U1UIRbits `VES1451  1 e 1 @689 ]
 "15662
 [v _U1ERRIR U1ERRIR `VEuc  1 e 1 @690 ]
-[s S768 . 1 `uc 1 TXCIF 1 0 :1:0 
+[s S1467 . 1 `uc 1 TXCIF 1 0 :1:0 
 `uc 1 RXFOIF 1 0 :1:1 
 `uc 1 RXBKIF 1 0 :1:2 
 `uc 1 FERIF 1 0 :1:3 
@@ -315,7 +533,7 @@
 `uc 1 TXMTIF 1 0 :1:7 
 ]
 "15689
-[s S777 . 1 `uc 1 U1TXCIF 1 0 :1:0 
+[s S1476 . 1 `uc 1 U1TXCIF 1 0 :1:0 
 `uc 1 U1RXFOIF 1 0 :1:1 
 `uc 1 U1RXBKIF 1 0 :1:2 
 `uc 1 U1FERIF 1 0 :1:3 
@@ -324,8 +542,8 @@
 `uc 1 U1PERIF 1 0 :1:6 
 `uc 1 U1TXMTIF 1 0 :1:7 
 ]
-[u S786 . 1 `S768 1 . 1 0 `S777 1 . 1 0 ]
-[v _U1ERRIRbits U1ERRIRbits `VES786  1 e 1 @690 ]
+[u S1485 . 1 `S1467 1 . 1 0 `S1476 1 . 1 0 ]
+[v _U1ERRIRbits U1ERRIRbits `VES1485  1 e 1 @690 ]
 "15774
 [v _U1ERRIE U1ERRIE `VEuc  1 e 1 @691 ]
 "20332
@@ -334,34 +552,231 @@
 [v _TMR0H TMR0H `VEuc  1 e 1 @793 ]
 "20724
 [v _T0CON0 T0CON0 `VEuc  1 e 1 @794 ]
-[s S1186 . 1 `uc 1 OUTPS 1 0 :4:0 
+[s S998 . 1 `uc 1 OUTPS 1 0 :4:0 
 `uc 1 MD16 1 0 :1:4 
 `uc 1 OUT 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 `uc 1 EN 1 0 :1:7 
 ]
 "20758
-[s S1192 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+[s S1004 . 1 `uc 1 T0OUTPS 1 0 :4:0 
 `uc 1 T0MD16 1 0 :1:4 
 `uc 1 T0OUT 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 `uc 1 T0EN 1 0 :1:7 
 ]
-[s S1198 . 1 `uc 1 OUTPS0 1 0 :1:0 
+[s S1010 . 1 `uc 1 OUTPS0 1 0 :1:0 
 `uc 1 OUTPS1 1 0 :1:1 
 `uc 1 OUTPS2 1 0 :1:2 
 `uc 1 OUTPS3 1 0 :1:3 
 `uc 1 T016BIT 1 0 :1:4 
 ]
-[s S1204 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+[s S1016 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
 `uc 1 T0OUTPS1 1 0 :1:1 
 `uc 1 T0OUTPS2 1 0 :1:2 
 `uc 1 T0OUTPS3 1 0 :1:3 
 ]
-[u S1209 . 1 `S1186 1 . 1 0 `S1192 1 . 1 0 `S1198 1 . 1 0 `S1204 1 . 1 0 ]
-[v _T0CON0bits T0CON0bits `VES1209  1 e 1 @794 ]
+[u S1021 . 1 `S998 1 . 1 0 `S1004 1 . 1 0 `S1010 1 . 1 0 `S1016 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES1021  1 e 1 @794 ]
 "20848
 [v _T0CON1 T0CON1 `VEuc  1 e 1 @795 ]
+"28302
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @985 ]
+"28430
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @986 ]
+"28565
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @987 ]
+"28693
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @988 ]
+"28828
+[v _ADERRL ADERRL `VEuc  1 e 1 @989 ]
+"28956
+[v _ADERRH ADERRH `VEuc  1 e 1 @990 ]
+"29091
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @991 ]
+"29219
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @992 ]
+"29354
+[v _ADFLTRL ADFLTRL `VEuc  1 e 1 @993 ]
+"29482
+[v _ADFLTRH ADFLTRH `VEuc  1 e 1 @994 ]
+"29619
+[v _ADACCL ADACCL `VEuc  1 e 1 @995 ]
+"29747
+[v _ADACCH ADACCH `VEuc  1 e 1 @996 ]
+"29875
+[v _ADACCU ADACCU `VEuc  1 e 1 @997 ]
+"30003
+[v _ADCNT ADCNT `VEuc  1 e 1 @998 ]
+"30131
+[v _ADRPT ADRPT `VEuc  1 e 1 @999 ]
+"30266
+[v _ADPREVL ADPREVL `VEuc  1 e 1 @1000 ]
+"30394
+[v _ADPREVH ADPREVH `VEuc  1 e 1 @1001 ]
+"30529
+[v _ADRESL ADRESL `VEuc  1 e 1 @1002 ]
+"30657
+[v _ADRESH ADRESH `VEuc  1 e 1 @1003 ]
+"30777
+[v _ADPCH ADPCH `VEuc  1 e 1 @1004 ]
+"30854
+[v _ADACQL ADACQL `VEuc  1 e 1 @1006 ]
+"30982
+[v _ADACQH ADACQH `VEuc  1 e 1 @1007 ]
+"31074
+[v _ADCAP ADCAP `VEuc  1 e 1 @1008 ]
+"31133
+[v _ADPREL ADPREL `VEuc  1 e 1 @1009 ]
+"31261
+[v _ADPREH ADPREH `VEuc  1 e 1 @1010 ]
+"31353
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @1011 ]
+[s S100 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM 1 0 :2:2 
+`uc 1 CS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CONT 1 0 :1:6 
+`uc 1 ON 1 0 :1:7 
+]
+"31393
+[s S108 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :2:2 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+[s S116 . 1 `uc 1 DONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM0 1 0 :1:2 
+`uc 1 FM1 1 0 :1:3 
+]
+[s S121 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+]
+[s S123 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+`uc 1 ADFM1 1 0 :1:3 
+]
+[u S128 . 1 `S100 1 . 1 0 `S108 1 . 1 0 `S116 1 . 1 0 `S121 1 . 1 0 `S123 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES128  1 e 1 @1011 ]
+"31483
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @1012 ]
+[s S344 . 1 `uc 1 DSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 GPOL 1 0 :1:5 
+`uc 1 IPEN 1 0 :1:6 
+`uc 1 PPOL 1 0 :1:7 
+]
+"31504
+[s S350 . 1 `uc 1 ADDSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 ADGPOL 1 0 :1:5 
+`uc 1 ADIPEN 1 0 :1:6 
+`uc 1 ADPPOL 1 0 :1:7 
+]
+[u S356 . 1 `S344 1 . 1 0 `S350 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES356  1 e 1 @1012 ]
+"31549
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @1013 ]
+[s S220 . 1 `uc 1 MD 1 0 :3:0 
+`uc 1 ACLR 1 0 :1:3 
+`uc 1 CRS 1 0 :3:4 
+`uc 1 PSIS 1 0 :1:7 
+]
+"31586
+[s S225 . 1 `uc 1 ADMD0 1 0 :1:0 
+`uc 1 ADMD1 1 0 :1:1 
+`uc 1 ADMD2 1 0 :1:2 
+`uc 1 ADACLR 1 0 :1:3 
+`uc 1 ADCRS0 1 0 :1:4 
+`uc 1 ADCRS1 1 0 :1:5 
+`uc 1 ADCRS2 1 0 :1:6 
+`uc 1 ADPSIS 1 0 :1:7 
+]
+[s S234 . 1 `uc 1 ADMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCRS 1 0 :3:4 
+]
+[s S238 . 1 `uc 1 MD0 1 0 :1:0 
+`uc 1 MD1 1 0 :1:1 
+`uc 1 MD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CRS0 1 0 :1:4 
+`uc 1 CRS1 1 0 :1:5 
+`uc 1 CRS2 1 0 :1:6 
+]
+[u S246 . 1 `S220 1 . 1 0 `S225 1 . 1 0 `S234 1 . 1 0 `S238 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES246  1 e 1 @1013 ]
+"31691
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @1014 ]
+[s S165 . 1 `uc 1 TMD 1 0 :3:0 
+`uc 1 SOI 1 0 :1:3 
+`uc 1 CALC 1 0 :3:4 
+]
+"31726
+[s S169 . 1 `uc 1 ADTMD0 1 0 :1:0 
+`uc 1 ADTMD1 1 0 :1:1 
+`uc 1 ADTMD2 1 0 :1:2 
+`uc 1 ADSOI 1 0 :1:3 
+`uc 1 ADCALC0 1 0 :1:4 
+`uc 1 ADCALC1 1 0 :1:5 
+`uc 1 ADCALC2 1 0 :1:6 
+]
+[s S177 . 1 `uc 1 ADTMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCALC 1 0 :3:4 
+]
+[s S181 . 1 `uc 1 TMD0 1 0 :1:0 
+`uc 1 TMD1 1 0 :1:1 
+`uc 1 TMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CALC0 1 0 :1:4 
+`uc 1 CALC1 1 0 :1:5 
+`uc 1 CALC2 1 0 :1:6 
+]
+[u S189 . 1 `S165 1 . 1 0 `S169 1 . 1 0 `S177 1 . 1 0 `S181 1 . 1 0 ]
+[v _ADCON3bits ADCON3bits `VES189  1 e 1 @1014 ]
+"31821
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @1015 ]
+[s S280 . 1 `uc 1 STAT 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 MATH 1 0 :1:4 
+`uc 1 LTHR 1 0 :1:5 
+`uc 1 UTHR 1 0 :1:6 
+`uc 1 AOV 1 0 :1:7 
+]
+"31858
+[s S287 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+`uc 1 ADSTAT1 1 0 :1:1 
+`uc 1 ADSTAT2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADMATH 1 0 :1:4 
+`uc 1 ADLTHR 1 0 :1:5 
+`uc 1 ADUTHR 1 0 :1:6 
+`uc 1 ADAOV 1 0 :1:7 
+]
+[s S296 . 1 `uc 1 ADSTAT 1 0 :3:0 
+`uc 1 . 1 0 :4:3 
+`uc 1 ADOV 1 0 :1:7 
+]
+[s S300 . 1 `uc 1 STAT0 1 0 :1:0 
+`uc 1 STAT1 1 0 :1:1 
+`uc 1 STAT2 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 OV 1 0 :1:7 
+]
+[u S306 . 1 `S280 1 . 1 0 `S287 1 . 1 0 `S296 1 . 1 0 `S300 1 . 1 0 ]
+[v _ADSTATbits ADSTATbits `VES306  1 e 1 @1015 ]
+"31953
+[v _ADREF ADREF `VEuc  1 e 1 @1016 ]
+"32093
+[v _ADACT ADACT `VEuc  1 e 1 @1017 ]
+"32185
+[v _ADCLK ADCLK `VEuc  1 e 1 @1018 ]
 "32289
 [v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
 "32334
@@ -410,7 +825,7 @@
 [v _IOCCN IOCCN `VEuc  1 e 1 @1046 ]
 "33420
 [v _IOCCF IOCCF `VEuc  1 e 1 @1047 ]
-[s S158 . 1 `uc 1 SWIE 1 0 :1:0 
+[s S590 . 1 `uc 1 SWIE 1 0 :1:0 
 `uc 1 HLVDIE 1 0 :1:1 
 `uc 1 OSFIE 1 0 :1:2 
 `uc 1 CSWIE 1 0 :1:3 
@@ -420,11 +835,11 @@
 `uc 1 IOCIE 1 0 :1:7 
 ]
 "36508
-[u S167 . 1 `S158 1 . 1 0 ]
+[u S599 . 1 `S590 1 . 1 0 ]
 "36508
 "36508
-[v _PIE0bits PIE0bits `VES167  1 e 1 @1192 ]
-[s S204 . 1 `uc 1 SPI1RXIE 1 0 :1:0 
+[v _PIE0bits PIE0bits `VES599  1 e 1 @1192 ]
+[s S636 . 1 `uc 1 SPI1RXIE 1 0 :1:0 
 `uc 1 SPI1TXIE 1 0 :1:1 
 `uc 1 SPI1IE 1 0 :1:2 
 `uc 1 TMR2IE 1 0 :1:3 
@@ -434,11 +849,25 @@
 `uc 1 TMR0IE 1 0 :1:7 
 ]
 "36686
-[u S213 . 1 `S204 1 . 1 0 ]
+[u S645 . 1 `S636 1 . 1 0 ]
 "36686
 "36686
-[v _PIE3bits PIE3bits `VES213  1 e 1 @1195 ]
-[s S179 . 1 `uc 1 SWIF 1 0 :1:0 
+[v _PIE3bits PIE3bits `VES645  1 e 1 @1195 ]
+[s S682 . 1 `uc 1 U1RXIE 1 0 :1:0 
+`uc 1 U1TXIE 1 0 :1:1 
+`uc 1 U1EIE 1 0 :1:2 
+`uc 1 U1IE 1 0 :1:3 
+`uc 1 TMR3IE 1 0 :1:4 
+`uc 1 TMR3GIE 1 0 :1:5 
+`uc 1 PWM1PIE 1 0 :1:6 
+`uc 1 PWM1IE 1 0 :1:7 
+]
+"36748
+[u S691 . 1 `S682 1 . 1 0 ]
+"36748
+"36748
+[v _PIE4bits PIE4bits `VES691  1 e 1 @1196 ]
+[s S611 . 1 `uc 1 SWIF 1 0 :1:0 
 `uc 1 HLVDIF 1 0 :1:1 
 `uc 1 OSFIF 1 0 :1:2 
 `uc 1 CSWIF 1 0 :1:3 
@@ -448,11 +877,11 @@
 `uc 1 IOCIF 1 0 :1:7 
 ]
 "37155
-[u S188 . 1 `S179 1 . 1 0 ]
+[u S620 . 1 `S611 1 . 1 0 ]
 "37155
 "37155
-[v _PIR0bits PIR0bits `VES188  1 e 1 @1203 ]
-[s S60 . 1 `uc 1 INT0IF 1 0 :1:0 
+[v _PIR0bits PIR0bits `VES620  1 e 1 @1203 ]
+[s S46 . 1 `uc 1 INT0IF 1 0 :1:0 
 `uc 1 ZCDIF 1 0 :1:1 
 `uc 1 ADIF 1 0 :1:2 
 `uc 1 ACTIF 1 0 :1:3 
@@ -462,15 +891,27 @@
 `uc 1 SMT1PWAIF 1 0 :1:7 
 ]
 "37221
-[s S69 . 1 `uc 1 . 1 0 :4:0 
+[s S55 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 CM1IF 1 0 :1:4 
 ]
 "37221
-[u S72 . 1 `S60 1 . 1 0 `S69 1 . 1 0 ]
+[u S58 . 1 `S46 1 . 1 0 `S55 1 . 1 0 ]
 "37221
 "37221
-[v _PIR1bits PIR1bits `VES72  1 e 1 @1204 ]
-[s S225 . 1 `uc 1 SPI1RXIF 1 0 :1:0 
+[v _PIR1bits PIR1bits `VES58  1 e 1 @1204 ]
+[s S74 . 1 `uc 1 ADTIF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 DMA1SCNTIF 1 0 :1:4 
+`uc 1 DMA1DCNTIF 1 0 :1:5 
+`uc 1 DMA1ORIF 1 0 :1:6 
+`uc 1 DMA1AIF 1 0 :1:7 
+]
+"37286
+[u S81 . 1 `S74 1 . 1 0 ]
+"37286
+"37286
+[v _PIR2bits PIR2bits `VES81  1 e 1 @1205 ]
+[s S657 . 1 `uc 1 SPI1RXIF 1 0 :1:0 
 `uc 1 SPI1TXIF 1 0 :1:1 
 `uc 1 SPI1IF 1 0 :1:2 
 `uc 1 TMR2IF 1 0 :1:3 
@@ -480,11 +921,25 @@
 `uc 1 TMR0IF 1 0 :1:7 
 ]
 "37333
-[u S234 . 1 `S225 1 . 1 0 ]
+[u S666 . 1 `S657 1 . 1 0 ]
 "37333
 "37333
-[v _PIR3bits PIR3bits `VES234  1 e 1 @1206 ]
-[s S98 . 1 `uc 1 INT1IF 1 0 :1:0 
+[v _PIR3bits PIR3bits `VES666  1 e 1 @1206 ]
+[s S703 . 1 `uc 1 U1RXIF 1 0 :1:0 
+`uc 1 U1TXIF 1 0 :1:1 
+`uc 1 U1EIF 1 0 :1:2 
+`uc 1 U1IF 1 0 :1:3 
+`uc 1 TMR3IF 1 0 :1:4 
+`uc 1 TMR3GIF 1 0 :1:5 
+`uc 1 PWM1PIF 1 0 :1:6 
+`uc 1 PWM1IF 1 0 :1:7 
+]
+"37395
+[u S712 . 1 `S703 1 . 1 0 ]
+"37395
+"37395
+[v _PIR4bits PIR4bits `VES712  1 e 1 @1207 ]
+[s S530 . 1 `uc 1 INT1IF 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 CWG1IF 1 0 :1:2 
 `uc 1 NCO1IF 1 0 :1:3 
@@ -494,11 +949,11 @@
 `uc 1 DMA2AIF 1 0 :1:7 
 ]
 "37523
-[u S107 . 1 `S98 1 . 1 0 ]
+[u S539 . 1 `S530 1 . 1 0 ]
 "37523
 "37523
-[v _PIR6bits PIR6bits `VES107  1 e 1 @1209 ]
-[s S129 . 1 `uc 1 INT2IF 1 0 :1:0 
+[v _PIR6bits PIR6bits `VES539  1 e 1 @1209 ]
+[s S561 . 1 `uc 1 INT2IF 1 0 :1:0 
 `uc 1 . 1 0 :2:1 
 `uc 1 TMR4IF 1 0 :1:3 
 `uc 1 DMA4SCNTIF 1 0 :1:4 
@@ -507,56 +962,56 @@
 `uc 1 DMA4AIF 1 0 :1:7 
 ]
 "37750
-[u S137 . 1 `S129 1 . 1 0 ]
+[u S569 . 1 `S561 1 . 1 0 ]
 "37750
 "37750
-[v _PIR10bits PIR10bits `VES137  1 e 1 @1213 ]
+[v _PIR10bits PIR10bits `VES569  1 e 1 @1213 ]
 "37785
 [v _LATA LATA `VEuc  1 e 1 @1214 ]
 "37830
 [v _LATB LATB `VEuc  1 e 1 @1215 ]
-[s S1293 . 1 `uc 1 . 1 0 :4:0 
+[s S1836 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 LATB4 1 0 :1:4 
 `uc 1 LATB5 1 0 :1:5 
 `uc 1 LATB6 1 0 :1:6 
 `uc 1 LATB7 1 0 :1:7 
 ]
 "37844
-[u S1299 . 1 `S1293 1 . 1 0 ]
+[u S1842 . 1 `S1836 1 . 1 0 ]
 "37844
 "37844
-[v _LATBbits LATBbits `VES1299  1 e 1 @1215 ]
+[v _LATBbits LATBbits `VES1842  1 e 1 @1215 ]
 "37869
 [v _LATC LATC `VEuc  1 e 1 @1216 ]
 "37931
 [v _TRISA TRISA `VEuc  1 e 1 @1222 ]
 "37981
 [v _TRISB TRISB `VEuc  1 e 1 @1223 ]
-[s S1278 . 1 `uc 1 . 1 0 :4:0 
+[s S1821 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 TRISB4 1 0 :1:4 
 `uc 1 TRISB5 1 0 :1:5 
 `uc 1 TRISB6 1 0 :1:6 
 `uc 1 TRISB7 1 0 :1:7 
 ]
 "37995
-[u S1284 . 1 `S1278 1 . 1 0 ]
+[u S1827 . 1 `S1821 1 . 1 0 ]
 "37995
 "37995
-[v _TRISBbits TRISBbits `VES1284  1 e 1 @1223 ]
+[v _TRISBbits TRISBbits `VES1827  1 e 1 @1223 ]
 "38020
 [v _TRISC TRISC `VEuc  1 e 1 @1224 ]
-[s S1321 . 1 `uc 1 . 1 0 :4:0 
+[s S1864 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 RB4 1 0 :1:4 
 `uc 1 RB5 1 0 :1:5 
 `uc 1 RB6 1 0 :1:6 
 `uc 1 RB7 1 0 :1:7 
 ]
 "38146
-[u S1327 . 1 `S1321 1 . 1 0 ]
+[u S1870 . 1 `S1864 1 . 1 0 ]
 "38146
 "38146
-[v _PORTBbits PORTBbits `VES1327  1 e 1 @1231 ]
-[s S34 . 1 `uc 1 INT0EDG 1 0 :1:0 
+[v _PORTBbits PORTBbits `VES1870  1 e 1 @1231 ]
+[s S478 . 1 `uc 1 INT0EDG 1 0 :1:0 
 `uc 1 INT1EDG 1 0 :1:1 
 `uc 1 INT2EDG 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
@@ -565,14 +1020,14 @@
 `uc 1 GIE 1 0 :1:7 
 ]
 "38253
-[s S42 . 1 `uc 1 . 1 0 :7:0 
+[s S486 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 GIEH 1 0 :1:7 
 ]
 "38253
-[u S45 . 1 `S34 1 . 1 0 `S42 1 . 1 0 ]
+[u S489 . 1 `S478 1 . 1 0 `S486 1 . 1 0 ]
 "38253
 "38253
-[v _INTCON0bits INTCON0bits `VES45  1 e 1 @1238 ]
+[v _INTCON0bits INTCON0bits `VES489  1 e 1 @1238 ]
 "39196
 [v _PRODL PRODL `VEuc  1 e 1 @1267 ]
 "39216
@@ -594,9 +1049,22 @@
 [v _width width `i  1 s 2 width ]
 "154
 [v _flags flags `uc  1 s 1 flags ]
-[s S994 dht_sensor 14 `uc 1 Check 1 0 `uc 1 T_byte1 1 1 `uc 1 T_byte2 1 2 `uc 1 RH_byte1 1 3 `uc 1 RH_byte2 1 4 `uc 1 Ch 1 5 `ui 1 Temp 2 6 `ui 1 RH 2 8 `ui 1 RH_ref 2 10 `ui 1 Sum 2 12 ]
-"40 C:\Users\Jules\MPLABXProjects\HydroGuard\main.c
-[v _dht_11 dht_11 `S994  1 e 14 0 ]
+"185
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"100 C:\Users\Jules\MPLABXProjects\HydroGuard\esp8266.c
+[v _AT_command AT_command `C[60]*.32Cuc  1 e 120 0 ]
+"240
+[v _CWMODE_param CWMODE_param `C[3]*.32Cuc  1 e 6 0 ]
+"250
+[v _RESPONSE RESPONSE `C[9]*.32Cuc  1 e 18 0 ]
+"262
+[v _ENDL ENDL `C[3]uc  1 e 3 0 ]
+"269
+[v _aux aux `[37]uc  1 s 37 aux ]
+"271
+[v _buffer_clear buffer_clear `b  1 e 0 0 ]
+"273
+[v _availableData availableData `us  1 s 2 availableData ]
 "38 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/system/src/interrupt.c
 [v _INT0_InterruptHandler INT0_InterruptHandler `*.37(v  1 e 2 0 ]
 "39
@@ -607,72 +1075,218 @@
 [v _timerTMR0ReloadVal16bit timerTMR0ReloadVal16bit `VEus  1 e 2 0 ]
 "47
 [v _Timer0_OverflowCallback Timer0_OverflowCallback `*.37(v  1 s 2 Timer0_OverflowCallback ]
-[s S612 . 1 `uc 1 perr 1 0 :1:0 
+"83 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/uart/src/uart1.c
+[v _uart1TxHead uart1TxHead `VEuc  1 s 1 uart1TxHead ]
+"84
+[v _uart1TxTail uart1TxTail `VEuc  1 s 1 uart1TxTail ]
+"85
+[v _uart1TxBuffer uart1TxBuffer `VE[8]uc  1 s 8 uart1TxBuffer ]
+"86
+[v _uart1TxBufferRemaining uart1TxBufferRemaining `VEuc  1 e 1 0 ]
+"88
+[v _uart1RxHead uart1RxHead `VEuc  1 s 1 uart1RxHead ]
+"89
+[v _uart1RxTail uart1RxTail `VEuc  1 s 1 uart1RxTail ]
+"90
+[v _uart1RxBuffer uart1RxBuffer `VE[8]uc  1 s 8 uart1RxBuffer ]
+[s S1287 . 1 `uc 1 perr 1 0 :1:0 
 `uc 1 ferr 1 0 :1:1 
 `uc 1 oerr 1 0 :1:2 
 `uc 1 reserved 1 0 :5:3 
 ]
-"77 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/uart/src/uart1.c
-[u S617 . 2 `S612 1 . 1 0 `ui 1 status 2 0 ]
-[v _uart1RxLastError uart1RxLastError `VES617  1 e 2 0 ]
-"83
+"91
+[u S1292 . 2 `S1287 1 . 1 0 `ui 1 status 2 0 ]
+[v _uart1RxStatusBuffer uart1RxStatusBuffer `VE[8]S1292  1 s 16 uart1RxStatusBuffer ]
+"92
+[v _uart1RxCount uart1RxCount `VEuc  1 e 1 0 ]
+[s S1287 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"94
+[u S1292 . 2 `S1287 1 . 1 0 `ui 1 status 2 0 ]
+[v _uart1RxLastError uart1RxLastError `VES1292  1 e 2 0 ]
+"100
 [v _UART1_FramingErrorHandler UART1_FramingErrorHandler `*.37(v  1 e 2 0 ]
-"84
+"101
 [v _UART1_OverrunErrorHandler UART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
-"85
+"102
 [v _UART1_ParityErrorHandler UART1_ParityErrorHandler `*.37(v  1 e 2 0 ]
-"46 C:\Users\Jules\MPLABXProjects\HydroGuard\main.c
+"104
+[v _UART1_TxCompleteInterruptHandler UART1_TxCompleteInterruptHandler `*.37(v  1 s 2 UART1_TxCompleteInterruptHandler ]
+"106
+[v _UART1_RxCompleteInterruptHandler UART1_RxCompleteInterruptHandler `*.37(v  1 s 2 UART1_RxCompleteInterruptHandler ]
+"47 C:\Users\Jules\MPLABXProjects\HydroGuard\main.c
 [v _main main `(i  1 e 2 0 ]
 {
-"71
-[v main@str str `[4]uc  1 a 4 46 ]
-"77
+"69
+[v main@str1 str1 `[16]uc  1 a 16 16 ]
+"70
+[v main@str2 str2 `[4]uc  1 a 4 32 ]
+"63
+[v main@acd_result acd_result `us  1 a 2 37 ]
+"64
+[v main@response response `a  1 a 1 36 ]
+"98
 } 0
 "9 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_sprintf.c
 [v _sprintf sprintf `(i  1 e 2 0 ]
 {
-[u S1819 . 2 `*.39uc 1 buffer 2 0 `*.39Cuc 1 source 2 0 ]
+[u S3152 . 2 `*.39uc 1 buffer 2 0 `*.39Cuc 1 source 2 0 ]
 "13
-[s S1822 _IO_FILE 11 `S1819 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
-[v sprintf@f f `S1822  1 a 11 33 ]
+[s S3155 _IO_FILE 11 `S3152 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v sprintf@f f `S3155  1 a 11 68 ]
 "12
-[v sprintf@ap ap `[1]*.39v  1 a 2 31 ]
+[v sprintf@ap ap `[1]*.39v  1 a 2 66 ]
 "9
-[v sprintf@s s `*.39uc  1 p 2 26 ]
-[v sprintf@fmt fmt `*.31Cuc  1 p 1 28 ]
+[v sprintf@s s `*.39uc  1 p 2 0 ]
+[v sprintf@fmt fmt `*.32Cuc  1 p 2 2 ]
 "23
 } 0
 "1817 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
 [v _vfprintf vfprintf `(i  1 e 2 0 ]
 {
 "1820
-[v vfprintf@cfmt cfmt `*.31uc  1 a 1 25 ]
-[s S1854 _IO_FILE 0 ]
+[v vfprintf@cfmt cfmt `*.32uc  1 a 2 64 ]
+[s S3187 _IO_FILE 0 ]
 "1817
-[v vfprintf@fp fp `*.39S1854  1 p 2 20 ]
-[v vfprintf@fmt fmt `*.31Cuc  1 p 1 22 ]
-[v vfprintf@ap ap `*.39*.39v  1 p 2 23 ]
+[v vfprintf@fp fp `*.39S3187  1 p 2 58 ]
+[v vfprintf@fmt fmt `*.32Cuc  1 p 2 60 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 62 ]
 "1840
 } 0
 "1177
 [v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
 {
+[u S3211 . 4 `i 1 sint 2 0 `ui 1 uint 2 0 `d 1 f 4 0 ]
+"1188
+[v vfpfcnvrt@convarg convarg `S3211  1 a 4 51 ]
 "1179
-[v vfpfcnvrt@c c `uc  1 a 1 19 ]
-[s S1854 _IO_FILE 0 ]
+[v vfpfcnvrt@cp cp `*.32uc  1 a 2 56 ]
+[v vfpfcnvrt@c c `uc  1 a 1 55 ]
+"1180
+[v vfpfcnvrt@done done `a  1 a 1 50 ]
+[s S3187 _IO_FILE 0 ]
 "1177
-[v vfpfcnvrt@fp fp `*.39S1854  1 p 2 11 ]
-[v vfpfcnvrt@fmt fmt `*.39*.31uc  1 p 2 13 ]
-[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 15 ]
+[v vfpfcnvrt@fp fp `*.39S3187  1 p 2 42 ]
+[v vfpfcnvrt@fmt fmt `*.39*.32uc  1 p 2 44 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 46 ]
 "1814
+} 0
+"1055
+[v _xtoa xtoa `(v  1 s 1 xtoa ]
+{
+"1063
+[v xtoa@i i `i  1 a 2 40 ]
+[v xtoa@w w `i  1 a 2 37 ]
+"1059
+[v xtoa@c c `uc  1 a 1 39 ]
+"1067
+[v xtoa@p p `a  1 a 1 36 ]
+[s S3187 _IO_FILE 0 ]
+"1055
+[v xtoa@fp fp `*.39S3187  1 p 2 29 ]
+[v xtoa@d d `ui  1 p 2 31 ]
+"1153
+} 0
+"1001
+[v _utoa utoa `(v  1 s 1 utoa ]
+{
+"1003
+[v utoa@i i `i  1 a 2 36 ]
+[v utoa@w w `i  1 a 2 34 ]
+"1007
+[v utoa@p p `a  1 a 1 33 ]
+[s S3187 _IO_FILE 0 ]
+"1001
+[v utoa@fp fp `*.39S3187  1 p 2 29 ]
+[v utoa@d d `ui  1 p 2 31 ]
+"1047
+} 0
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 8 ]
+"7
+[v ___lwmod@dividend dividend `ui  1 p 2 4 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 6 ]
+"25
+} 0
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 9 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 8 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 4 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 6 ]
+"30
+} 0
+"1158 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+[v _read_prec_or_width read_prec_or_width `(i  1 s 2 read_prec_or_width ]
+{
+"1164
+[v read_prec_or_width@c c `uc  1 a 1 10 ]
+"1159
+[v read_prec_or_width@n n `i  1 a 2 11 ]
+"1158
+[v read_prec_or_width@fmt fmt `*.39*.32Cuc  1 p 2 4 ]
+[v read_prec_or_width@ap ap `*.39[1]*.39v  1 p 2 6 ]
+"1171
+} 0
+"513
+[v _dtoa dtoa `(v  1 s 1 dtoa ]
+{
+"516
+[v dtoa@i i `i  1 a 2 39 ]
+[v dtoa@w w `i  1 a 2 36 ]
+"515
+[v dtoa@s s `uc  1 a 1 38 ]
+"520
+[v dtoa@p p `a  1 a 1 35 ]
+[s S3187 _IO_FILE 0 ]
+"513
+[v dtoa@fp fp `*.39S3187  1 p 2 29 ]
+[v dtoa@d d `i  1 p 2 31 ]
+"583
+} 0
+"193
+[v _pad pad `(v  1 s 1 pad ]
+{
+"195
+[v pad@i i `i  1 a 2 27 ]
+[s S3187 _IO_FILE 0 ]
+"193
+[v pad@fp fp `*.39S3187  1 p 2 20 ]
+[v pad@buf buf `*.39uc  1 p 2 22 ]
+[v pad@p p `i  1 p 2 24 ]
+"226
+} 0
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 18 ]
+"10
+[v fputs@c c `uc  1 a 1 17 ]
+"8
+[v fputs@s s `*.39Cuc  1 p 2 13 ]
+[u S3152 . 2 `*.39uc 1 buffer 2 0 `*.39Cuc 1 source 2 0 ]
+[s S3155 _IO_FILE 11 `S3152 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputs@fp fp `*.39S3155  1 p 2 15 ]
+"19
 } 0
 "8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
 [v _fputc fputc `(i  1 e 2 0 ]
 {
-[v fputc@c c `i  1 p 2 2 ]
-[u S1819 . 2 `*.39uc 1 buffer 2 0 `*.39Cuc 1 source 2 0 ]
-[s S1822 _IO_FILE 11 `S1819 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
-[v fputc@fp fp `*.39S1822  1 p 2 4 ]
+[v fputc@c c `i  1 p 2 4 ]
+[u S3152 . 2 `*.39uc 1 buffer 2 0 `*.39Cuc 1 source 2 0 ]
+[s S3155 _IO_FILE 11 `S3152 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.39S3155  1 p 2 6 ]
 "24
 } 0
 "7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\putch.c
@@ -680,70 +1294,73 @@
 {
 "9
 } 0
-"54 C:\Users\Jules\MPLABXProjects\HydroGuard\dht.c
-[v _sensor_read sensor_read `(v  1 e 1 0 ]
+"1 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
 {
-[s S994 dht_sensor 14 `uc 1 Check 1 0 `uc 1 T_byte1 1 1 `uc 1 T_byte2 1 2 `uc 1 RH_byte1 1 3 `uc 1 RH_byte2 1 4 `uc 1 Ch 1 5 `ui 1 Temp 2 6 `ui 1 RH 2 8 `ui 1 RH_ref 2 10 `ui 1 Sum 2 12 ]
-[v sensor_read@dht dht `*.39S994  1 p 2 6 ]
-"69
+[v abs@a a `i  1 p 2 10 ]
+"4
 } 0
-"16
-[v _send_start_signal send_start_signal `(v  1 e 1 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
 {
-"23
+"10
+[v ___awmod@sign sign `uc  1 a 1 9 ]
+[v ___awmod@counter counter `uc  1 a 1 8 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 4 ]
+[v ___awmod@divisor divisor `i  1 p 2 6 ]
+"34
 } 0
-"25
-[v _is_sensor_start_detected is_sensor_start_detected `(v  1 e 1 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
 {
-[s S994 dht_sensor 14 `uc 1 Check 1 0 `uc 1 T_byte1 1 1 `uc 1 T_byte2 1 2 `uc 1 RH_byte1 1 3 `uc 1 RH_byte2 1 4 `uc 1 Ch 1 5 `ui 1 Temp 2 6 `ui 1 RH 2 8 `ui 1 RH_ref 2 10 `ui 1 Sum 2 12 ]
-[v is_sensor_start_detected@dht dht `*.39S994  1 p 2 2 ]
-"35
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 10 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 9 ]
+[v ___awdiv@counter counter `uc  1 a 1 8 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 4 ]
+[v ___awdiv@divisor divisor `i  1 p 2 6 ]
+"41
 } 0
-"37
-[v _ReadData ReadData `(uc  1 e 1 0 ]
-{
-"38
-[v ReadData@j j `uc  1 a 1 5 ]
-[v ReadData@i i `uc  1 a 1 4 ]
-"52
-} 0
-"94 C:\Users\Jules\MPLABXProjects\HydroGuard\lcd.c
+"101 C:\Users\Jules\MPLABXProjects\HydroGuard\lcd.c
 [v _lcd_set_cursor lcd_set_cursor `(v  1 e 1 0 ]
 {
 [v lcd_set_cursor@a a `uc  1 p 1 wreg ]
-"96
-[v lcd_set_cursor@temp temp `uc  1 a 1 9 ]
-[v lcd_set_cursor@y y `uc  1 a 1 8 ]
-[v lcd_set_cursor@z z `uc  1 a 1 7 ]
-"94
+"103
+[v lcd_set_cursor@temp temp `uc  1 a 1 11 ]
+[v lcd_set_cursor@y y `uc  1 a 1 10 ]
+[v lcd_set_cursor@z z `uc  1 a 1 9 ]
+"101
 [v lcd_set_cursor@a a `uc  1 p 1 wreg ]
-[v lcd_set_cursor@b b `uc  1 p 1 5 ]
-"97
-[v lcd_set_cursor@a a `uc  1 p 1 6 ]
-"113
+[v lcd_set_cursor@b b `uc  1 p 1 7 ]
+"104
+[v lcd_set_cursor@a a `uc  1 p 1 8 ]
+"120
 } 0
-"115
+"122
 [v _lcd_print_string lcd_print_string `(v  1 e 1 0 ]
 {
-"116
+"123
 [v lcd_print_string@i i `i  1 a 2 9 ]
-"115
-[v lcd_print_string@a a `*.34uc  1 p 2 5 ]
-"119
+"122
+[v lcd_print_string@a a `*.39uc  1 p 2 7 ]
+"126
 } 0
-"78
+"85
 [v _lcd_print_char lcd_print_char `(v  1 e 1 0 ]
 {
 [v lcd_print_char@data data `uc  1 p 1 wreg ]
 [v lcd_print_char@data data `uc  1 p 1 wreg ]
-"82
-[v lcd_print_char@data data `uc  1 p 1 4 ]
-"92
+"89
+[v lcd_print_char@data data `uc  1 p 1 6 ]
+"99
 } 0
 "56
 [v _lcd_init lcd_init `(v  1 e 1 0 ]
 {
-"76
+"83
 } 0
 "45
 [v _lcd_clear lcd_clear `(v  1 e 1 0 ]
@@ -755,7 +1372,7 @@
 {
 [v lcd_cmd@data data `uc  1 p 1 wreg ]
 [v lcd_cmd@data data `uc  1 p 1 wreg ]
-[v lcd_cmd@data data `uc  1 p 1 4 ]
+[v lcd_cmd@data data `uc  1 p 1 6 ]
 "43
 } 0
 "17
@@ -764,36 +1381,36 @@
 [v ldc_set_data@data data `uc  1 p 1 wreg ]
 [v ldc_set_data@data data `uc  1 p 1 wreg ]
 "19
-[v ldc_set_data@data data `uc  1 p 1 2 ]
+[v ldc_set_data@data data `uc  1 p 1 4 ]
 "35
 } 0
 "44 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/system/src/system.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
-"52
+"53
 } 0
-"95 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/uart/src/uart1.c
+"118 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/uart/src/uart1.c
 [v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
 {
-"144
+"178
 } 0
-"328
+"463
 [v _UART1_ParityErrorCallbackRegister UART1_ParityErrorCallbackRegister `(v  1 e 1 0 ]
 {
-[v UART1_ParityErrorCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 2 ]
-"334
+[v UART1_ParityErrorCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 4 ]
+"469
 } 0
-"320
+"455
 [v _UART1_OverrunErrorCallbackRegister UART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
 {
-[v UART1_OverrunErrorCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 2 ]
-"326
+[v UART1_OverrunErrorCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 4 ]
+"461
 } 0
-"312
+"447
 [v _UART1_FramingErrorCallbackRegister UART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
 {
-[v UART1_FramingErrorCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 2 ]
-"318
+[v UART1_FramingErrorCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 4 ]
+"453
 } 0
 "50 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/timer/src/tmr0.c
 [v _Timer0_Initialize Timer0_Initialize `(v  1 e 1 0 ]
@@ -803,7 +1420,7 @@
 "133
 [v _Timer0_OverflowCallbackRegister Timer0_OverflowCallbackRegister `(v  1 e 1 0 ]
 {
-[v Timer0_OverflowCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 2 ]
+[v Timer0_OverflowCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 4 ]
 "136
 } 0
 "38 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/system/src/pins.c
@@ -816,38 +1433,179 @@
 {
 "71
 } 0
-"167
+"175
 [v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
 {
-[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
-"169
+[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 4 ]
+"177
 } 0
-"141
+"149
 [v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
 {
-[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
-"143
+[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 4 ]
+"151
 } 0
-"115
+"123
 [v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
 {
-[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
-"117
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 4 ]
+"125
 } 0
-"54 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/system/src/system.c
+"55 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/system/src/system.c
 [v _CPU_Initialize CPU_Initialize `(v  1 e 1 0 ]
 {
-"76
+"77
 } 0
 "37 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/system/src/clock.c
 [v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
 {
 "53
 } 0
+"45 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/adc/src/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+{
+"98
+} 0
+"446 C:\Users\Jules\MPLABXProjects\HydroGuard\esp8266.c
+[v _ESP8266_Initialize ESP8266_Initialize `(uc  1 e 1 0 ]
+{
+[v ESP8266_Initialize@mode mode `E14405  1 p 1 wreg ]
+"447
+[v ESP8266_Initialize@response response `E14474  1 a 1 30 ]
+"446
+[v ESP8266_Initialize@mode mode `E14405  1 p 1 wreg ]
+"449
+[v ESP8266_Initialize@mode mode `E14405  1 p 1 29 ]
+"500
+} 0
+"433
+[v _clearBuffer clearBuffer `(v  1 s 1 clearBuffer ]
+{
+"437
+} 0
+"567
+[v _ESP8266_SetWifiMode ESP8266_SetWifiMode `(E14474  1 e 1 0 ]
+{
+[v ESP8266_SetWifiMode@mode mode `E14405  1 p 1 wreg ]
+[v ESP8266_SetWifiMode@mode mode `E14405  1 p 1 wreg ]
+[v ESP8266_SetWifiMode@mode mode `E14405  1 p 1 27 ]
+"570
+} 0
+"1140
+[v _ESP8266_EnableMultipleConnections ESP8266_EnableMultipleConnections `(E14474  1 e 1 0 ]
+{
+[v ESP8266_EnableMultipleConnections@enable enable `a  1 p 1 wreg ]
+[v ESP8266_EnableMultipleConnections@enable enable `a  1 p 1 wreg ]
+[v ESP8266_EnableMultipleConnections@enable enable `a  1 p 1 23 ]
+"1143
+} 0
+"555
+[v _ESP8266_CheckCommunication ESP8266_CheckCommunication `(a  1 e 1 0 ]
+{
+"557
+[v ESP8266_CheckCommunication@response response `uc  1 a 1 23 ]
+"560
+} 0
+"320
+[v _esp8266_sendCommand esp8266_sendCommand `(v  1 s 1 esp8266_sendCommand ]
+{
+[v esp8266_sendCommand@cmd cmd `E14491  1 p 1 wreg ]
+[v esp8266_sendCommand@cmd cmd `E14491  1 p 1 wreg ]
+[v esp8266_sendCommand@param param `*.34Cuc  1 p 2 9 ]
+[v esp8266_sendCommand@cmd cmd `E14491  1 p 1 11 ]
+"324
+} 0
+"296
+[v _esp8266_puts esp8266_puts `(s  1 e 2 0 ]
+{
+"297
+[v esp8266_puts@cnt cnt `s  1 a 2 7 ]
+"296
+[v esp8266_puts@str str `*.34Cuc  1 p 2 5 ]
+"305
+} 0
+"56
+[v _esp8266_putchar esp8266_putchar `(v  1 e 1 0 ]
+{
+[v esp8266_putchar@c c `uc  1 p 1 wreg ]
+[v esp8266_putchar@c c `uc  1 p 1 wreg ]
+[v esp8266_putchar@c c `uc  1 p 1 4 ]
+"63
+} 0
+"334
+[v _esp8266_readResponse esp8266_readResponse `(E14474  1 s 1 esp8266_readResponse ]
+{
+"357
+[v esp8266_readResponse@i_2279 i `uc  1 a 1 22 ]
+"341
+[v esp8266_readResponse@i i `uc  1 a 1 20 ]
+"336
+[v esp8266_readResponse@idx idx `[7]uc  1 a 7 10 ]
+"338
+[v esp8266_readResponse@p p `*.32Cuc  1 a 2 17 ]
+"337
+[v esp8266_readResponse@cur_idx cur_idx `uc  1 a 1 21 ]
+"339
+[v esp8266_readResponse@c c `uc  1 a 1 19 ]
+"334
+[v esp8266_readResponse@output output `*.39uc  1 p 2 4 ]
+[v esp8266_readResponse@timeout timeout `us  1 p 2 6 ]
+"378
+} 0
+"33
+[v _esp8266_ready2read esp8266_ready2read `(a  1 e 1 0 ]
+{
+"36
+} 0
+"297 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/uart/src/uart1.c
+[v _UART1_IsRxReady UART1_IsRxReady `(a  1 e 1 0 ]
+{
+"300
+} 0
+"38 C:\Users\Jules\MPLABXProjects\HydroGuard\esp8266.c
+[v _esp8266_getchar esp8266_getchar `(uc  1 e 1 0 ]
+{
+"52
+} 0
+"121 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/adc/src/adcc.c
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(us  1 e 2 0 ]
+{
+[v ADCC_GetSingleConversion@channel channel `E13532  1 p 1 wreg ]
+[v ADCC_GetSingleConversion@channel channel `E13532  1 p 1 wreg ]
+"124
+[v ADCC_GetSingleConversion@channel channel `E13532  1 p 1 8 ]
+"141
+} 0
 "80 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/system/src/interrupt.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
 {
-"95
+"103
+} 0
+"406 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/uart/src/uart1.c
+[v _UART1_TransmitISR UART1_TransmitISR `(v  1 e 1 0 ]
+{
+"408
+[v UART1_TransmitISR@tempTxTail tempTxTail `uc  1 a 1 0 ]
+"426
+} 0
+"337
+[v _UART1_ReceiveISR UART1_ReceiveISR `(v  1 e 1 0 ]
+{
+"340
+[v UART1_ReceiveISR@tempRxHead tempRxHead `uc  1 a 1 1 ]
+"339
+[v UART1_ReceiveISR@regValue regValue `uc  1 a 1 0 ]
+"379
+} 0
+"437
+[v _UART1_DefaultOverrunErrorCallback UART1_DefaultOverrunErrorCallback `(v  1 s 1 UART1_DefaultOverrunErrorCallback ]
+{
+"440
+} 0
+"432
+[v _UART1_DefaultFramingErrorCallback UART1_DefaultFramingErrorCallback `(v  1 s 1 UART1_DefaultFramingErrorCallback ]
+{
+"435
 } 0
 "117 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/timer/src/tmr0.c
 [v _Timer0_OverflowISR Timer0_OverflowISR `(v  1 e 1 0 ]
@@ -859,10 +1617,10 @@
 {
 "142
 } 0
-"42 C:\Users\Jules\MPLABXProjects\HydroGuard\main.c
+"43 C:\Users\Jules\MPLABXProjects\HydroGuard\main.c
 [v _myTimer0ISR myTimer0ISR `(v  1 e 1 0 ]
 {
-"44
+"45
 } 0
 "116 C:\Users\Jules\MPLABXProjects\HydroGuard\mcc_generated_files/system/src/pins.c
 [v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]

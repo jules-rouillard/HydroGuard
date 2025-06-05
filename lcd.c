@@ -67,12 +67,19 @@ void lcd_init(){
     lcd_cmd(0b0010); // Function set 4 bit mode
     lcd_cmd(0b0011); // Function set 2 line font 5x11   
     
+    lcd_cmd(0b0000); // Entry mode set
+    lcd_cmd(0b1111); //Entry mode
+    
     lcd_cmd(0b1000); //Select Row 1
     lcd_cmd(0b0000); //Clear Row 1 Display
     lcd_cmd(0b1100); //Select Row 2
     lcd_cmd(0b0000); //Clear Row 2 Display
+    
     lcd_cmd(0b0000); // Entry mode set
-    lcd_cmd(0b0110); //Entry mode
+    lcd_cmd(0b0111); //Entry mode
+    
+    lcd_cmd(0b0000);
+    lcd_cmd(0b0010);
 }
 
 void lcd_print_char(char data){

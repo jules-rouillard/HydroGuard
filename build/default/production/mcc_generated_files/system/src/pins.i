@@ -23316,7 +23316,7 @@ unsigned char __t1rd16on(void);
 unsigned char __t3rd16on(void);
 # 34 "C:\\Program Files\\Microchip\\xc8\\v3.00\\pic\\include/xc.h" 2 3
 # 39 "mcc_generated_files/system/src/../pins.h" 2
-# 238 "mcc_generated_files/system/src/../pins.h"
+# 258 "mcc_generated_files/system/src/../pins.h"
 void PIN_MANAGER_Initialize (void);
 
 
@@ -23384,7 +23384,7 @@ void PIN_MANAGER_Initialize(void)
 
     INLVLA = 0x3F;
     INLVLB = 0x0;
-    INLVLC = 0x7;
+    INLVLC = 0x3;
 
 
 

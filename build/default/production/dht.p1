@@ -1,4 +1,6 @@
 Version 4.0 HI-TECH Software Intermediate Code
+[v F14091 `(v ~T0 @X0 0 tf ]
+[v F14098 `(v ~T0 @X0 0 tf ]
 "37987 C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h
 [; ;C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h: 37987:     struct {
 [s S1801 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
@@ -2080,6 +2082,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 "39562
 [; ;C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h: 39562: __asm("TOSU equ 04FFh");
 [; <" TOSU equ 04FFh ;# ">
+"354 ./mcc_generated_files/system/../uart/uart1.h
+[; ;./mcc_generated_files/system/../uart/uart1.h: 354: void (*UART1_TxInterruptHandler)(void);
+[v _UART1_TxInterruptHandler `*F14091 ~T0 @X0 1 e ]
+"379
+[; ;./mcc_generated_files/system/../uart/uart1.h: 379: void (*UART1_RxInterruptHandler)(void);
+[v _UART1_RxInterruptHandler `*F14098 ~T0 @X0 1 e ]
 "16 dht.c
 [; ;dht.c: 16: void send_start_signal(void) {
 [v _send_start_signal `(v ~T0 @X0 1 ef ]

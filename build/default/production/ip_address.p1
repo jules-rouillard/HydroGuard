@@ -1,0 +1,140 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"49 ./ip_address.h
+[; ;./ip_address.h: 49:     struct{
+[s S2 `uc 1 `uc 1 `uc 1 `uc 1 ]
+[n S2 . n1 n2 n3 n4 ]
+"45
+[; ;./ip_address.h: 45: typedef union{
+[u S1 `uc -> 4 `i `S2 1 `ul 1 ]
+[n S1 . values . all ]
+"121 C:\Program Files\Microchip\xc8\v3.00\pic\include\c99/stdio.h
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\c99/stdio.h: 121: int sprintf(char *restrict, const char *restrict, ...);
+[v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
+"41 ip_address.c
+[; ;ip_address.c: 41: ipv4_address_t str2ipv4( const char *str ){
+[v _str2ipv4 `(S1 ~T0 @X0 1 ef1`*Cuc ]
+{
+[e :U _str2ipv4 ]
+[v _str `*Cuc ~T0 @X0 1 r1 ]
+[f ]
+"42
+[; ;ip_address.c: 42:   ipv4_address_t ip;
+[v _ip `S1 ~T0 @X0 1 a ]
+"43
+[; ;ip_address.c: 43:   while( *str && !('0' <= (*str) && (*str) <= '9') )
+[e $U 7  ]
+[e :U 8 ]
+"44
+[; ;ip_address.c: 44:     str++;
+[e ++ _str * -> -> 1 `i `x -> -> # *U _str `i `x ]
+[e :U 7 ]
+"43
+[; ;ip_address.c: 43:   while( *str && !('0' <= (*str) && (*str) <= '9') )
+[e $ && != -> *U _str `i -> 0 `i ! && <= -> 48 `ui -> *U _str `ui <= -> *U _str `ui -> 57 `ui 8  ]
+[e :U 9 ]
+"45
+[; ;ip_address.c: 45:   uint8_t i = 0, v = 0;
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[v _v `uc ~T0 @X0 1 a ]
+[e = _v -> -> 0 `i `uc ]
+"47
+[; ;ip_address.c: 47:   while( 1 ){
+[e :U 11 ]
+{
+"48
+[; ;ip_address.c: 48:     if( ('0' <= (*str) && (*str) <= '9') ){
+[e $ ! && <= -> 48 `ui -> *U _str `ui <= -> *U _str `ui -> 57 `ui 13  ]
+{
+"49
+[; ;ip_address.c: 49:       v *= 10;
+[e =* _v -> -> 10 `i `uc ]
+"50
+[; ;ip_address.c: 50:       v += (*str) - '0';
+[e =+ _v -> - -> *U _str `ui -> 48 `ui `uc ]
+"51
+[; ;ip_address.c: 51:     }
+}
+[e $U 14  ]
+"52
+[; ;ip_address.c: 52:     else if( *str == '.' ){
+[e :U 13 ]
+[e $ ! == -> *U _str `ui -> 46 `ui 15  ]
+{
+"53
+[; ;ip_address.c: 53:       ip.values[i] = v;
+[e = *U + &U . _ip 0 * -> _i `ux -> -> # *U &U . _ip 0 `ui `ux _v ]
+"54
+[; ;ip_address.c: 54:       v = 0;
+[e = _v -> -> 0 `i `uc ]
+"55
+[; ;ip_address.c: 55:       i++;
+[e ++ _i -> -> 1 `i `uc ]
+"56
+[; ;ip_address.c: 56:     }
+}
+[e $U 16  ]
+"57
+[; ;ip_address.c: 57:     else{
+[e :U 15 ]
+{
+"58
+[; ;ip_address.c: 58:       if( i != 3 )
+[e $ ! != -> _i `i -> 3 `i 17  ]
+"59
+[; ;ip_address.c: 59:         ip.all = 0x00;
+[e = . _ip 2 -> -> -> 0 `i `l `ul ]
+[e $U 18  ]
+"60
+[; ;ip_address.c: 60:       else
+[e :U 17 ]
+"61
+[; ;ip_address.c: 61:         ip.values[i] = v;
+[e = *U + &U . _ip 0 * -> _i `ux -> -> # *U &U . _ip 0 `ui `ux _v ]
+[e :U 18 ]
+"62
+[; ;ip_address.c: 62:       break;
+[e $U 12  ]
+"63
+[; ;ip_address.c: 63:     }
+}
+[e :U 16 ]
+[e :U 14 ]
+"64
+[; ;ip_address.c: 64:     str++;
+[e ++ _str * -> -> 1 `i `x -> -> # *U _str `i `x ]
+"65
+[; ;ip_address.c: 65:   }
+}
+[e :U 10 ]
+[e $U 11  ]
+[e :U 12 ]
+"67
+[; ;ip_address.c: 67:   return ip;
+[e ) _ip ]
+[e $UE 6  ]
+"68
+[; ;ip_address.c: 68: }
+[e :UE 6 ]
+}
+"70
+[; ;ip_address.c: 70: char* ip2str( ipv4_address_t *ip, char *str ){
+[v _ip2str `(*uc ~T0 @X0 1 ef2`*S1`*uc ]
+{
+[e :U _ip2str ]
+[v _ip `*S1 ~T0 @X0 1 r1 ]
+[v _str `*uc ~T0 @X0 1 r2 ]
+[f ]
+"71
+[; ;ip_address.c: 71:   sprintf( str, "%d.%d.%d.%d", ip->values[0],ip->values[1],ip->values[2],ip->values[3] );
+[e ( _sprintf (1 , , , , (. , _str :s 1C -> *U + &U . *U _ip 0 * -> -> -> 0 `i `ui `ux -> -> # *U &U . *U _ip 0 `ui `ux `i -> *U + &U . *U _ip 0 * -> -> -> 1 `i `ui `ux -> -> # *U &U . *U _ip 0 `ui `ux `i -> *U + &U . *U _ip 0 * -> -> -> 2 `i `ui `ux -> -> # *U &U . *U _ip 0 `ui `ux `i -> *U + &U . *U _ip 0 * -> -> -> 3 `i `ui `ux -> -> # *U &U . *U _ip 0 `ui `ux `i ]
+"72
+[; ;ip_address.c: 72:   return str;
+[e ) _str ]
+[e $UE 19  ]
+"73
+[; ;ip_address.c: 73: }
+[e :UE 19 ]
+}
+[p f _sprintf 8388736 ]
+[a 1C 37 100 46 37 100 46 37 100 46 37 100 0 ]

@@ -90,7 +90,7 @@ void PIN_MANAGER_Initialize(void)
     */
     INLVLA = 0x3F;
     INLVLB = 0x0;
-    INLVLC = 0x7;
+    INLVLC = 0x3;
     /**
     PPS registers
     */

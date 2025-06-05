@@ -1,10 +1,15 @@
 Version 4.0 HI-TECH Software Intermediate Code
+[v F14091 `(v ~T0 @X0 0 tf ]
+[v F14098 `(v ~T0 @X0 0 tf ]
 "48 mcc_generated_files/system/src/../../system/clock.h
 [; ;mcc_generated_files/system/src/../../system/clock.h: 48: void CLOCK_Initialize(void);
 [v _CLOCK_Initialize `(v ~T0 @X0 0 ef ]
-"238 mcc_generated_files/system/src/../../system/pins.h
-[; ;mcc_generated_files/system/src/../../system/pins.h: 238: void PIN_MANAGER_Initialize (void);
+"258 mcc_generated_files/system/src/../../system/pins.h
+[; ;mcc_generated_files/system/src/../../system/pins.h: 258: void PIN_MANAGER_Initialize (void);
 [v _PIN_MANAGER_Initialize `(v ~T0 @X0 0 ef ]
+"80 mcc_generated_files/system/src/../../adc/adcc.h
+[; ;mcc_generated_files/system/src/../../adc/adcc.h: 80: void ADCC_Initialize(void);
+[v _ADCC_Initialize `(v ~T0 @X0 0 ef ]
 "42 mcc_generated_files/system/src/system.c
 [; ;mcc_generated_files/system/src/system.c: 42: void CPU_Initialize(void);
 [v _CPU_Initialize `(v ~T0 @X0 0 ef ]
@@ -2087,6 +2092,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 "39562
 [; ;C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h: 39562: __asm("TOSU equ 04FFh");
 [; <" TOSU equ 04FFh ;# ">
+"354 mcc_generated_files/system/src/../../uart/uart1.h
+[; ;mcc_generated_files/system/src/../../uart/uart1.h: 354: void (*UART1_TxInterruptHandler)(void);
+[v _UART1_TxInterruptHandler `*F14091 ~T0 @X0 1 e ]
+"379
+[; ;mcc_generated_files/system/src/../../uart/uart1.h: 379: void (*UART1_RxInterruptHandler)(void);
+[v _UART1_RxInterruptHandler `*F14098 ~T0 @X0 1 e ]
 "44 mcc_generated_files/system/src/system.c
 [; ;mcc_generated_files/system/src/system.c: 44: void SYSTEM_Initialize(void)
 [v _SYSTEM_Initialize `(v ~T0 @X0 1 ef ]
@@ -2102,60 +2113,63 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;mcc_generated_files/system/src/system.c: 47:     PIN_MANAGER_Initialize();
 [e ( _PIN_MANAGER_Initialize ..  ]
 "48
-[; ;mcc_generated_files/system/src/system.c: 48:     CPU_Initialize();
-[e ( _CPU_Initialize ..  ]
+[; ;mcc_generated_files/system/src/system.c: 48:     ADCC_Initialize();
+[e ( _ADCC_Initialize ..  ]
 "49
-[; ;mcc_generated_files/system/src/system.c: 49:     Timer0_Initialize();
-[e ( _Timer0_Initialize ..  ]
+[; ;mcc_generated_files/system/src/system.c: 49:     CPU_Initialize();
+[e ( _CPU_Initialize ..  ]
 "50
-[; ;mcc_generated_files/system/src/system.c: 50:     UART1_Initialize();
-[e ( _UART1_Initialize ..  ]
+[; ;mcc_generated_files/system/src/system.c: 50:     Timer0_Initialize();
+[e ( _Timer0_Initialize ..  ]
 "51
-[; ;mcc_generated_files/system/src/system.c: 51:     INTERRUPT_Initialize();
-[e ( _INTERRUPT_Initialize ..  ]
+[; ;mcc_generated_files/system/src/system.c: 51:     UART1_Initialize();
+[e ( _UART1_Initialize ..  ]
 "52
-[; ;mcc_generated_files/system/src/system.c: 52: }
+[; ;mcc_generated_files/system/src/system.c: 52:     INTERRUPT_Initialize();
+[e ( _INTERRUPT_Initialize ..  ]
+"53
+[; ;mcc_generated_files/system/src/system.c: 53: }
 [e :UE 1918 ]
 }
-"54
-[; ;mcc_generated_files/system/src/system.c: 54: void CPU_Initialize(void)
-[v _CPU_Initialize `(v ~T0 @X0 1 ef ]
 "55
-[; ;mcc_generated_files/system/src/system.c: 55: {
+[; ;mcc_generated_files/system/src/system.c: 55: void CPU_Initialize(void)
+[v _CPU_Initialize `(v ~T0 @X0 1 ef ]
+"56
+[; ;mcc_generated_files/system/src/system.c: 56: {
 {
 [e :U _CPU_Initialize ]
 [f ]
-"57
-[; ;mcc_generated_files/system/src/system.c: 57:     PRLOCK = 0x0;
+"58
+[; ;mcc_generated_files/system/src/system.c: 58:     PRLOCK = 0x0;
 [e = _PRLOCK -> -> 0 `i `uc ]
-"59
-[; ;mcc_generated_files/system/src/system.c: 59:     SCANPR = 0x7;
+"60
+[; ;mcc_generated_files/system/src/system.c: 60:     SCANPR = 0x7;
 [e = _SCANPR -> -> 7 `i `uc ]
-"61
-[; ;mcc_generated_files/system/src/system.c: 61:     DMA1PR = 0x7;
+"62
+[; ;mcc_generated_files/system/src/system.c: 62:     DMA1PR = 0x7;
 [e = _DMA1PR -> -> 7 `i `uc ]
-"63
-[; ;mcc_generated_files/system/src/system.c: 63:     DMA2PR = 0x7;
+"64
+[; ;mcc_generated_files/system/src/system.c: 64:     DMA2PR = 0x7;
 [e = _DMA2PR -> -> 7 `i `uc ]
-"65
-[; ;mcc_generated_files/system/src/system.c: 65:     DMA3PR = 0x7;
+"66
+[; ;mcc_generated_files/system/src/system.c: 66:     DMA3PR = 0x7;
 [e = _DMA3PR -> -> 7 `i `uc ]
-"67
-[; ;mcc_generated_files/system/src/system.c: 67:     DMA4PR = 0x7;
+"68
+[; ;mcc_generated_files/system/src/system.c: 68:     DMA4PR = 0x7;
 [e = _DMA4PR -> -> 7 `i `uc ]
-"69
-[; ;mcc_generated_files/system/src/system.c: 69:     MAINPR = 0x7;
+"70
+[; ;mcc_generated_files/system/src/system.c: 70:     MAINPR = 0x7;
 [e = _MAINPR -> -> 7 `i `uc ]
-"71
-[; ;mcc_generated_files/system/src/system.c: 71:     ISRPR = 0x7;
+"72
+[; ;mcc_generated_files/system/src/system.c: 72:     ISRPR = 0x7;
 [e = _ISRPR -> -> 7 `i `uc ]
-"73
-[; ;mcc_generated_files/system/src/system.c: 73:     PRODH = 0x0;
+"74
+[; ;mcc_generated_files/system/src/system.c: 74:     PRODH = 0x0;
 [e = _PRODH -> -> 0 `i `uc ]
-"75
-[; ;mcc_generated_files/system/src/system.c: 75:     PRODL = 0x0;
-[e = _PRODL -> -> 0 `i `uc ]
 "76
-[; ;mcc_generated_files/system/src/system.c: 76: }
+[; ;mcc_generated_files/system/src/system.c: 76:     PRODL = 0x0;
+[e = _PRODL -> -> 0 `i `uc ]
+"77
+[; ;mcc_generated_files/system/src/system.c: 77: }
 [e :UE 1919 ]
 }

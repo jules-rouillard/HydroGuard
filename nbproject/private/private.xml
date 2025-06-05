@@ -4,9 +4,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Jules/MPLABXProjects/HydroGuard/dht.h</file>
+            <file>file:/C:/Users/Jules/MPLABXProjects/HydroGuard/mcc_generated_files/adc/adcc.h</file>
             <file>file:/C:/Users/Jules/MPLABXProjects/HydroGuard/dht.c</file>
-            <file>file:/C:/Users/Jules/MPLABXProjects/HydroGuard/lcd.c</file>
             <file>file:/C:/Users/Jules/MPLABXProjects/HydroGuard/main.c</file>
+            <file>file:/C:/Users/Jules/MPLABXProjects/HydroGuard/lcd.c</file>
             <file>file:/C:/Users/Jules/MPLABXProjects/HydroGuard/lcd.h</file>
         </group>
     </open-files>

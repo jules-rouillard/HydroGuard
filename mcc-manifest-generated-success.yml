@@ -2,7 +2,7 @@
 
 manifest_file_version: 1.0.0
 project: HydroGuard
-creation_date: 2025-06-02T17:43:55.584+01:00[Europe/London]
+creation_date: 2025-06-05T19:22:21.834+01:00[Europe/London]
 operating_system: Windows 10
 mcc_mode: IDE
 mcc_mode_version: v6.05
@@ -23,6 +23,7 @@ modules:
 - {name: '@mchp-mcc/pic18-configuration-bits-v2', type: MELODY, version: 2.1.5}
 - {name: '@mchp-mcc/pic18-pin-manager', type: MELODY, version: 3.4.0}
 - {name: '@mchp-mcc/pin-content-processor', type: MELODY, version: 3.5.0}
+- {name: '@mchp-mcc/scf-pic8-adcc-v1', type: MELODY, version: 4.0.12}
 - {name: '@mchp-mcc/scf-pic8-cpu-v1', type: MELODY, version: 4.2.3}
 - {name: '@mchp-mcc/scf-pic8-interrupt-v1', type: MELODY, version: 5.2.9}
 - {name: '@mchp-mcc/scf-pic8-osc-v1', type: MELODY, version: 4.3.3}

@@ -23328,7 +23328,7 @@ void CLOCK_Initialize(void);
 # 40 "mcc_generated_files/system/src/../system.h" 2
 
 # 1 "mcc_generated_files/system/src/../../system/pins.h" 1
-# 238 "mcc_generated_files/system/src/../../system/pins.h"
+# 258 "mcc_generated_files/system/src/../../system/pins.h"
 void PIN_MANAGER_Initialize (void);
 
 
@@ -23339,6 +23339,162 @@ void PIN_MANAGER_Initialize (void);
 
 void PIN_MANAGER_IOC(void);
 # 42 "mcc_generated_files/system/src/../system.h" 2
+# 1 "mcc_generated_files/system/src/../../adc/adcc.h" 1
+# 48 "mcc_generated_files/system/src/../../adc/adcc.h"
+typedef uint16_t adc_result_t;
+
+typedef __uint24 uint24_t;
+
+
+
+
+
+
+
+typedef enum
+{
+    channel_OPA1 = 0x39,
+    channel_DAC2 = 0x3a,
+    channel_VSS = 0x3b,
+    channel_Temp = 0x3c,
+    channel_DAC1 = 0x3d,
+    channel_FVR_Buffer1 = 0x3e,
+    channel_FVR_Buffer2 = 0x3f,
+    channel_ANC2 = 0x12
+} adcc_channel_t;
+# 80 "mcc_generated_files/system/src/../../adc/adcc.h"
+void ADCC_Initialize(void);
+# 90 "mcc_generated_files/system/src/../../adc/adcc.h"
+void ADCC_StartConversion(adcc_channel_t channel);
+# 100 "mcc_generated_files/system/src/../../adc/adcc.h"
+_Bool ADCC_IsConversionDone(void);
+# 110 "mcc_generated_files/system/src/../../adc/adcc.h"
+adc_result_t ADCC_GetConversionResult(void);
+# 120 "mcc_generated_files/system/src/../../adc/adcc.h"
+adc_result_t ADCC_GetSingleConversion(adcc_channel_t channel);
+# 129 "mcc_generated_files/system/src/../../adc/adcc.h"
+__attribute__((inline)) void ADCC_StopConversion(void);
+# 138 "mcc_generated_files/system/src/../../adc/adcc.h"
+__attribute__((inline)) void ADCC_SetStopOnInterrupt(void);
+
+
+
+
+
+
+
+__attribute__((inline)) void ADCC_DischargeSampleCapacitor(void);
+
+
+
+
+
+
+
+void ADCC_LoadAcquisitionRegister(uint16_t acquisitionValue);
+
+
+
+
+
+
+
+void ADCC_SetPrechargeTime(uint16_t prechargeTime);
+
+
+
+
+
+
+
+void ADCC_SetRepeatCount(uint8_t repeatCount);
+# 179 "mcc_generated_files/system/src/../../adc/adcc.h"
+uint8_t ADCC_GetCurrentCountofConversions(void);
+
+
+
+
+
+
+
+__attribute__((inline)) void ADCC_ClearAccumulator(void);
+
+
+
+
+
+
+
+uint24_t ADCC_GetAccumulatorValue(void);
+# 205 "mcc_generated_files/system/src/../../adc/adcc.h"
+_Bool ADCC_HasAccumulatorOverflowed(void);
+
+
+
+
+
+
+
+uint16_t ADCC_GetFilterValue(void);
+# 222 "mcc_generated_files/system/src/../../adc/adcc.h"
+uint16_t ADCC_GetPreviousResult(void);
+
+
+
+
+
+
+
+void ADCC_DefineSetPoint(uint16_t setPoint);
+
+
+
+
+
+
+
+void ADCC_SetUpperThreshold(uint16_t upperThreshold);
+
+
+
+
+
+
+
+void ADCC_SetLowerThreshold(uint16_t lowerThreshold);
+# 255 "mcc_generated_files/system/src/../../adc/adcc.h"
+uint16_t ADCC_GetErrorCalculation(void);
+
+
+
+
+
+
+
+__attribute__((inline)) void ADCC_EnableDoubleSampling(void);
+
+
+
+
+
+
+
+__attribute__((inline)) void ADCC_EnableContinuousConversion(void);
+
+
+
+
+
+
+
+__attribute__((inline)) void ADCC_DisableContinuousConversion(void);
+# 289 "mcc_generated_files/system/src/../../adc/adcc.h"
+_Bool ADCC_HasErrorCrossedUpperThreshold(void);
+# 299 "mcc_generated_files/system/src/../../adc/adcc.h"
+_Bool ADCC_HasErrorCrossedLowerThreshold(void);
+# 308 "mcc_generated_files/system/src/../../adc/adcc.h"
+uint8_t ADCC_GetConversionStageStatus(void);
+# 43 "mcc_generated_files/system/src/../system.h" 2
 # 1 "mcc_generated_files/system/src/../../timer/tmr0.h" 1
 # 38 "mcc_generated_files/system/src/../../timer/tmr0.h"
 # 1 "mcc_generated_files/system/src/../../timer/timer_interface.h" 1
@@ -23406,7 +23562,7 @@ void Timer0_OverflowISR(void);
 
 
  void Timer0_OverflowCallbackRegister(void (* CallbackHandler)(void));
-# 43 "mcc_generated_files/system/src/../system.h" 2
+# 44 "mcc_generated_files/system/src/../system.h" 2
 # 1 "mcc_generated_files/system/src/../../uart/uart1.h" 1
 # 42 "mcc_generated_files/system/src/../../uart/uart1.h"
 # 1 "C:\\Program Files\\Microchip\\xc8\\v3.00\\pic\\include\\c99/stdio.h" 1 3
@@ -23689,8 +23845,40 @@ __attribute__((inline)) void UART1_SendBreakControlDisable(void);
 
 
 
+__attribute__((inline)) void UART1_TransmitInterruptEnable(void);
+
+
+
+
+
+
+
+__attribute__((inline)) void UART1_TransmitInterruptDisable(void);
+
+
+
+
+
+
+
+__attribute__((inline)) void UART1_ReceiveInterruptEnable(void);
+
+
+
+
+
+
+
+__attribute__((inline)) void UART1_ReceiveInterruptDisable(void);
+
+
+
+
+
+
+
 __attribute__((inline)) void UART1_AutoBaudSet(_Bool enable);
-# 208 "mcc_generated_files/system/src/../../uart/uart1.h"
+# 240 "mcc_generated_files/system/src/../../uart/uart1.h"
 __attribute__((inline)) _Bool UART1_AutoBaudQuery(void);
 
 
@@ -23716,17 +23904,17 @@ __attribute__((inline)) _Bool UART1_IsAutoBaudDetectOverflow(void);
 
 
 __attribute__((inline)) void UART1_AutoBaudDetectOverflowReset(void);
-# 241 "mcc_generated_files/system/src/../../uart/uart1.h"
+# 273 "mcc_generated_files/system/src/../../uart/uart1.h"
 _Bool UART1_IsRxReady(void);
-# 250 "mcc_generated_files/system/src/../../uart/uart1.h"
+# 282 "mcc_generated_files/system/src/../../uart/uart1.h"
 _Bool UART1_IsTxReady(void);
-# 259 "mcc_generated_files/system/src/../../uart/uart1.h"
+# 291 "mcc_generated_files/system/src/../../uart/uart1.h"
 _Bool UART1_IsTxDone(void);
-# 269 "mcc_generated_files/system/src/../../uart/uart1.h"
+# 301 "mcc_generated_files/system/src/../../uart/uart1.h"
 size_t UART1_ErrorGet(void);
-# 279 "mcc_generated_files/system/src/../../uart/uart1.h"
+# 311 "mcc_generated_files/system/src/../../uart/uart1.h"
 uint8_t UART1_Read(void);
-# 289 "mcc_generated_files/system/src/../../uart/uart1.h"
+# 321 "mcc_generated_files/system/src/../../uart/uart1.h"
 void UART1_Write(uint8_t txData);
 
 
@@ -23752,7 +23940,42 @@ void UART1_OverrunErrorCallbackRegister(void (* callbackHandler)(void));
 
 
 void UART1_ParityErrorCallbackRegister(void (* callbackHandler)(void));
-# 44 "mcc_generated_files/system/src/../system.h" 2
+# 354 "mcc_generated_files/system/src/../../uart/uart1.h"
+void (*UART1_TxInterruptHandler)(void);
+
+
+
+
+
+
+
+void UART1_TxCompleteCallbackRegister(void (* callbackHandler)(void));
+
+
+
+
+
+
+
+void UART1_TransmitISR(void);
+# 379 "mcc_generated_files/system/src/../../uart/uart1.h"
+void (*UART1_RxInterruptHandler)(void);
+
+
+
+
+
+
+void UART1_RxCompleteCallbackRegister(void (* callbackHandler)(void));
+
+
+
+
+
+
+
+void UART1_ReceiveISR(void);
+# 45 "mcc_generated_files/system/src/../system.h" 2
 # 1 "mcc_generated_files/system/src/../../system/interrupt.h" 1
 # 69 "mcc_generated_files/system/src/../../system/interrupt.h"
 void INTERRUPT_Initialize (void);
@@ -23786,7 +24009,7 @@ void INT2_SetInterruptHandler(void (* InterruptHandler)(void));
 extern void (*INT2_InterruptHandler)(void);
 # 347 "mcc_generated_files/system/src/../../system/interrupt.h"
 void INT2_DefaultInterruptHandler(void);
-# 45 "mcc_generated_files/system/src/../system.h" 2
+# 46 "mcc_generated_files/system/src/../system.h" 2
 
 
 
@@ -23809,6 +24032,7 @@ void SYSTEM_Initialize(void)
 {
     CLOCK_Initialize();
     PIN_MANAGER_Initialize();
+    ADCC_Initialize();
     CPU_Initialize();
     Timer0_Initialize();
     UART1_Initialize();

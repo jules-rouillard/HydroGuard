@@ -33,6 +33,7 @@
 #include "mcc_generated_files/system/system.h"
 #include "lcd.h"
 #include "dht.h"
+#include "esp8266.h"
 /*
     Main application
 */
@@ -56,22 +57,42 @@ int main(void)
 
     // Disable the Global Interrupts 
     //INTERRUPT_GlobalInterruptDisable(); 
-
+    ADCC_Initialize();
     lcd_init();
     lcd_clear();
-    lcd_set_cursor(1,1);
-    lcd_print_string("LED WORKING !!");
-
+    uint16_t acd_result;
+    bool response;
     while(1){
-        lcd_clear();
-        sensor_read(&dht_11);
-        lcd_set_cursor(1,1);
-        lcd_print_string("LED WORKING !!");
-        lcd_set_cursor(2,1);
-        char str[4];
+        acd_result = ADCC_GetSingleConversion(channel_ANC2);
+        //sensor_read(&dht_11);
+
+        char str1[16];
+        char str2[4];
         //dht_11.Temp = 25;
-        sprintf(str, "%u", dht_11.Temp);
-        lcd_print_string(str);
-        __delay_ms(3000);
+        //sprintf(str, "%u", dht_11.Temp);
+        
+        
+        if (acd_result<800){
+            sprintf(str1, "Water: empty");
+        }else{
+            sprintf(str1, "Water: Full");
+        }
+        sprintf(str2, "%hu", acd_result);
+        
+        lcd_clear();
+        lcd_set_cursor(1,1);
+        lcd_print_string(str1);
+        lcd_set_cursor(2,1);
+        //lcd_print_string(str2);
+        
+        ESP8266_Initialize(WIFI_MODE_STATION);
+        
+        response = ESP8266_CheckCommunication();  
+        
+        sprintf(str2, "%i", response);
+        lcd_print_string(str2);
+        
+        __delay_ms(4000);
+        
     }    
 }

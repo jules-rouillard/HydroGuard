@@ -39,6 +39,7 @@
 #include "config_bits.h"
 #include "../system/clock.h"
 #include "../system/pins.h"
+#include "../adc/adcc.h"
 #include "../timer/tmr0.h"
 #include "../uart/uart1.h"
 #include "../system/interrupt.h"

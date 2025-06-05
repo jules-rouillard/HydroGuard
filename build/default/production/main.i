@@ -23328,7 +23328,7 @@ void CLOCK_Initialize(void);
 # 40 "./mcc_generated_files/system/system.h" 2
 
 # 1 "./mcc_generated_files/system/../system/pins.h" 1
-# 238 "./mcc_generated_files/system/../system/pins.h"
+# 258 "./mcc_generated_files/system/../system/pins.h"
 void PIN_MANAGER_Initialize (void);
 
 
@@ -23339,6 +23339,162 @@ void PIN_MANAGER_Initialize (void);
 
 void PIN_MANAGER_IOC(void);
 # 42 "./mcc_generated_files/system/system.h" 2
+# 1 "./mcc_generated_files/system/../adc/adcc.h" 1
+# 48 "./mcc_generated_files/system/../adc/adcc.h"
+typedef uint16_t adc_result_t;
+
+typedef __uint24 uint24_t;
+
+
+
+
+
+
+
+typedef enum
+{
+    channel_OPA1 = 0x39,
+    channel_DAC2 = 0x3a,
+    channel_VSS = 0x3b,
+    channel_Temp = 0x3c,
+    channel_DAC1 = 0x3d,
+    channel_FVR_Buffer1 = 0x3e,
+    channel_FVR_Buffer2 = 0x3f,
+    channel_ANC2 = 0x12
+} adcc_channel_t;
+# 80 "./mcc_generated_files/system/../adc/adcc.h"
+void ADCC_Initialize(void);
+# 90 "./mcc_generated_files/system/../adc/adcc.h"
+void ADCC_StartConversion(adcc_channel_t channel);
+# 100 "./mcc_generated_files/system/../adc/adcc.h"
+_Bool ADCC_IsConversionDone(void);
+# 110 "./mcc_generated_files/system/../adc/adcc.h"
+adc_result_t ADCC_GetConversionResult(void);
+# 120 "./mcc_generated_files/system/../adc/adcc.h"
+adc_result_t ADCC_GetSingleConversion(adcc_channel_t channel);
+# 129 "./mcc_generated_files/system/../adc/adcc.h"
+__attribute__((inline)) void ADCC_StopConversion(void);
+# 138 "./mcc_generated_files/system/../adc/adcc.h"
+__attribute__((inline)) void ADCC_SetStopOnInterrupt(void);
+
+
+
+
+
+
+
+__attribute__((inline)) void ADCC_DischargeSampleCapacitor(void);
+
+
+
+
+
+
+
+void ADCC_LoadAcquisitionRegister(uint16_t acquisitionValue);
+
+
+
+
+
+
+
+void ADCC_SetPrechargeTime(uint16_t prechargeTime);
+
+
+
+
+
+
+
+void ADCC_SetRepeatCount(uint8_t repeatCount);
+# 179 "./mcc_generated_files/system/../adc/adcc.h"
+uint8_t ADCC_GetCurrentCountofConversions(void);
+
+
+
+
+
+
+
+__attribute__((inline)) void ADCC_ClearAccumulator(void);
+
+
+
+
+
+
+
+uint24_t ADCC_GetAccumulatorValue(void);
+# 205 "./mcc_generated_files/system/../adc/adcc.h"
+_Bool ADCC_HasAccumulatorOverflowed(void);
+
+
+
+
+
+
+
+uint16_t ADCC_GetFilterValue(void);
+# 222 "./mcc_generated_files/system/../adc/adcc.h"
+uint16_t ADCC_GetPreviousResult(void);
+
+
+
+
+
+
+
+void ADCC_DefineSetPoint(uint16_t setPoint);
+
+
+
+
+
+
+
+void ADCC_SetUpperThreshold(uint16_t upperThreshold);
+
+
+
+
+
+
+
+void ADCC_SetLowerThreshold(uint16_t lowerThreshold);
+# 255 "./mcc_generated_files/system/../adc/adcc.h"
+uint16_t ADCC_GetErrorCalculation(void);
+
+
+
+
+
+
+
+__attribute__((inline)) void ADCC_EnableDoubleSampling(void);
+
+
+
+
+
+
+
+__attribute__((inline)) void ADCC_EnableContinuousConversion(void);
+
+
+
+
+
+
+
+__attribute__((inline)) void ADCC_DisableContinuousConversion(void);
+# 289 "./mcc_generated_files/system/../adc/adcc.h"
+_Bool ADCC_HasErrorCrossedUpperThreshold(void);
+# 299 "./mcc_generated_files/system/../adc/adcc.h"
+_Bool ADCC_HasErrorCrossedLowerThreshold(void);
+# 308 "./mcc_generated_files/system/../adc/adcc.h"
+uint8_t ADCC_GetConversionStageStatus(void);
+# 43 "./mcc_generated_files/system/system.h" 2
 # 1 "./mcc_generated_files/system/../timer/tmr0.h" 1
 # 38 "./mcc_generated_files/system/../timer/tmr0.h"
 # 1 "./mcc_generated_files/system/../timer/timer_interface.h" 1
@@ -23406,7 +23562,7 @@ void Timer0_OverflowISR(void);
 
 
  void Timer0_OverflowCallbackRegister(void (* CallbackHandler)(void));
-# 43 "./mcc_generated_files/system/system.h" 2
+# 44 "./mcc_generated_files/system/system.h" 2
 # 1 "./mcc_generated_files/system/../uart/uart1.h" 1
 # 42 "./mcc_generated_files/system/../uart/uart1.h"
 # 1 "C:\\Program Files\\Microchip\\xc8\\v3.00\\pic\\include\\c99/stdio.h" 1 3
@@ -23689,8 +23845,40 @@ __attribute__((inline)) void UART1_SendBreakControlDisable(void);
 
 
 
+__attribute__((inline)) void UART1_TransmitInterruptEnable(void);
+
+
+
+
+
+
+
+__attribute__((inline)) void UART1_TransmitInterruptDisable(void);
+
+
+
+
+
+
+
+__attribute__((inline)) void UART1_ReceiveInterruptEnable(void);
+
+
+
+
+
+
+
+__attribute__((inline)) void UART1_ReceiveInterruptDisable(void);
+
+
+
+
+
+
+
 __attribute__((inline)) void UART1_AutoBaudSet(_Bool enable);
-# 208 "./mcc_generated_files/system/../uart/uart1.h"
+# 240 "./mcc_generated_files/system/../uart/uart1.h"
 __attribute__((inline)) _Bool UART1_AutoBaudQuery(void);
 
 
@@ -23716,17 +23904,17 @@ __attribute__((inline)) _Bool UART1_IsAutoBaudDetectOverflow(void);
 
 
 __attribute__((inline)) void UART1_AutoBaudDetectOverflowReset(void);
-# 241 "./mcc_generated_files/system/../uart/uart1.h"
+# 273 "./mcc_generated_files/system/../uart/uart1.h"
 _Bool UART1_IsRxReady(void);
-# 250 "./mcc_generated_files/system/../uart/uart1.h"
+# 282 "./mcc_generated_files/system/../uart/uart1.h"
 _Bool UART1_IsTxReady(void);
-# 259 "./mcc_generated_files/system/../uart/uart1.h"
+# 291 "./mcc_generated_files/system/../uart/uart1.h"
 _Bool UART1_IsTxDone(void);
-# 269 "./mcc_generated_files/system/../uart/uart1.h"
+# 301 "./mcc_generated_files/system/../uart/uart1.h"
 size_t UART1_ErrorGet(void);
-# 279 "./mcc_generated_files/system/../uart/uart1.h"
+# 311 "./mcc_generated_files/system/../uart/uart1.h"
 uint8_t UART1_Read(void);
-# 289 "./mcc_generated_files/system/../uart/uart1.h"
+# 321 "./mcc_generated_files/system/../uart/uart1.h"
 void UART1_Write(uint8_t txData);
 
 
@@ -23752,7 +23940,42 @@ void UART1_OverrunErrorCallbackRegister(void (* callbackHandler)(void));
 
 
 void UART1_ParityErrorCallbackRegister(void (* callbackHandler)(void));
-# 44 "./mcc_generated_files/system/system.h" 2
+# 354 "./mcc_generated_files/system/../uart/uart1.h"
+void (*UART1_TxInterruptHandler)(void);
+
+
+
+
+
+
+
+void UART1_TxCompleteCallbackRegister(void (* callbackHandler)(void));
+
+
+
+
+
+
+
+void UART1_TransmitISR(void);
+# 379 "./mcc_generated_files/system/../uart/uart1.h"
+void (*UART1_RxInterruptHandler)(void);
+
+
+
+
+
+
+void UART1_RxCompleteCallbackRegister(void (* callbackHandler)(void));
+
+
+
+
+
+
+
+void UART1_ReceiveISR(void);
+# 45 "./mcc_generated_files/system/system.h" 2
 # 1 "./mcc_generated_files/system/../system/interrupt.h" 1
 # 69 "./mcc_generated_files/system/../system/interrupt.h"
 void INTERRUPT_Initialize (void);
@@ -23786,7 +24009,7 @@ void INT2_SetInterruptHandler(void (* InterruptHandler)(void));
 extern void (*INT2_InterruptHandler)(void);
 # 347 "./mcc_generated_files/system/../system/interrupt.h"
 void INT2_DefaultInterruptHandler(void);
-# 45 "./mcc_generated_files/system/system.h" 2
+# 46 "./mcc_generated_files/system/system.h" 2
 
 
 
@@ -23827,6 +24050,419 @@ char ReadData(void);
 
 void sensor_read(dht_sensor *dht);
 # 36 "main.c" 2
+# 1 "./esp8266.h" 1
+# 36 "./esp8266.h"
+# 1 "./esp8266_types.h" 1
+# 33 "./esp8266_types.h"
+# 1 "./ip_address.h" 1
+# 45 "./ip_address.h"
+typedef union{
+
+    uint8_t values[4];
+
+    struct{
+      uint8_t n1,
+              n2,
+              n3,
+              n4;
+    };
+    uint32_t all;
+
+
+
+} ipv4_address_t;
+# 91 "./ip_address.h"
+  ipv4_address_t str2ipv4( const char *str );
+# 117 "./ip_address.h"
+  char* ip2str( ipv4_address_t *ip, char *str );
+# 34 "./esp8266_types.h" 2
+# 1 "./mac_address.h" 1
+# 45 "./mac_address.h"
+typedef union{
+    uint8_t block[6];
+
+    struct{
+      uint8_t n1,
+              n2,
+              n3,
+              n4,
+              n5,
+              n6;
+    };
+    struct{
+      uint32_t low_4bytes;
+      uint16_t high_2bytes;
+    };
+} mac_address_t;
+# 93 "./mac_address.h"
+  mac_address_t str2mac( const char *str );
+# 123 "./mac_address.h"
+  char* mac2str( mac_address_t *mac, char *str );
+# 35 "./esp8266_types.h" 2
+# 49 "./esp8266_types.h"
+typedef enum{
+  WIFI_MODE_STATION = 0x01,
+  WIFI_MODE_SOFTAP = 0x02,
+  WIFI_MODE_SOFTAP_AND_STATION = 0x03,
+  WIFI_MODE_UNKNOWN = 0x04,
+
+
+} WIFI_MODE;
+
+
+
+
+
+
+
+typedef enum{
+  AP_CONN_OK = 0x00,
+  AP_CONN_CONNECTING_TIMEOUT = 0x01,
+  AP_CONN_WRONG_PASSWORD = 0x02,
+  AP_CONN_AP_NOT_FOUND = 0x03,
+  AP_CONN_CONNECT_FAIL = 0x04,
+  AP_CONN_TIMEOUT = 0x05,
+
+
+
+} AP_CONN_RET;
+
+
+typedef enum{
+  LIST_AP_ECN = 0x01,
+  LIST_AP_SSID = 0x02,
+  LIST_AP_RSSI = 0x04,
+  LIST_AP_MAC = 0x08,
+  LIST_AP_CHANNEL = 0x10,
+  LIST_AP_FREQ_OFFSET = 0x20,
+  LIST_AP_FREQ_CALIB = 0x40,
+} LIST_AP_CFG;
+# 94 "./esp8266_types.h"
+typedef enum{
+  AP_ECN_OPEN = 0x00,
+  AP_ECN_WEP = 0x01,
+  AP_ECN_WPA_PSK = 0x02,
+  AP_ECN_WPA2_PSK = 0x03,
+  AP_ECN_WPA_WPA2_PSK = 0x04,
+} AP_ECN;
+
+
+
+
+
+
+
+typedef enum{
+  TRANSPORT_PROTOCOL_TCP,
+  TRANSPORT_PROTOCOL_UDP,
+  TRANSPORT_PROTOCOL_SSL,
+} TRANSPORT_PROTOCOL;
+
+
+typedef struct {
+  _Bool hasData:1;
+  char channel;
+  char *msg;
+} wifi_message_t;
+
+
+typedef struct{
+  char channel;
+  _Bool connected:1;
+} wifi_connection_t;
+# 148 "./esp8266_types.h"
+typedef struct{
+  char ssid[20];
+  char pwd[20];
+  uint8_t wifi_channel;
+  AP_ECN ecn;
+  uint8_t max_stations:3;
+
+  uint8_t ssid_hidden:1;
+
+
+} wifi_setting_t;
+
+
+
+
+
+typedef struct{
+  wifi_setting_t *wifi;
+  _Bool dhcp_enable;
+
+
+
+  uint16_t dhcp_lease_time;
+  ipv4_address_t startIP;
+  ipv4_address_t endIP;
+  mac_address_t mac;
+} softAp_setting_t;
+
+
+
+
+typedef struct{
+  ipv4_address_t ip;
+  mac_address_t mac;
+  _Bool dhcp_enable;
+} station_setting_t;
+
+
+
+
+
+typedef struct{
+  ipv4_address_t ip;
+  mac_address_t mac;
+} station_t;
+# 201 "./esp8266_types.h"
+typedef enum{
+  ESP8266_RESPONSE_OK = 0x00,
+
+
+  ESP8266_RESPONSE_READY,
+
+
+  ESP8266_RESPONSE_FAIL,
+
+
+  ESP8266_RESPONSE_NOCHANGE,
+
+  ESP8266_RESPONSE_LINKED,
+
+
+  ESP8266_RESPONSE_UNLINK,
+
+  ESP8266_RESPONSE_ERROR,
+
+
+  ESP8266_RESPONSE_QUANTITY,
+  ESP8266_RESPONSE_TIMEOUT,
+} ESP8266_RESPONSE;
+
+
+
+
+
+
+typedef enum{
+  LINK_STATUS_CONNECTED,
+  LINK_STATUS_CLOSED,
+  LINK_STATUS_ALREADY_CONNECTED,
+  LINK_STATUS_ERROR,
+} LINK_STATUS;
+# 37 "./esp8266.h" 2
+
+
+
+
+
+typedef enum{
+
+  CMD_AT,
+
+  CMD_RST,
+# 60 "./esp8266.h"
+  CMD_GMR,
+
+  CMD_GSLP,
+
+  CMD_ATE,
+
+  CMD_RESTORE,
+
+  CMD_UART_CUR,
+
+  CMD_UART_DEF,
+
+  CMD_SLEEP,
+
+  CMD_RFPOWER,
+
+  CMD_RFVDD,
+
+  CMD_CWMODE_CUR,
+
+  CMD_CWMODE_DEF,
+
+  CMD_CWJAP_CUR,
+
+  CMD_CWJAP_DEF,
+
+  CMD_CWLAPOPT,
+
+  CMD_CWLAP,
+
+  CMD_CWQAP,
+
+  CMD_CWSAP_CUR,
+
+  CMD_CWSAP_DEF,
+
+  CMD_CWLIF,
+
+  CMD_CWDHCP_CUR,
+
+  CMD_CWDHCP_DEF,
+
+  CMD_CWDHCPS_CUR,
+
+  CMD_CWDHCPS_DEF,
+
+  CMD_CWAUTOCONN,
+
+  CMD_CIPSTAMAC_CUR,
+
+  CMD_CIPSTAMAC_DEF,
+
+  CMD_CIPAPMAC_CUR,
+
+  CMD_CIPAPMAC_DEF,
+
+  CMD_CIPSTA_CUR,
+
+  CMD_CIPSTA_DEF,
+
+  CMD_CIPAP_CUR,
+
+  CMD_CIPAP_DEF,
+
+  CMD_CWSTARTSMART,
+
+  CMD_CWSTOPSMART,
+
+  CMD_CWSTARTDISCOVER,
+
+  CMD_CWSTOPDISCOVER,
+
+  CMD_WPS,
+
+  CMD_MDNS,
+
+  CMD_CIPSTATUS,
+
+  CMD_CIPDOMAIN,
+
+  CMD_CIPSTART,
+
+  CMD_CIPSSLSIZE,
+
+  CMD_CIPSEND,
+
+  CMD_CIPSENDEX,
+
+  CMD_CIPSENDBUF,
+
+  CMD_CIPBUFSTATUS,
+
+  CMD_CIPCHECKSEQ,
+
+  CMD_CIPBUFRESET,
+
+  CMD_CIPCLOSE,
+
+  CMD_CIFSR,
+
+  CMD_CIPMUX,
+
+  CMD_CIPSERVER,
+
+  CMD_CIPMODE,
+
+  CMD_SAVETRANSLINK,
+
+  CMD_CIPSTO,
+
+  CMD_PING,
+
+  CMD_CIUPDATE,
+
+  CMD_CIPDINFO,
+
+} ESP8266_CMD;
+# 197 "./esp8266.h"
+  uint8_t ESP8266_Initialize( WIFI_MODE mode );
+
+
+  uint8_t ESP8266_SetSoftApSettings( softAp_setting_t *ap_config );
+
+  uint8_t ESP8266_SetStationSettings( station_setting_t *stat_config );
+# 216 "./esp8266.h"
+  _Bool ESP8266_CheckCommunication(void);
+# 232 "./esp8266.h"
+  const char* ESP8266_CodeToString( ESP8266_RESPONSE code );
+# 244 "./esp8266.h"
+  _Bool ESP8266_Reset(void);
+# 257 "./esp8266.h"
+  ESP8266_RESPONSE ESP8266_SetWifiMode(WIFI_MODE mode);
+# 266 "./esp8266.h"
+  WIFI_MODE ESP8266_GetWifiMode(void);
+# 285 "./esp8266.h"
+  AP_CONN_RET ESP8266_ConnectToAP( const char* ssid, const char* pwd, const char* bssid );
+# 310 "./esp8266.h"
+  uint8_t ESP8266_DisconnectFromAP(void);
+# 326 "./esp8266.h"
+  ESP8266_RESPONSE ESP8266_GetSoftApWifiSettings( wifi_setting_t *cfg );
+# 342 "./esp8266.h"
+  ESP8266_RESPONSE ESP8266_SetSoftApWifiSettings( wifi_setting_t *cfg );
+# 375 "./esp8266.h"
+  int8_t ESP8266_GetConnectedStation( int8_t station_number, station_t *station );
+# 394 "./esp8266.h"
+  ESP8266_RESPONSE ESP8266_EnableDHCP( WIFI_MODE mode_to_set, _Bool en );
+# 420 "./esp8266.h"
+  int16_t ESP8266_GetSoftApIpRange(ipv4_address_t* startIP, ipv4_address_t* endIP);
+# 456 "./esp8266.h"
+  ESP8266_RESPONSE ESP8266_SetSoftApIpRange(ipv4_address_t* startIP, ipv4_address_t* endIP, int16_t lease_time);
+# 475 "./esp8266.h"
+  ESP8266_RESPONSE ESP8266_AutoConnect( _Bool auto_connect );
+# 491 "./esp8266.h"
+  ESP8266_RESPONSE ESP8266_GetStationMacAddress( mac_address_t* mac);
+# 501 "./esp8266.h"
+  ESP8266_RESPONSE ESP8266_SetStationMacAddress( mac_address_t* mac );
+# 511 "./esp8266.h"
+  ESP8266_RESPONSE ESP8266_GetSoftApMacAddress( mac_address_t* ap_mac );
+# 521 "./esp8266.h"
+  ESP8266_RESPONSE ESP8266_SetSoftApMacAddress( mac_address_t* ap_mac );
+# 541 "./esp8266.h"
+  ESP8266_RESPONSE ESP8266_SetStationIP( ipv4_address_t *ip, ipv4_address_t* gateway, ipv4_address_t* mask);
+# 553 "./esp8266.h"
+  ESP8266_RESPONSE ESP8266_GetStationIP( ipv4_address_t *ip );
+# 571 "./esp8266.h"
+  ESP8266_RESPONSE ESP8266_SetSoftApIP( ipv4_address_t *ip, ipv4_address_t* gateway, ipv4_address_t* mask);
+# 584 "./esp8266.h"
+  ESP8266_RESPONSE ESP8266_GetSoftApIP( ipv4_address_t *ip);
+# 621 "./esp8266.h"
+  LINK_STATUS ESP8266_OpenConnection( int8_t link_id, TRANSPORT_PROTOCOL conn_type, const char *server, uint16_t port );
+# 638 "./esp8266.h"
+  uint8_t ESP8266_SendDataPack( int8_t link_id, const uint8_t *data, uint16_t n );
+# 661 "./esp8266.h"
+  uint16_t ESP8266_AvailableData( int8_t *link_id, uint16_t timeout );
+# 678 "./esp8266.h"
+  uint16_t ESP8266_ReadData( uint8_t *incomming_data, uint16_t num_of_bytes );
+# 693 "./esp8266.h"
+  ESP8266_RESPONSE ESP8266_CloseConnection( int8_t link_id );
+# 712 "./esp8266.h"
+  ESP8266_RESPONSE ESP8266_EnableMultipleConnections( _Bool enable );
+# 727 "./esp8266.h"
+  ESP8266_RESPONSE ESP8266_StartTCPServer( uint16_t port );
+# 739 "./esp8266.h"
+  ESP8266_RESPONSE ESP8266_StopTCPServer(void);
+# 751 "./esp8266.h"
+  int16_t ESP8266_GetTCPServerTimeout( void );
+# 770 "./esp8266.h"
+  ESP8266_RESPONSE ESP8266_SetTCPServerTimeout( int16_t time );
+# 783 "./esp8266.h"
+  int16_t ESP8266_Ping( const char *ip_or_address );
+# 799 "./esp8266.h"
+  _Bool esp8266_ready2read(void);
+# 808 "./esp8266.h"
+  char esp8266_getchar(void);
+# 819 "./esp8266.h"
+    void esp8266_putchar(char c);
+# 831 "./esp8266.h"
+  int16_t esp8266_puts( const char* str );
+# 37 "main.c" 2
 
 
 
@@ -23850,23 +24486,42 @@ int main(void)
 
 
 
-
+    ADCC_Initialize();
     lcd_init();
     lcd_clear();
-    lcd_set_cursor(1,1);
-    lcd_print_string("LED WORKING !!");
-
+    uint16_t acd_result;
+    _Bool response;
     while(1){
-        lcd_clear();
-        sensor_read(&dht_11);
-        lcd_set_cursor(1,1);
-        lcd_print_string("LED WORKING !!");
-        lcd_set_cursor(2,1);
-        char str[4];
+        acd_result = ADCC_GetSingleConversion(channel_ANC2);
 
-        sprintf(str, "%u", dht_11.Temp);
-        *str = "C";
-        lcd_print_string(str);
-        _delay((unsigned long)((3000)*(48000000/4000.0)));
+
+        char str1[16];
+        char str2[4];
+
+
+
+
+        if (acd_result<800){
+            sprintf(str1, "Water: empty");
+        }else{
+            sprintf(str1, "Water: Full");
+        }
+        sprintf(str2, "%hu", acd_result);
+
+        lcd_clear();
+        lcd_set_cursor(1,1);
+        lcd_print_string(str1);
+        lcd_set_cursor(2,1);
+
+
+        ESP8266_Initialize(WIFI_MODE_STATION);
+
+        response = ESP8266_CheckCommunication();
+
+        sprintf(str2, "%i", response);
+        lcd_print_string(str2);
+
+        _delay((unsigned long)((4000)*(48000000/4000.0)));
+
     }
 }

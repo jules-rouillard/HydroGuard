@@ -1,38 +1,40 @@
 Version 4.0 HI-TECH Software Intermediate Code
-[v F13933 `(v ~T0 @X0 0 tf ]
-[v F13935 `(v ~T0 @X0 0 tf ]
-[v F13937 `(uc ~T0 @X0 0 tf ]
-[v F13939 `(v ~T0 @X0 0 tf1`uc ]
-[v F13942 `(a ~T0 @X0 0 tf ]
-[v F13944 `(a ~T0 @X0 0 tf ]
-[v F13946 `(a ~T0 @X0 0 tf ]
-[v F13948 `(v ~T0 @X0 0 tf ]
-[v F13950 `(v ~T0 @X0 0 tf ]
-[v F13952 `(v ~T0 @X0 0 tf1`a ]
-[v F13955 `(a ~T0 @X0 0 tf ]
-[v F13957 `(a ~T0 @X0 0 tf ]
-[v F13959 `(v ~T0 @X0 0 tf1`ul ]
-[v F13962 `(ul ~T0 @X0 0 tf ]
-[v F13964 `(v ~T0 @X0 0 tf1`ul ]
-[v F13967 `(ul ~T0 @X0 0 tf ]
-[v F13969 `(ui ~T0 @X0 0 tf ]
-[v F13972 `(v ~T0 @X0 0 tf ]
-[v F13971 `(v ~T0 @X0 0 tf1`*F13972 ]
-[v F13976 `(v ~T0 @X0 0 tf ]
-[v F13975 `(v ~T0 @X0 0 tf1`*F13976 ]
-[v F13980 `(v ~T0 @X0 0 tf ]
-[v F13979 `(v ~T0 @X0 0 tf1`*F13980 ]
-[v F13984 `(v ~T0 @X0 0 tf ]
-[v F13983 `(v ~T0 @X0 0 tf1`*F13984 ]
-[v F13988 `(v ~T0 @X0 0 tf ]
-[v F13987 `(v ~T0 @X0 0 tf1`*F13988 ]
-[v F13992 `(v ~T0 @X0 0 tf ]
-[v F13991 `(v ~T0 @X0 0 tf1`*F13992 ]
-[v F13996 `(v ~T0 @X0 0 tf ]
-[v F13995 `(v ~T0 @X0 0 tf1`*F13996 ]
+[v F14120 `(v ~T0 @X0 0 tf ]
+[v F14127 `(v ~T0 @X0 0 tf ]
+[v F13987 `(v ~T0 @X0 0 tf ]
+[v F13989 `(v ~T0 @X0 0 tf ]
+[v F13991 `(uc ~T0 @X0 0 tf ]
+[v F13993 `(v ~T0 @X0 0 tf1`uc ]
+[v F13996 `(a ~T0 @X0 0 tf ]
+[v F13998 `(a ~T0 @X0 0 tf ]
+[v F14000 `(a ~T0 @X0 0 tf ]
+[v F14002 `(v ~T0 @X0 0 tf ]
+[v F14004 `(v ~T0 @X0 0 tf ]
+[v F14006 `(v ~T0 @X0 0 tf1`a ]
+[v F14009 `(a ~T0 @X0 0 tf ]
+[v F14011 `(a ~T0 @X0 0 tf ]
+[v F14013 `(v ~T0 @X0 0 tf1`ul ]
+[v F14016 `(ul ~T0 @X0 0 tf ]
+[v F14018 `(v ~T0 @X0 0 tf1`ul ]
+[v F14021 `(ul ~T0 @X0 0 tf ]
+[v F14023 `(ui ~T0 @X0 0 tf ]
+[v F14026 `(v ~T0 @X0 0 tf ]
+[v F14025 `(v ~T0 @X0 0 tf1`*F14026 ]
+[v F14030 `(v ~T0 @X0 0 tf ]
+[v F14029 `(v ~T0 @X0 0 tf1`*F14030 ]
+[v F14034 `(v ~T0 @X0 0 tf ]
+[v F14033 `(v ~T0 @X0 0 tf1`*F14034 ]
+[v F14038 `(v ~T0 @X0 0 tf ]
+[v F14037 `(v ~T0 @X0 0 tf1`*F14038 ]
+[v F14042 `(v ~T0 @X0 0 tf ]
+[v F14041 `(v ~T0 @X0 0 tf1`*F14042 ]
+[v F14046 `(v ~T0 @X0 0 tf ]
+[v F14045 `(v ~T0 @X0 0 tf1`*F14046 ]
+[v F14050 `(v ~T0 @X0 0 tf ]
+[v F14049 `(v ~T0 @X0 0 tf1`*F14050 ]
 "57 mcc_generated_files/uart/src/../uart_drv_interface.h
 [; ;mcc_generated_files/uart/src/../uart_drv_interface.h: 57: typedef struct {
-[s S1915 `*F13933 1 `*F13935 1 `*F13937 1 `*F13939 1 `*F13942 1 `*F13944 1 `*F13946 1 `*F13948 1 `*F13950 1 `*F13952 1 `*F13955 1 `*F13957 1 `*F13959 1 `*F13962 1 `*F13964 1 `*F13967 1 `*F13969 1 `*F13971 1 `*F13975 1 `*F13979 1 `*F13983 1 `*F13987 1 `*F13991 1 `*F13995 1 ]
+[s S1915 `*F13987 1 `*F13989 1 `*F13991 1 `*F13993 1 `*F13996 1 `*F13998 1 `*F14000 1 `*F14002 1 `*F14004 1 `*F14006 1 `*F14009 1 `*F14011 1 `*F14013 1 `*F14016 1 `*F14018 1 `*F14021 1 `*F14023 1 `*F14025 1 `*F14029 1 `*F14033 1 `*F14037 1 `*F14041 1 `*F14045 1 `*F14049 1 ]
 [n S1915 . Initialize Deinitialize Read Write IsRxReady IsTxReady IsTxDone TransmitEnable TransmitDisable AutoBaudSet AutoBaudQuery AutoBaudEventEnableGet BRGCountSet BRGCountGet BaudRateSet BaudRateGet ErrorGet TxCompleteCallbackRegister RxCompleteCallbackRegister TxCollisionCallbackRegister FramingErrorCallbackRegister OverrunErrorCallbackRegister ParityErrorCallbackRegister EventCallbackRegister ]
 "116 mcc_generated_files/uart/src/../uart1.h
 [; ;mcc_generated_files/uart/src/../uart1.h: 116: void UART1_Initialize(void);
@@ -40,65 +42,69 @@ Version 4.0 HI-TECH Software Intermediate Code
 "125
 [; ;mcc_generated_files/uart/src/../uart1.h: 125: void UART1_Deinitialize(void);
 [v _UART1_Deinitialize `(v ~T0 @X0 0 ef ]
-"279
-[; ;mcc_generated_files/uart/src/../uart1.h: 279: uint8_t UART1_Read(void);
+"311
+[; ;mcc_generated_files/uart/src/../uart1.h: 311: uint8_t UART1_Read(void);
 [v _UART1_Read `(uc ~T0 @X0 0 ef ]
-"289
-[; ;mcc_generated_files/uart/src/../uart1.h: 289: void UART1_Write(uint8_t txData);
+"321
+[; ;mcc_generated_files/uart/src/../uart1.h: 321: void UART1_Write(uint8_t txData);
 [v _UART1_Write `(v ~T0 @X0 0 ef1`uc ]
-"241
-[; ;mcc_generated_files/uart/src/../uart1.h: 241: _Bool UART1_IsRxReady(void);
+"273
+[; ;mcc_generated_files/uart/src/../uart1.h: 273: _Bool UART1_IsRxReady(void);
 [v _UART1_IsRxReady `(a ~T0 @X0 0 ef ]
-"250
-[; ;mcc_generated_files/uart/src/../uart1.h: 250: _Bool UART1_IsTxReady(void);
+"282
+[; ;mcc_generated_files/uart/src/../uart1.h: 282: _Bool UART1_IsTxReady(void);
 [v _UART1_IsTxReady `(a ~T0 @X0 0 ef ]
-"259
-[; ;mcc_generated_files/uart/src/../uart1.h: 259: _Bool UART1_IsTxDone(void);
+"291
+[; ;mcc_generated_files/uart/src/../uart1.h: 291: _Bool UART1_IsTxDone(void);
 [v _UART1_IsTxDone `(a ~T0 @X0 0 ef ]
-[v F14016 `(v ~T0 @X0 1 tf ]
+[v F14070 `(v ~T0 @X0 1 tf ]
 "150
 [; ;mcc_generated_files/uart/src/../uart1.h: 150: __attribute__((inline)) void UART1_TransmitEnable(void);
-[v _UART1_TransmitEnable `TF14016 ~T0 @X0 0 e ]
-[v F14018 `(v ~T0 @X0 1 tf ]
+[v _UART1_TransmitEnable `TF14070 ~T0 @X0 0 e ]
+[v F14072 `(v ~T0 @X0 1 tf ]
 "158
 [; ;mcc_generated_files/uart/src/../uart1.h: 158: __attribute__((inline)) void UART1_TransmitDisable(void);
-[v _UART1_TransmitDisable `TF14018 ~T0 @X0 0 e ]
-[v F14028 `(v ~T0 @X0 1 tf1`a ]
-"199
-[; ;mcc_generated_files/uart/src/../uart1.h: 199: __attribute__((inline)) void UART1_AutoBaudSet(_Bool enable);
-[v _UART1_AutoBaudSet `TF14028 ~T0 @X0 0 e ]
-[v F14031 `(a ~T0 @X0 1 tf ]
-"208
-[; ;mcc_generated_files/uart/src/../uart1.h: 208: __attribute__((inline)) _Bool UART1_AutoBaudQuery(void);
-[v _UART1_AutoBaudQuery `TF14031 ~T0 @X0 0 e ]
-[v F14071 `(a ~T0 @X0 0 tf ]
-[v F14072 `(v ~T0 @X0 0 tf1`ul ]
-[v F14074 `(ul ~T0 @X0 0 tf ]
-[v F14075 `(v ~T0 @X0 0 tf1`ul ]
-[v F14077 `(ul ~T0 @X0 0 tf ]
-"269
-[; ;mcc_generated_files/uart/src/../uart1.h: 269: size_t UART1_ErrorGet(void);
+[v _UART1_TransmitDisable `TF14072 ~T0 @X0 0 e ]
+[v F14090 `(v ~T0 @X0 1 tf1`a ]
+"231
+[; ;mcc_generated_files/uart/src/../uart1.h: 231: __attribute__((inline)) void UART1_AutoBaudSet(_Bool enable);
+[v _UART1_AutoBaudSet `TF14090 ~T0 @X0 0 e ]
+[v F14093 `(a ~T0 @X0 1 tf ]
+"240
+[; ;mcc_generated_files/uart/src/../uart1.h: 240: __attribute__((inline)) _Bool UART1_AutoBaudQuery(void);
+[v _UART1_AutoBaudQuery `TF14093 ~T0 @X0 0 e ]
+[v F14147 `(a ~T0 @X0 0 tf ]
+[v F14148 `(v ~T0 @X0 0 tf1`ul ]
+[v F14150 `(ul ~T0 @X0 0 tf ]
+[v F14151 `(v ~T0 @X0 0 tf1`ul ]
+[v F14153 `(ul ~T0 @X0 0 tf ]
+"301
+[; ;mcc_generated_files/uart/src/../uart1.h: 301: size_t UART1_ErrorGet(void);
 [v _UART1_ErrorGet `(ui ~T0 @X0 0 ef ]
-[v F14080 `(v ~T0 @X0 0 tf ]
-[v F14079 `(v ~T0 @X0 0 tf1`*F14080 ]
-[v F14083 `(v ~T0 @X0 0 tf ]
-[v F14082 `(v ~T0 @X0 0 tf1`*F14083 ]
-[v F14086 `(v ~T0 @X0 0 tf ]
-[v F14085 `(v ~T0 @X0 0 tf1`*F14086 ]
-[v F14046 `(v ~T0 @X0 0 tf ]
-"297
-[; ;mcc_generated_files/uart/src/../uart1.h: 297: void UART1_FramingErrorCallbackRegister(void (* callbackHandler)(void));
-[v _UART1_FramingErrorCallbackRegister `(v ~T0 @X0 0 ef1`*F14046 ]
-[v F14050 `(v ~T0 @X0 0 tf ]
-"305
-[; ;mcc_generated_files/uart/src/../uart1.h: 305: void UART1_OverrunErrorCallbackRegister(void (* callbackHandler)(void));
-[v _UART1_OverrunErrorCallbackRegister `(v ~T0 @X0 0 ef1`*F14050 ]
-[v F14054 `(v ~T0 @X0 0 tf ]
-"313
-[; ;mcc_generated_files/uart/src/../uart1.h: 313: void UART1_ParityErrorCallbackRegister(void (* callbackHandler)(void));
-[v _UART1_ParityErrorCallbackRegister `(v ~T0 @X0 0 ef1`*F14054 ]
-[v F14098 `(v ~T0 @X0 0 tf ]
-[v F14097 `(v ~T0 @X0 0 tf1`*F14098 ]
+[v F14122 `(v ~T0 @X0 0 tf ]
+"362
+[; ;mcc_generated_files/uart/src/../uart1.h: 362: void UART1_TxCompleteCallbackRegister(void (* callbackHandler)(void));
+[v _UART1_TxCompleteCallbackRegister `(v ~T0 @X0 0 ef1`*F14122 ]
+[v F14129 `(v ~T0 @X0 0 tf ]
+"386
+[; ;mcc_generated_files/uart/src/../uart1.h: 386: void UART1_RxCompleteCallbackRegister(void (* callbackHandler)(void));
+[v _UART1_RxCompleteCallbackRegister `(v ~T0 @X0 0 ef1`*F14129 ]
+[v F14162 `(v ~T0 @X0 0 tf ]
+[v F14161 `(v ~T0 @X0 0 tf1`*F14162 ]
+[v F14108 `(v ~T0 @X0 0 tf ]
+"329
+[; ;mcc_generated_files/uart/src/../uart1.h: 329: void UART1_FramingErrorCallbackRegister(void (* callbackHandler)(void));
+[v _UART1_FramingErrorCallbackRegister `(v ~T0 @X0 0 ef1`*F14108 ]
+[v F14112 `(v ~T0 @X0 0 tf ]
+"337
+[; ;mcc_generated_files/uart/src/../uart1.h: 337: void UART1_OverrunErrorCallbackRegister(void (* callbackHandler)(void));
+[v _UART1_OverrunErrorCallbackRegister `(v ~T0 @X0 0 ef1`*F14112 ]
+[v F14116 `(v ~T0 @X0 0 tf ]
+"345
+[; ;mcc_generated_files/uart/src/../uart1.h: 345: void UART1_ParityErrorCallbackRegister(void (* callbackHandler)(void));
+[v _UART1_ParityErrorCallbackRegister `(v ~T0 @X0 0 ef1`*F14116 ]
+[v F14174 `(v ~T0 @X0 0 tf ]
+[v F14173 `(v ~T0 @X0 0 tf1`*F14174 ]
 "88
 [; ;mcc_generated_files/uart/src/../uart1.h: 88:     struct {
 [s S1917 :1 `uc 1 :1 `uc 1 :1 `uc 1 :5 `uc 1 ]
@@ -107,9 +113,30 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;mcc_generated_files/uart/src/../uart1.h: 87: typedef union {
 [u S1916 `S1917 1 `ui 1 ]
 [n S1916 . . status ]
-[v F14102 `(v ~T0 @X0 0 tf ]
-[v F14104 `(v ~T0 @X0 0 tf ]
-[v F14106 `(v ~T0 @X0 0 tf ]
+[v F14187 `(v ~T0 @X0 0 tf ]
+[v F14189 `(v ~T0 @X0 0 tf ]
+[v F14191 `(v ~T0 @X0 0 tf ]
+[v F14193 `(v ~T0 @X0 0 tf ]
+[v F14195 `(v ~T0 @X0 0 tf ]
+[v F14197 `(v ~T0 @X0 0 tf ]
+[v F14199 `(v ~T0 @X0 0 tf ]
+"36737 C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h
+[; ;C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h: 36737:     struct {
+[s S1756 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1756 . U1RXIE U1TXIE U1EIE U1IE TMR3IE TMR3GIE PWM1PIE PWM1IE ]
+"36736
+[; ;C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h: 36736: typedef union {
+[u S1755 `S1756 1 ]
+[n S1755 . . ]
+"36748
+[; ;C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h: 36748: extern volatile PIE4bits_t PIE4bits __attribute__((address(0x4AC)));
+[v _PIE4bits `VS1755 ~T0 @X0 0 e@1196 ]
+"112 mcc_generated_files/uart/src/uart1.c
+[; ;mcc_generated_files/uart/src/uart1.c: 112: void UART1_ReceiveISR(void);
+[v _UART1_ReceiveISR `(v ~T0 @X0 0 ef ]
+"111
+[; ;mcc_generated_files/uart/src/uart1.c: 111: void UART1_TransmitISR (void);
+[v _UART1_TransmitISR `(v ~T0 @X0 0 ef ]
 "14822 C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h
 [; ;C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h: 14822: extern volatile unsigned char U1RXB __attribute__((address(0x2A1)));
 [v _U1RXB `Vuc ~T0 @X0 0 e@673 ]
@@ -167,14 +194,14 @@ Version 4.0 HI-TECH Software Intermediate Code
 "15774
 [; ;C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h: 15774: extern volatile unsigned char U1ERRIE __attribute__((address(0x2B3)));
 [v _U1ERRIE `Vuc ~T0 @X0 0 e@691 ]
-"87 mcc_generated_files/uart/src/uart1.c
-[; ;mcc_generated_files/uart/src/uart1.c: 87: static void UART1_DefaultFramingErrorCallback(void);
+"108 mcc_generated_files/uart/src/uart1.c
+[; ;mcc_generated_files/uart/src/uart1.c: 108: static void UART1_DefaultFramingErrorCallback(void);
 [v _UART1_DefaultFramingErrorCallback `(v ~T0 @X0 0 sf ]
-"88
-[; ;mcc_generated_files/uart/src/uart1.c: 88: static void UART1_DefaultOverrunErrorCallback(void);
+"109
+[; ;mcc_generated_files/uart/src/uart1.c: 109: static void UART1_DefaultOverrunErrorCallback(void);
 [v _UART1_DefaultOverrunErrorCallback `(v ~T0 @X0 0 sf ]
-"89
-[; ;mcc_generated_files/uart/src/uart1.c: 89: static void UART1_DefaultParityErrorCallback(void);
+"110
+[; ;mcc_generated_files/uart/src/uart1.c: 110: static void UART1_DefaultParityErrorCallback(void);
 [v _UART1_DefaultParityErrorCallback `(v ~T0 @X0 0 sf ]
 "15213 C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h
 [; ;C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h: 15213:     struct {
@@ -244,40 +271,25 @@ Version 4.0 HI-TECH Software Intermediate Code
 "15689
 [; ;C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h: 15689: extern volatile U1ERRIRbits_t U1ERRIRbits __attribute__((address(0x2B2)));
 [v _U1ERRIRbits `VS773 ~T0 @X0 0 e@690 ]
-"15482
-[; ;C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h: 15482:     struct {
-[s S766 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S766 . RXBF RXBE XON RXIDL TXBF TXBE STPMD TXWRE ]
-"15492
-[; ;C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h: 15492:     struct {
-[s S767 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S767 . U1RXBF U1RXBE U1XON U1RXIDL U1TXBF U1TXBE U1STPMD U1TXWRE ]
-"15502
-[; ;C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h: 15502:     struct {
-[s S768 :3 `uc 1 :1 `uc 1 ]
-[n S768 . . U1RCIDL ]
-"15506
-[; ;C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h: 15506:     struct {
-[s S769 :3 `uc 1 :1 `uc 1 ]
-[n S769 . . RCIDL ]
-"15481
-[; ;C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h: 15481: typedef union {
-[u S765 `S766 1 `S767 1 `S768 1 `S769 1 ]
-[n S765 . . . . . ]
-"15511
-[; ;C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h: 15511: extern volatile U1FIFObits_t U1FIFObits __attribute__((address(0x2B0)));
-[v _U1FIFObits `VS765 ~T0 @X0 0 e@688 ]
-[v F14146 `(v ~T0 @X0 0 tf ]
-[v F14147 `(v ~T0 @X0 0 tf ]
-[v F14155 `(v ~T0 @X0 0 tf ]
-[v F14157 `(v ~T0 @X0 0 tf ]
-[v F14158 `(v ~T0 @X0 0 tf ]
-[v F14161 `(v ~T0 @X0 0 tf ]
-[v F14163 `(v ~T0 @X0 0 tf ]
-[v F14164 `(v ~T0 @X0 0 tf ]
-[v F14167 `(v ~T0 @X0 0 tf ]
-[v F14169 `(v ~T0 @X0 0 tf ]
-[v F14170 `(v ~T0 @X0 0 tf ]
+[v F14259 `(v ~T0 @X0 0 tf ]
+[v F14260 `(v ~T0 @X0 0 tf ]
+[v F14261 `(v ~T0 @X0 0 tf ]
+[v F14267 `(v ~T0 @X0 0 tf ]
+[v F14272 `(v ~T0 @X0 0 tf ]
+[v F14274 `(v ~T0 @X0 0 tf ]
+[v F14275 `(v ~T0 @X0 0 tf ]
+[v F14278 `(v ~T0 @X0 0 tf ]
+[v F14280 `(v ~T0 @X0 0 tf ]
+[v F14281 `(v ~T0 @X0 0 tf ]
+[v F14284 `(v ~T0 @X0 0 tf ]
+[v F14286 `(v ~T0 @X0 0 tf ]
+[v F14287 `(v ~T0 @X0 0 tf ]
+[v F14290 `(v ~T0 @X0 0 tf ]
+[v F14292 `(v ~T0 @X0 0 tf ]
+[v F14293 `(v ~T0 @X0 0 tf ]
+[v F14296 `(v ~T0 @X0 0 tf ]
+[v F14298 `(v ~T0 @X0 0 tf ]
+[v F14299 `(v ~T0 @X0 0 tf ]
 "269 C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h
 [; ;C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h: 269: __asm("CLKRCON equ 039h");
 [; <" CLKRCON equ 039h ;# ">
@@ -2318,8 +2330,14 @@ Version 4.0 HI-TECH Software Intermediate Code
 "39562
 [; ;C:/Users/Jules/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc/pic18f16q41.h: 39562: __asm("TOSU equ 04FFh");
 [; <" TOSU equ 04FFh ;# ">
-"47 mcc_generated_files/uart/src/uart1.c
-[; ;mcc_generated_files/uart/src/uart1.c: 47: const uart_drv_interface_t UART1 = {
+"354 mcc_generated_files/uart/src/../uart1.h
+[; ;mcc_generated_files/uart/src/../uart1.h: 354: void (*UART1_TxInterruptHandler)(void);
+[v _UART1_TxInterruptHandler `*F14120 ~T0 @X0 1 e ]
+"379
+[; ;mcc_generated_files/uart/src/../uart1.h: 379: void (*UART1_RxInterruptHandler)(void);
+[v _UART1_RxInterruptHandler `*F14127 ~T0 @X0 1 e ]
+"53 mcc_generated_files/uart/src/uart1.c
+[; ;mcc_generated_files/uart/src/uart1.c: 53: const uart_drv_interface_t UART1 = {
 [v _UART1 `CS1915 ~T0 @X0 1 e ]
 [i _UART1
 :U ..
@@ -2335,700 +2353,1134 @@ Version 4.0 HI-TECH Software Intermediate Code
 &U _UART1_TransmitDisable
 &U _UART1_AutoBaudSet
 &U _UART1_AutoBaudQuery
--> -> -> 0 `i `*v `*F14071
--> -> -> 0 `i `*v `*F14072
--> -> -> 0 `i `*v `*F14074
--> -> -> 0 `i `*v `*F14075
--> -> -> 0 `i `*v `*F14077
+-> -> -> 0 `i `*v `*F14147
+-> -> -> 0 `i `*v `*F14148
+-> -> -> 0 `i `*v `*F14150
+-> -> -> 0 `i `*v `*F14151
+-> -> -> 0 `i `*v `*F14153
 &U _UART1_ErrorGet
--> -> -> 0 `i `*v `*F14079
--> -> -> 0 `i `*v `*F14082
--> -> -> 0 `i `*v `*F14085
+&U _UART1_TxCompleteCallbackRegister
+&U _UART1_RxCompleteCallbackRegister
+-> -> -> 0 `i `*v `*F14161
 &U _UART1_FramingErrorCallbackRegister
 &U _UART1_OverrunErrorCallbackRegister
 &U _UART1_ParityErrorCallbackRegister
--> -> -> 0 `i `*v `*F14097
+-> -> -> 0 `i `*v `*F14173
 ..
 ..
 ]
-"77
-[; ;mcc_generated_files/uart/src/uart1.c: 77: volatile uart1_status_t uart1RxLastError;
-[v _uart1RxLastError `VS1916 ~T0 @X0 1 e ]
 "83
-[; ;mcc_generated_files/uart/src/uart1.c: 83: void (*UART1_FramingErrorHandler)(void);
-[v _UART1_FramingErrorHandler `*F14102 ~T0 @X0 1 e ]
+[; ;mcc_generated_files/uart/src/uart1.c: 83: static volatile uint8_t uart1TxHead = 0;
+[v _uart1TxHead `Vuc ~T0 @X0 1 s ]
+[i _uart1TxHead
+-> -> 0 `i `uc
+]
 "84
-[; ;mcc_generated_files/uart/src/uart1.c: 84: void (*UART1_OverrunErrorHandler)(void);
-[v _UART1_OverrunErrorHandler `*F14104 ~T0 @X0 1 e ]
+[; ;mcc_generated_files/uart/src/uart1.c: 84: static volatile uint8_t uart1TxTail = 0;
+[v _uart1TxTail `Vuc ~T0 @X0 1 s ]
+[i _uart1TxTail
+-> -> 0 `i `uc
+]
 "85
-[; ;mcc_generated_files/uart/src/uart1.c: 85: void (*UART1_ParityErrorHandler)(void);
-[v _UART1_ParityErrorHandler `*F14106 ~T0 @X0 1 e ]
-"95
-[; ;mcc_generated_files/uart/src/uart1.c: 95: void UART1_Initialize(void)
+[; ;mcc_generated_files/uart/src/uart1.c: 85: static volatile uint8_t uart1TxBuffer[(8)];
+[v _uart1TxBuffer `Vuc ~T0 @X0 -> 8 `i s ]
+"86
+[; ;mcc_generated_files/uart/src/uart1.c: 86: volatile uint8_t uart1TxBufferRemaining;
+[v _uart1TxBufferRemaining `Vuc ~T0 @X0 1 e ]
+"88
+[; ;mcc_generated_files/uart/src/uart1.c: 88: static volatile uint8_t uart1RxHead = 0;
+[v _uart1RxHead `Vuc ~T0 @X0 1 s ]
+[i _uart1RxHead
+-> -> 0 `i `uc
+]
+"89
+[; ;mcc_generated_files/uart/src/uart1.c: 89: static volatile uint8_t uart1RxTail = 0;
+[v _uart1RxTail `Vuc ~T0 @X0 1 s ]
+[i _uart1RxTail
+-> -> 0 `i `uc
+]
+"90
+[; ;mcc_generated_files/uart/src/uart1.c: 90: static volatile uint8_t uart1RxBuffer[(8)];
+[v _uart1RxBuffer `Vuc ~T0 @X0 -> 8 `i s ]
+"91
+[; ;mcc_generated_files/uart/src/uart1.c: 91: static volatile uart1_status_t uart1RxStatusBuffer[(8)];
+[v _uart1RxStatusBuffer `VS1916 ~T0 @X0 -> 8 `i s ]
+"92
+[; ;mcc_generated_files/uart/src/uart1.c: 92: volatile uint8_t uart1RxCount;
+[v _uart1RxCount `Vuc ~T0 @X0 1 e ]
+"94
+[; ;mcc_generated_files/uart/src/uart1.c: 94: volatile uart1_status_t uart1RxLastError;
+[v _uart1RxLastError `VS1916 ~T0 @X0 1 e ]
+"100
+[; ;mcc_generated_files/uart/src/uart1.c: 100: void (*UART1_FramingErrorHandler)(void);
+[v _UART1_FramingErrorHandler `*F14187 ~T0 @X0 1 e ]
+"101
+[; ;mcc_generated_files/uart/src/uart1.c: 101: void (*UART1_OverrunErrorHandler)(void);
+[v _UART1_OverrunErrorHandler `*F14189 ~T0 @X0 1 e ]
+"102
+[; ;mcc_generated_files/uart/src/uart1.c: 102: void (*UART1_ParityErrorHandler)(void);
+[v _UART1_ParityErrorHandler `*F14191 ~T0 @X0 1 e ]
+"103
+[; ;mcc_generated_files/uart/src/uart1.c: 103: void (*UART1_TxInterruptHandler)(void);
+[v _UART1_TxInterruptHandler `*F14193 ~T0 @X0 1 e ]
+"104
+[; ;mcc_generated_files/uart/src/uart1.c: 104: static void (*UART1_TxCompleteInterruptHandler)(void);
+[v _UART1_TxCompleteInterruptHandler `*F14195 ~T0 @X0 1 s ]
+"105
+[; ;mcc_generated_files/uart/src/uart1.c: 105: void (*UART1_RxInterruptHandler)(void);
+[v _UART1_RxInterruptHandler `*F14197 ~T0 @X0 1 e ]
+"106
+[; ;mcc_generated_files/uart/src/uart1.c: 106: static void (*UART1_RxCompleteInterruptHandler)(void);
+[v _UART1_RxCompleteInterruptHandler `*F14199 ~T0 @X0 1 s ]
+"118
+[; ;mcc_generated_files/uart/src/uart1.c: 118: void UART1_Initialize(void)
 [v _UART1_Initialize `(v ~T0 @X0 1 ef ]
-"96
-[; ;mcc_generated_files/uart/src/uart1.c: 96: {
+"119
+[; ;mcc_generated_files/uart/src/uart1.c: 119: {
 {
 [e :U _UART1_Initialize ]
 [f ]
-"101
-[; ;mcc_generated_files/uart/src/uart1.c: 101:     U1RXB = 0x0;
-[e = _U1RXB -> -> 0 `i `uc ]
-"103
-[; ;mcc_generated_files/uart/src/uart1.c: 103:     U1RXCHK = 0x0;
-[e = _U1RXCHK -> -> 0 `i `uc ]
-"105
-[; ;mcc_generated_files/uart/src/uart1.c: 105:     U1TXB = 0x0;
-[e = _U1TXB -> -> 0 `i `uc ]
-"107
-[; ;mcc_generated_files/uart/src/uart1.c: 107:     U1TXCHK = 0x0;
-[e = _U1TXCHK -> -> 0 `i `uc ]
-"109
-[; ;mcc_generated_files/uart/src/uart1.c: 109:     U1P1L = 0x0;
-[e = _U1P1L -> -> 0 `i `uc ]
-"111
-[; ;mcc_generated_files/uart/src/uart1.c: 111:     U1P1H = 0x0;
-[e = _U1P1H -> -> 0 `i `uc ]
-"113
-[; ;mcc_generated_files/uart/src/uart1.c: 113:     U1P2L = 0x0;
-[e = _U1P2L -> -> 0 `i `uc ]
-"115
-[; ;mcc_generated_files/uart/src/uart1.c: 115:     U1P2H = 0x0;
-[e = _U1P2H -> -> 0 `i `uc ]
-"117
-[; ;mcc_generated_files/uart/src/uart1.c: 117:     U1P3L = 0x0;
-[e = _U1P3L -> -> 0 `i `uc ]
-"119
-[; ;mcc_generated_files/uart/src/uart1.c: 119:     U1P3H = 0x0;
-[e = _U1P3H -> -> 0 `i `uc ]
+"120
+[; ;mcc_generated_files/uart/src/uart1.c: 120:     PIE4bits.U1RXIE = 0;
+[e = . . _PIE4bits 0 0 -> -> 0 `i `uc ]
 "121
-[; ;mcc_generated_files/uart/src/uart1.c: 121:     U1CON0 = 0xB0;
-[e = _U1CON0 -> -> 176 `i `uc ]
+[; ;mcc_generated_files/uart/src/uart1.c: 121:     UART1_RxInterruptHandler = UART1_ReceiveISR;
+[e = _UART1_RxInterruptHandler &U _UART1_ReceiveISR ]
+"122
+[; ;mcc_generated_files/uart/src/uart1.c: 122:     PIE4bits.U1TXIE = 0;
+[e = . . _PIE4bits 0 1 -> -> 0 `i `uc ]
 "123
-[; ;mcc_generated_files/uart/src/uart1.c: 123:     U1CON1 = 0x80;
-[e = _U1CON1 -> -> 128 `i `uc ]
-"125
-[; ;mcc_generated_files/uart/src/uart1.c: 125:     U1CON2 = 0x8;
-[e = _U1CON2 -> -> 8 `i `uc ]
-"127
-[; ;mcc_generated_files/uart/src/uart1.c: 127:     U1BRGL = 0x67;
-[e = _U1BRGL -> -> 103 `i `uc ]
-"129
-[; ;mcc_generated_files/uart/src/uart1.c: 129:     U1BRGH = 0x0;
-[e = _U1BRGH -> -> 0 `i `uc ]
-"131
-[; ;mcc_generated_files/uart/src/uart1.c: 131:     U1FIFO = 0x2E;
-[e = _U1FIFO -> -> 46 `i `uc ]
-"133
-[; ;mcc_generated_files/uart/src/uart1.c: 133:     U1UIR = 0x0;
-[e = _U1UIR -> -> 0 `i `uc ]
-"135
-[; ;mcc_generated_files/uart/src/uart1.c: 135:     U1ERRIR = 0x80;
-[e = _U1ERRIR -> -> 128 `i `uc ]
-"137
-[; ;mcc_generated_files/uart/src/uart1.c: 137:     U1ERRIE = 0x0;
-[e = _U1ERRIE -> -> 0 `i `uc ]
-"139
-[; ;mcc_generated_files/uart/src/uart1.c: 139:     UART1_FramingErrorCallbackRegister(UART1_DefaultFramingErrorCallback);
-[e ( _UART1_FramingErrorCallbackRegister (1 &U _UART1_DefaultFramingErrorCallback ]
+[; ;mcc_generated_files/uart/src/uart1.c: 123:     UART1_TxInterruptHandler = UART1_TransmitISR;
+[e = _UART1_TxInterruptHandler &U _UART1_TransmitISR ]
+"128
+[; ;mcc_generated_files/uart/src/uart1.c: 128:     U1RXB = 0x0;
+[e = _U1RXB -> -> 0 `i `uc ]
+"130
+[; ;mcc_generated_files/uart/src/uart1.c: 130:     U1RXCHK = 0x0;
+[e = _U1RXCHK -> -> 0 `i `uc ]
+"132
+[; ;mcc_generated_files/uart/src/uart1.c: 132:     U1TXB = 0x0;
+[e = _U1TXB -> -> 0 `i `uc ]
+"134
+[; ;mcc_generated_files/uart/src/uart1.c: 134:     U1TXCHK = 0x0;
+[e = _U1TXCHK -> -> 0 `i `uc ]
+"136
+[; ;mcc_generated_files/uart/src/uart1.c: 136:     U1P1L = 0x0;
+[e = _U1P1L -> -> 0 `i `uc ]
+"138
+[; ;mcc_generated_files/uart/src/uart1.c: 138:     U1P1H = 0x0;
+[e = _U1P1H -> -> 0 `i `uc ]
 "140
-[; ;mcc_generated_files/uart/src/uart1.c: 140:     UART1_OverrunErrorCallbackRegister(UART1_DefaultOverrunErrorCallback);
-[e ( _UART1_OverrunErrorCallbackRegister (1 &U _UART1_DefaultOverrunErrorCallback ]
-"141
-[; ;mcc_generated_files/uart/src/uart1.c: 141:     UART1_ParityErrorCallbackRegister(UART1_DefaultParityErrorCallback);
-[e ( _UART1_ParityErrorCallbackRegister (1 &U _UART1_DefaultParityErrorCallback ]
-"143
-[; ;mcc_generated_files/uart/src/uart1.c: 143:     uart1RxLastError.status = 0;
-[e = . _uart1RxLastError 1 -> -> 0 `i `ui ]
+[; ;mcc_generated_files/uart/src/uart1.c: 140:     U1P2L = 0x0;
+[e = _U1P2L -> -> 0 `i `uc ]
+"142
+[; ;mcc_generated_files/uart/src/uart1.c: 142:     U1P2H = 0x0;
+[e = _U1P2H -> -> 0 `i `uc ]
 "144
-[; ;mcc_generated_files/uart/src/uart1.c: 144: }
+[; ;mcc_generated_files/uart/src/uart1.c: 144:     U1P3L = 0x0;
+[e = _U1P3L -> -> 0 `i `uc ]
+"146
+[; ;mcc_generated_files/uart/src/uart1.c: 146:     U1P3H = 0x0;
+[e = _U1P3H -> -> 0 `i `uc ]
+"148
+[; ;mcc_generated_files/uart/src/uart1.c: 148:     U1CON0 = 0xB0;
+[e = _U1CON0 -> -> 176 `i `uc ]
+"150
+[; ;mcc_generated_files/uart/src/uart1.c: 150:     U1CON1 = 0x80;
+[e = _U1CON1 -> -> 128 `i `uc ]
+"152
+[; ;mcc_generated_files/uart/src/uart1.c: 152:     U1CON2 = 0x8;
+[e = _U1CON2 -> -> 8 `i `uc ]
+"154
+[; ;mcc_generated_files/uart/src/uart1.c: 154:     U1BRGL = 0x67;
+[e = _U1BRGL -> -> 103 `i `uc ]
+"156
+[; ;mcc_generated_files/uart/src/uart1.c: 156:     U1BRGH = 0x0;
+[e = _U1BRGH -> -> 0 `i `uc ]
+"158
+[; ;mcc_generated_files/uart/src/uart1.c: 158:     U1FIFO = 0x2E;
+[e = _U1FIFO -> -> 46 `i `uc ]
+"160
+[; ;mcc_generated_files/uart/src/uart1.c: 160:     U1UIR = 0x0;
+[e = _U1UIR -> -> 0 `i `uc ]
+"162
+[; ;mcc_generated_files/uart/src/uart1.c: 162:     U1ERRIR = 0x80;
+[e = _U1ERRIR -> -> 128 `i `uc ]
+"164
+[; ;mcc_generated_files/uart/src/uart1.c: 164:     U1ERRIE = 0x0;
+[e = _U1ERRIE -> -> 0 `i `uc ]
+"166
+[; ;mcc_generated_files/uart/src/uart1.c: 166:     UART1_FramingErrorCallbackRegister(UART1_DefaultFramingErrorCallback);
+[e ( _UART1_FramingErrorCallbackRegister (1 &U _UART1_DefaultFramingErrorCallback ]
+"167
+[; ;mcc_generated_files/uart/src/uart1.c: 167:     UART1_OverrunErrorCallbackRegister(UART1_DefaultOverrunErrorCallback);
+[e ( _UART1_OverrunErrorCallbackRegister (1 &U _UART1_DefaultOverrunErrorCallback ]
+"168
+[; ;mcc_generated_files/uart/src/uart1.c: 168:     UART1_ParityErrorCallbackRegister(UART1_DefaultParityErrorCallback);
+[e ( _UART1_ParityErrorCallbackRegister (1 &U _UART1_DefaultParityErrorCallback ]
+"170
+[; ;mcc_generated_files/uart/src/uart1.c: 170:     uart1RxLastError.status = 0;
+[e = . _uart1RxLastError 1 -> -> 0 `i `ui ]
+"171
+[; ;mcc_generated_files/uart/src/uart1.c: 171:     uart1TxHead = 0;
+[e = _uart1TxHead -> -> 0 `i `uc ]
+"172
+[; ;mcc_generated_files/uart/src/uart1.c: 172:     uart1TxTail = 0;
+[e = _uart1TxTail -> -> 0 `i `uc ]
+"173
+[; ;mcc_generated_files/uart/src/uart1.c: 173:     uart1TxBufferRemaining = sizeof(uart1TxBuffer);
+[e = _uart1TxBufferRemaining -> -> # _uart1TxBuffer `ui `uc ]
+"174
+[; ;mcc_generated_files/uart/src/uart1.c: 174:     uart1RxHead = 0;
+[e = _uart1RxHead -> -> 0 `i `uc ]
+"175
+[; ;mcc_generated_files/uart/src/uart1.c: 175:     uart1RxTail = 0;
+[e = _uart1RxTail -> -> 0 `i `uc ]
+"176
+[; ;mcc_generated_files/uart/src/uart1.c: 176:     uart1RxCount = 0;
+[e = _uart1RxCount -> -> 0 `i `uc ]
+"177
+[; ;mcc_generated_files/uart/src/uart1.c: 177:     PIE4bits.U1RXIE = 1;
+[e = . . _PIE4bits 0 0 -> -> 1 `i `uc ]
+"178
+[; ;mcc_generated_files/uart/src/uart1.c: 178: }
 [e :UE 1918 ]
 }
-"146
-[; ;mcc_generated_files/uart/src/uart1.c: 146: void UART1_Deinitialize(void)
+"180
+[; ;mcc_generated_files/uart/src/uart1.c: 180: void UART1_Deinitialize(void)
 [v _UART1_Deinitialize `(v ~T0 @X0 1 ef ]
-"147
-[; ;mcc_generated_files/uart/src/uart1.c: 147: {
+"181
+[; ;mcc_generated_files/uart/src/uart1.c: 181: {
 {
 [e :U _UART1_Deinitialize ]
 [f ]
-"148
-[; ;mcc_generated_files/uart/src/uart1.c: 148:     U1RXB = 0x00;
+"182
+[; ;mcc_generated_files/uart/src/uart1.c: 182:     PIE4bits.U1RXIE = 0;
+[e = . . _PIE4bits 0 0 -> -> 0 `i `uc ]
+"183
+[; ;mcc_generated_files/uart/src/uart1.c: 183:     PIE4bits.U1TXIE = 0;
+[e = . . _PIE4bits 0 1 -> -> 0 `i `uc ]
+"184
+[; ;mcc_generated_files/uart/src/uart1.c: 184:     U1RXB = 0x00;
 [e = _U1RXB -> -> 0 `i `uc ]
-"149
-[; ;mcc_generated_files/uart/src/uart1.c: 149:     U1RXCHK = 0x00;
+"185
+[; ;mcc_generated_files/uart/src/uart1.c: 185:     U1RXCHK = 0x00;
 [e = _U1RXCHK -> -> 0 `i `uc ]
-"150
-[; ;mcc_generated_files/uart/src/uart1.c: 150:     U1TXB = 0x00;
+"186
+[; ;mcc_generated_files/uart/src/uart1.c: 186:     U1TXB = 0x00;
 [e = _U1TXB -> -> 0 `i `uc ]
-"151
-[; ;mcc_generated_files/uart/src/uart1.c: 151:     U1TXCHK = 0x00;
+"187
+[; ;mcc_generated_files/uart/src/uart1.c: 187:     U1TXCHK = 0x00;
 [e = _U1TXCHK -> -> 0 `i `uc ]
-"152
-[; ;mcc_generated_files/uart/src/uart1.c: 152:     U1P1L = 0x00;
+"188
+[; ;mcc_generated_files/uart/src/uart1.c: 188:     U1P1L = 0x00;
 [e = _U1P1L -> -> 0 `i `uc ]
-"153
-[; ;mcc_generated_files/uart/src/uart1.c: 153:     U1P1H = 0x00;
+"189
+[; ;mcc_generated_files/uart/src/uart1.c: 189:     U1P1H = 0x00;
 [e = _U1P1H -> -> 0 `i `uc ]
-"154
-[; ;mcc_generated_files/uart/src/uart1.c: 154:     U1P2L = 0x00;
+"190
+[; ;mcc_generated_files/uart/src/uart1.c: 190:     U1P2L = 0x00;
 [e = _U1P2L -> -> 0 `i `uc ]
-"155
-[; ;mcc_generated_files/uart/src/uart1.c: 155:     U1P2H = 0x00;
+"191
+[; ;mcc_generated_files/uart/src/uart1.c: 191:     U1P2H = 0x00;
 [e = _U1P2H -> -> 0 `i `uc ]
-"156
-[; ;mcc_generated_files/uart/src/uart1.c: 156:     U1P3L = 0x00;
+"192
+[; ;mcc_generated_files/uart/src/uart1.c: 192:     U1P3L = 0x00;
 [e = _U1P3L -> -> 0 `i `uc ]
-"157
-[; ;mcc_generated_files/uart/src/uart1.c: 157:     U1P3H = 0x00;
+"193
+[; ;mcc_generated_files/uart/src/uart1.c: 193:     U1P3H = 0x00;
 [e = _U1P3H -> -> 0 `i `uc ]
-"158
-[; ;mcc_generated_files/uart/src/uart1.c: 158:     U1CON0 = 0x00;
+"194
+[; ;mcc_generated_files/uart/src/uart1.c: 194:     U1CON0 = 0x00;
 [e = _U1CON0 -> -> 0 `i `uc ]
-"159
-[; ;mcc_generated_files/uart/src/uart1.c: 159:     U1CON1 = 0x00;
+"195
+[; ;mcc_generated_files/uart/src/uart1.c: 195:     U1CON1 = 0x00;
 [e = _U1CON1 -> -> 0 `i `uc ]
-"160
-[; ;mcc_generated_files/uart/src/uart1.c: 160:     U1CON2 = 0x00;
+"196
+[; ;mcc_generated_files/uart/src/uart1.c: 196:     U1CON2 = 0x00;
 [e = _U1CON2 -> -> 0 `i `uc ]
-"161
-[; ;mcc_generated_files/uart/src/uart1.c: 161:     U1BRGL = 0x00;
+"197
+[; ;mcc_generated_files/uart/src/uart1.c: 197:     U1BRGL = 0x00;
 [e = _U1BRGL -> -> 0 `i `uc ]
-"162
-[; ;mcc_generated_files/uart/src/uart1.c: 162:     U1BRGH = 0x00;
+"198
+[; ;mcc_generated_files/uart/src/uart1.c: 198:     U1BRGH = 0x00;
 [e = _U1BRGH -> -> 0 `i `uc ]
-"163
-[; ;mcc_generated_files/uart/src/uart1.c: 163:     U1FIFO = 0x00;
+"199
+[; ;mcc_generated_files/uart/src/uart1.c: 199:     U1FIFO = 0x00;
 [e = _U1FIFO -> -> 0 `i `uc ]
-"164
-[; ;mcc_generated_files/uart/src/uart1.c: 164:     U1UIR = 0x00;
+"200
+[; ;mcc_generated_files/uart/src/uart1.c: 200:     U1UIR = 0x00;
 [e = _U1UIR -> -> 0 `i `uc ]
-"165
-[; ;mcc_generated_files/uart/src/uart1.c: 165:     U1ERRIR = 0x00;
+"201
+[; ;mcc_generated_files/uart/src/uart1.c: 201:     U1ERRIR = 0x00;
 [e = _U1ERRIR -> -> 0 `i `uc ]
-"166
-[; ;mcc_generated_files/uart/src/uart1.c: 166:     U1ERRIE = 0x00;
+"202
+[; ;mcc_generated_files/uart/src/uart1.c: 202:     U1ERRIE = 0x00;
 [e = _U1ERRIE -> -> 0 `i `uc ]
-"167
-[; ;mcc_generated_files/uart/src/uart1.c: 167: }
+"203
+[; ;mcc_generated_files/uart/src/uart1.c: 203: }
 [e :UE 1919 ]
 }
-[v F14116 `(v ~T0 @X0 1 tf ]
-"169
-[; ;mcc_generated_files/uart/src/uart1.c: 169: __attribute__((inline)) void UART1_Enable(void)
-[v _UART1_Enable `TF14116 ~T0 @X0 1 e ]
-"170
-[; ;mcc_generated_files/uart/src/uart1.c: 170: {
+[v F14215 `(v ~T0 @X0 1 tf ]
+"205
+[; ;mcc_generated_files/uart/src/uart1.c: 205: __attribute__((inline)) void UART1_Enable(void)
+[v _UART1_Enable `TF14215 ~T0 @X0 1 e ]
+"206
+[; ;mcc_generated_files/uart/src/uart1.c: 206: {
 {
 [e :U _UART1_Enable ]
 [f ]
-"171
-[; ;mcc_generated_files/uart/src/uart1.c: 171:     U1CON1bits.ON = 1;
+"207
+[; ;mcc_generated_files/uart/src/uart1.c: 207:     U1CON1bits.ON = 1;
 [e = . . _U1CON1bits 0 6 -> -> 1 `i `uc ]
-"172
-[; ;mcc_generated_files/uart/src/uart1.c: 172: }
+"208
+[; ;mcc_generated_files/uart/src/uart1.c: 208: }
 [e :UE 1920 ]
 }
-[v F14118 `(v ~T0 @X0 1 tf ]
-"174
-[; ;mcc_generated_files/uart/src/uart1.c: 174: __attribute__((inline)) void UART1_Disable(void)
-[v _UART1_Disable `TF14118 ~T0 @X0 1 e ]
-"175
-[; ;mcc_generated_files/uart/src/uart1.c: 175: {
+[v F14217 `(v ~T0 @X0 1 tf ]
+"210
+[; ;mcc_generated_files/uart/src/uart1.c: 210: __attribute__((inline)) void UART1_Disable(void)
+[v _UART1_Disable `TF14217 ~T0 @X0 1 e ]
+"211
+[; ;mcc_generated_files/uart/src/uart1.c: 211: {
 {
 [e :U _UART1_Disable ]
 [f ]
-"176
-[; ;mcc_generated_files/uart/src/uart1.c: 176:     U1CON1bits.ON = 0;
+"212
+[; ;mcc_generated_files/uart/src/uart1.c: 212:     U1CON1bits.ON = 0;
 [e = . . _U1CON1bits 0 6 -> -> 0 `i `uc ]
-"177
-[; ;mcc_generated_files/uart/src/uart1.c: 177: }
+"213
+[; ;mcc_generated_files/uart/src/uart1.c: 213: }
 [e :UE 1921 ]
 }
-[v F14120 `(v ~T0 @X0 1 tf ]
-"179
-[; ;mcc_generated_files/uart/src/uart1.c: 179: __attribute__((inline)) void UART1_TransmitEnable(void)
-[v _UART1_TransmitEnable `TF14120 ~T0 @X0 1 e ]
-"180
-[; ;mcc_generated_files/uart/src/uart1.c: 180: {
+[v F14219 `(v ~T0 @X0 1 tf ]
+"215
+[; ;mcc_generated_files/uart/src/uart1.c: 215: __attribute__((inline)) void UART1_TransmitEnable(void)
+[v _UART1_TransmitEnable `TF14219 ~T0 @X0 1 e ]
+"216
+[; ;mcc_generated_files/uart/src/uart1.c: 216: {
 {
 [e :U _UART1_TransmitEnable ]
 [f ]
-"181
-[; ;mcc_generated_files/uart/src/uart1.c: 181:     U1CON0bits.TXEN = 1;
+"217
+[; ;mcc_generated_files/uart/src/uart1.c: 217:     U1CON0bits.TXEN = 1;
 [e = . . _U1CON0bits 3 2 -> -> 1 `i `uc ]
-"182
-[; ;mcc_generated_files/uart/src/uart1.c: 182: }
+"218
+[; ;mcc_generated_files/uart/src/uart1.c: 218: }
 [e :UE 1922 ]
 }
-[v F14122 `(v ~T0 @X0 1 tf ]
-"184
-[; ;mcc_generated_files/uart/src/uart1.c: 184: __attribute__((inline)) void UART1_TransmitDisable(void)
-[v _UART1_TransmitDisable `TF14122 ~T0 @X0 1 e ]
-"185
-[; ;mcc_generated_files/uart/src/uart1.c: 185: {
+[v F14221 `(v ~T0 @X0 1 tf ]
+"220
+[; ;mcc_generated_files/uart/src/uart1.c: 220: __attribute__((inline)) void UART1_TransmitDisable(void)
+[v _UART1_TransmitDisable `TF14221 ~T0 @X0 1 e ]
+"221
+[; ;mcc_generated_files/uart/src/uart1.c: 221: {
 {
 [e :U _UART1_TransmitDisable ]
 [f ]
-"186
-[; ;mcc_generated_files/uart/src/uart1.c: 186:     U1CON0bits.TXEN = 0;
+"222
+[; ;mcc_generated_files/uart/src/uart1.c: 222:     U1CON0bits.TXEN = 0;
 [e = . . _U1CON0bits 3 2 -> -> 0 `i `uc ]
-"187
-[; ;mcc_generated_files/uart/src/uart1.c: 187: }
+"223
+[; ;mcc_generated_files/uart/src/uart1.c: 223: }
 [e :UE 1923 ]
 }
-[v F14124 `(v ~T0 @X0 1 tf ]
-"189
-[; ;mcc_generated_files/uart/src/uart1.c: 189: __attribute__((inline)) void UART1_ReceiveEnable(void)
-[v _UART1_ReceiveEnable `TF14124 ~T0 @X0 1 e ]
-"190
-[; ;mcc_generated_files/uart/src/uart1.c: 190: {
+[v F14223 `(v ~T0 @X0 1 tf ]
+"225
+[; ;mcc_generated_files/uart/src/uart1.c: 225: __attribute__((inline)) void UART1_ReceiveEnable(void)
+[v _UART1_ReceiveEnable `TF14223 ~T0 @X0 1 e ]
+"226
+[; ;mcc_generated_files/uart/src/uart1.c: 226: {
 {
 [e :U _UART1_ReceiveEnable ]
 [f ]
-"191
-[; ;mcc_generated_files/uart/src/uart1.c: 191:     U1CON0bits.RXEN = 1;
+"227
+[; ;mcc_generated_files/uart/src/uart1.c: 227:     U1CON0bits.RXEN = 1;
 [e = . . _U1CON0bits 3 1 -> -> 1 `i `uc ]
-"192
-[; ;mcc_generated_files/uart/src/uart1.c: 192: }
+"228
+[; ;mcc_generated_files/uart/src/uart1.c: 228: }
 [e :UE 1924 ]
 }
-[v F14126 `(v ~T0 @X0 1 tf ]
-"194
-[; ;mcc_generated_files/uart/src/uart1.c: 194: __attribute__((inline)) void UART1_ReceiveDisable(void)
-[v _UART1_ReceiveDisable `TF14126 ~T0 @X0 1 e ]
-"195
-[; ;mcc_generated_files/uart/src/uart1.c: 195: {
+[v F14225 `(v ~T0 @X0 1 tf ]
+"230
+[; ;mcc_generated_files/uart/src/uart1.c: 230: __attribute__((inline)) void UART1_ReceiveDisable(void)
+[v _UART1_ReceiveDisable `TF14225 ~T0 @X0 1 e ]
+"231
+[; ;mcc_generated_files/uart/src/uart1.c: 231: {
 {
 [e :U _UART1_ReceiveDisable ]
 [f ]
-"196
-[; ;mcc_generated_files/uart/src/uart1.c: 196:     U1CON0bits.RXEN = 0;
+"232
+[; ;mcc_generated_files/uart/src/uart1.c: 232:     U1CON0bits.RXEN = 0;
 [e = . . _U1CON0bits 3 1 -> -> 0 `i `uc ]
-"197
-[; ;mcc_generated_files/uart/src/uart1.c: 197: }
+"233
+[; ;mcc_generated_files/uart/src/uart1.c: 233: }
 [e :UE 1925 ]
 }
-[v F14128 `(v ~T0 @X0 1 tf ]
-"199
-[; ;mcc_generated_files/uart/src/uart1.c: 199: __attribute__((inline)) void UART1_SendBreakControlEnable(void)
-[v _UART1_SendBreakControlEnable `TF14128 ~T0 @X0 1 e ]
-"200
-[; ;mcc_generated_files/uart/src/uart1.c: 200: {
+[v F14227 `(v ~T0 @X0 1 tf ]
+"235
+[; ;mcc_generated_files/uart/src/uart1.c: 235: __attribute__((inline)) void UART1_SendBreakControlEnable(void)
+[v _UART1_SendBreakControlEnable `TF14227 ~T0 @X0 1 e ]
+"236
+[; ;mcc_generated_files/uart/src/uart1.c: 236: {
 {
 [e :U _UART1_SendBreakControlEnable ]
 [f ]
-"201
-[; ;mcc_generated_files/uart/src/uart1.c: 201:     U1CON1bits.SENDB = 1;
+"237
+[; ;mcc_generated_files/uart/src/uart1.c: 237:     U1CON1bits.SENDB = 1;
 [e = . . _U1CON1bits 0 0 -> -> 1 `i `uc ]
-"202
-[; ;mcc_generated_files/uart/src/uart1.c: 202: }
+"238
+[; ;mcc_generated_files/uart/src/uart1.c: 238: }
 [e :UE 1926 ]
 }
-[v F14130 `(v ~T0 @X0 1 tf ]
-"204
-[; ;mcc_generated_files/uart/src/uart1.c: 204: __attribute__((inline)) void UART1_SendBreakControlDisable(void)
-[v _UART1_SendBreakControlDisable `TF14130 ~T0 @X0 1 e ]
-"205
-[; ;mcc_generated_files/uart/src/uart1.c: 205: {
+[v F14229 `(v ~T0 @X0 1 tf ]
+"240
+[; ;mcc_generated_files/uart/src/uart1.c: 240: __attribute__((inline)) void UART1_SendBreakControlDisable(void)
+[v _UART1_SendBreakControlDisable `TF14229 ~T0 @X0 1 e ]
+"241
+[; ;mcc_generated_files/uart/src/uart1.c: 241: {
 {
 [e :U _UART1_SendBreakControlDisable ]
 [f ]
-"206
-[; ;mcc_generated_files/uart/src/uart1.c: 206:     U1CON1bits.SENDB = 0;
+"242
+[; ;mcc_generated_files/uart/src/uart1.c: 242:     U1CON1bits.SENDB = 0;
 [e = . . _U1CON1bits 0 0 -> -> 0 `i `uc ]
-"207
-[; ;mcc_generated_files/uart/src/uart1.c: 207: }
+"243
+[; ;mcc_generated_files/uart/src/uart1.c: 243: }
 [e :UE 1927 ]
 }
-[v F14132 `(v ~T0 @X0 1 tf1`a ]
-"209
-[; ;mcc_generated_files/uart/src/uart1.c: 209: __attribute__((inline)) void UART1_AutoBaudSet(_Bool enable)
-[v _UART1_AutoBaudSet `TF14132 ~T0 @X0 1 e ]
-"210
-[; ;mcc_generated_files/uart/src/uart1.c: 210: {
+[v F14231 `(v ~T0 @X0 1 tf1`a ]
+"245
+[; ;mcc_generated_files/uart/src/uart1.c: 245: __attribute__((inline)) void UART1_AutoBaudSet(_Bool enable)
+[v _UART1_AutoBaudSet `TF14231 ~T0 @X0 1 e ]
+"246
+[; ;mcc_generated_files/uart/src/uart1.c: 246: {
 {
 [e :U _UART1_AutoBaudSet ]
-"209
-[; ;mcc_generated_files/uart/src/uart1.c: 209: __attribute__((inline)) void UART1_AutoBaudSet(_Bool enable)
+"245
+[; ;mcc_generated_files/uart/src/uart1.c: 245: __attribute__((inline)) void UART1_AutoBaudSet(_Bool enable)
 [v _enable `a ~T0 @X0 1 r1 ]
-"210
-[; ;mcc_generated_files/uart/src/uart1.c: 210: {
+"246
+[; ;mcc_generated_files/uart/src/uart1.c: 246: {
 [f ]
-"211
-[; ;mcc_generated_files/uart/src/uart1.c: 211:     if(enable)
+"247
+[; ;mcc_generated_files/uart/src/uart1.c: 247:     if(enable)
 [e $ ! != -> _enable `i -> 0 `i 1929  ]
-"212
-[; ;mcc_generated_files/uart/src/uart1.c: 212:     {
+"248
+[; ;mcc_generated_files/uart/src/uart1.c: 248:     {
 {
-"213
-[; ;mcc_generated_files/uart/src/uart1.c: 213:         U1CON0bits.ABDEN = 1;
+"249
+[; ;mcc_generated_files/uart/src/uart1.c: 249:         U1CON0bits.ABDEN = 1;
 [e = . . _U1CON0bits 3 3 -> -> 1 `i `uc ]
-"214
-[; ;mcc_generated_files/uart/src/uart1.c: 214:     }
+"250
+[; ;mcc_generated_files/uart/src/uart1.c: 250:     }
 }
 [e $U 1930  ]
-"215
-[; ;mcc_generated_files/uart/src/uart1.c: 215:     else
+"251
+[; ;mcc_generated_files/uart/src/uart1.c: 251:     else
 [e :U 1929 ]
-"216
-[; ;mcc_generated_files/uart/src/uart1.c: 216:     {
+"252
+[; ;mcc_generated_files/uart/src/uart1.c: 252:     {
 {
-"217
-[; ;mcc_generated_files/uart/src/uart1.c: 217:       U1CON0bits.ABDEN = 0;
+"253
+[; ;mcc_generated_files/uart/src/uart1.c: 253:       U1CON0bits.ABDEN = 0;
 [e = . . _U1CON0bits 3 3 -> -> 0 `i `uc ]
-"218
-[; ;mcc_generated_files/uart/src/uart1.c: 218:     }
+"254
+[; ;mcc_generated_files/uart/src/uart1.c: 254:     }
 }
 [e :U 1930 ]
-"219
-[; ;mcc_generated_files/uart/src/uart1.c: 219: }
+"255
+[; ;mcc_generated_files/uart/src/uart1.c: 255: }
 [e :UE 1928 ]
 }
-[v F14135 `(a ~T0 @X0 1 tf ]
-"222
-[; ;mcc_generated_files/uart/src/uart1.c: 222: __attribute__((inline)) _Bool UART1_AutoBaudQuery(void)
-[v _UART1_AutoBaudQuery `TF14135 ~T0 @X0 1 e ]
-"223
-[; ;mcc_generated_files/uart/src/uart1.c: 223: {
+[v F14234 `(a ~T0 @X0 1 tf ]
+"258
+[; ;mcc_generated_files/uart/src/uart1.c: 258: __attribute__((inline)) _Bool UART1_AutoBaudQuery(void)
+[v _UART1_AutoBaudQuery `TF14234 ~T0 @X0 1 e ]
+"259
+[; ;mcc_generated_files/uart/src/uart1.c: 259: {
 {
 [e :U _UART1_AutoBaudQuery ]
 [f ]
-"224
-[; ;mcc_generated_files/uart/src/uart1.c: 224:     return (_Bool)U1UIRbits.ABDIF;
+"260
+[; ;mcc_generated_files/uart/src/uart1.c: 260:     return (_Bool)U1UIRbits.ABDIF;
 [e ) -> . . _U1UIRbits 0 3 `a ]
 [e $UE 1931  ]
-"225
-[; ;mcc_generated_files/uart/src/uart1.c: 225: }
+"261
+[; ;mcc_generated_files/uart/src/uart1.c: 261: }
 [e :UE 1931 ]
 }
-[v F14137 `(v ~T0 @X0 1 tf ]
-"227
-[; ;mcc_generated_files/uart/src/uart1.c: 227: __attribute__((inline)) void UART1_AutoBaudDetectCompleteReset(void)
-[v _UART1_AutoBaudDetectCompleteReset `TF14137 ~T0 @X0 1 e ]
-"228
-[; ;mcc_generated_files/uart/src/uart1.c: 228: {
+[v F14236 `(v ~T0 @X0 1 tf ]
+"263
+[; ;mcc_generated_files/uart/src/uart1.c: 263: __attribute__((inline)) void UART1_AutoBaudDetectCompleteReset(void)
+[v _UART1_AutoBaudDetectCompleteReset `TF14236 ~T0 @X0 1 e ]
+"264
+[; ;mcc_generated_files/uart/src/uart1.c: 264: {
 {
 [e :U _UART1_AutoBaudDetectCompleteReset ]
 [f ]
-"229
-[; ;mcc_generated_files/uart/src/uart1.c: 229:     U1UIRbits.ABDIF = 0;
+"265
+[; ;mcc_generated_files/uart/src/uart1.c: 265:     U1UIRbits.ABDIF = 0;
 [e = . . _U1UIRbits 0 3 -> -> 0 `i `uc ]
-"230
-[; ;mcc_generated_files/uart/src/uart1.c: 230: }
+"266
+[; ;mcc_generated_files/uart/src/uart1.c: 266: }
 [e :UE 1932 ]
 }
-[v F14139 `(a ~T0 @X0 1 tf ]
-"232
-[; ;mcc_generated_files/uart/src/uart1.c: 232: __attribute__((inline)) _Bool UART1_IsAutoBaudDetectOverflow(void)
-[v _UART1_IsAutoBaudDetectOverflow `TF14139 ~T0 @X0 1 e ]
-"233
-[; ;mcc_generated_files/uart/src/uart1.c: 233: {
+[v F14238 `(a ~T0 @X0 1 tf ]
+"268
+[; ;mcc_generated_files/uart/src/uart1.c: 268: __attribute__((inline)) _Bool UART1_IsAutoBaudDetectOverflow(void)
+[v _UART1_IsAutoBaudDetectOverflow `TF14238 ~T0 @X0 1 e ]
+"269
+[; ;mcc_generated_files/uart/src/uart1.c: 269: {
 {
 [e :U _UART1_IsAutoBaudDetectOverflow ]
 [f ]
-"234
-[; ;mcc_generated_files/uart/src/uart1.c: 234:     return (_Bool)U1ERRIRbits.ABDOVF;
+"270
+[; ;mcc_generated_files/uart/src/uart1.c: 270:     return (_Bool)U1ERRIRbits.ABDOVF;
 [e ) -> . . _U1ERRIRbits 0 5 `a ]
 [e $UE 1933  ]
-"235
-[; ;mcc_generated_files/uart/src/uart1.c: 235: }
+"271
+[; ;mcc_generated_files/uart/src/uart1.c: 271: }
 [e :UE 1933 ]
 }
-[v F14141 `(v ~T0 @X0 1 tf ]
-"237
-[; ;mcc_generated_files/uart/src/uart1.c: 237: __attribute__((inline)) void UART1_AutoBaudDetectOverflowReset(void)
-[v _UART1_AutoBaudDetectOverflowReset `TF14141 ~T0 @X0 1 e ]
-"238
-[; ;mcc_generated_files/uart/src/uart1.c: 238: {
+[v F14240 `(v ~T0 @X0 1 tf ]
+"273
+[; ;mcc_generated_files/uart/src/uart1.c: 273: __attribute__((inline)) void UART1_AutoBaudDetectOverflowReset(void)
+[v _UART1_AutoBaudDetectOverflowReset `TF14240 ~T0 @X0 1 e ]
+"274
+[; ;mcc_generated_files/uart/src/uart1.c: 274: {
 {
 [e :U _UART1_AutoBaudDetectOverflowReset ]
 [f ]
-"239
-[; ;mcc_generated_files/uart/src/uart1.c: 239:     U1ERRIRbits.ABDOVF = 0;
+"275
+[; ;mcc_generated_files/uart/src/uart1.c: 275:     U1ERRIRbits.ABDOVF = 0;
 [e = . . _U1ERRIRbits 0 5 -> -> 0 `i `uc ]
-"240
-[; ;mcc_generated_files/uart/src/uart1.c: 240: }
+"276
+[; ;mcc_generated_files/uart/src/uart1.c: 276: }
 [e :UE 1934 ]
 }
-"242
-[; ;mcc_generated_files/uart/src/uart1.c: 242: _Bool UART1_IsRxReady(void)
-[v _UART1_IsRxReady `(a ~T0 @X0 1 ef ]
-"243
-[; ;mcc_generated_files/uart/src/uart1.c: 243: {
+[v F14242 `(v ~T0 @X0 1 tf ]
+"278
+[; ;mcc_generated_files/uart/src/uart1.c: 278: __attribute__((inline)) void UART1_TransmitInterruptEnable(void)
+[v _UART1_TransmitInterruptEnable `TF14242 ~T0 @X0 1 e ]
+"279
+[; ;mcc_generated_files/uart/src/uart1.c: 279: {
 {
-[e :U _UART1_IsRxReady ]
+[e :U _UART1_TransmitInterruptEnable ]
 [f ]
-"244
-[; ;mcc_generated_files/uart/src/uart1.c: 244:     return (_Bool)(!U1FIFObits.RXBE);
-[e ) -> -> ! != -> . . _U1FIFObits 0 1 `i -> 0 `i `i `a ]
-[e $UE 1935  ]
-"245
-[; ;mcc_generated_files/uart/src/uart1.c: 245: }
+"280
+[; ;mcc_generated_files/uart/src/uart1.c: 280:     PIE4bits.U1TXIE = 1;
+[e = . . _PIE4bits 0 1 -> -> 1 `i `uc ]
+"281
+[; ;mcc_generated_files/uart/src/uart1.c: 281: }
 [e :UE 1935 ]
 }
-"247
-[; ;mcc_generated_files/uart/src/uart1.c: 247: _Bool UART1_IsTxReady(void)
-[v _UART1_IsTxReady `(a ~T0 @X0 1 ef ]
-"248
-[; ;mcc_generated_files/uart/src/uart1.c: 248: {
+[v F14244 `(v ~T0 @X0 1 tf ]
+"283
+[; ;mcc_generated_files/uart/src/uart1.c: 283: __attribute__((inline)) void UART1_TransmitInterruptDisable(void)
+[v _UART1_TransmitInterruptDisable `TF14244 ~T0 @X0 1 e ]
+"284
+[; ;mcc_generated_files/uart/src/uart1.c: 284: {
 {
-[e :U _UART1_IsTxReady ]
+[e :U _UART1_TransmitInterruptDisable ]
 [f ]
-"249
-[; ;mcc_generated_files/uart/src/uart1.c: 249:     return (_Bool)(U1FIFObits.TXBE && U1CON0bits.TXEN);
-[e ) -> -> && != -> . . _U1FIFObits 0 5 `i -> 0 `i != -> . . _U1CON0bits 3 2 `i -> 0 `i `i `a ]
-[e $UE 1936  ]
-"250
-[; ;mcc_generated_files/uart/src/uart1.c: 250: }
+"285
+[; ;mcc_generated_files/uart/src/uart1.c: 285:     PIE4bits.U1TXIE = 0;
+[e = . . _PIE4bits 0 1 -> -> 0 `i `uc ]
+"286
+[; ;mcc_generated_files/uart/src/uart1.c: 286: }
 [e :UE 1936 ]
 }
-"252
-[; ;mcc_generated_files/uart/src/uart1.c: 252: _Bool UART1_IsTxDone(void)
-[v _UART1_IsTxDone `(a ~T0 @X0 1 ef ]
-"253
-[; ;mcc_generated_files/uart/src/uart1.c: 253: {
+[v F14246 `(v ~T0 @X0 1 tf ]
+"288
+[; ;mcc_generated_files/uart/src/uart1.c: 288: __attribute__((inline)) void UART1_ReceiveInterruptEnable(void)
+[v _UART1_ReceiveInterruptEnable `TF14246 ~T0 @X0 1 e ]
+"289
+[; ;mcc_generated_files/uart/src/uart1.c: 289: {
 {
-[e :U _UART1_IsTxDone ]
+[e :U _UART1_ReceiveInterruptEnable ]
 [f ]
-"254
-[; ;mcc_generated_files/uart/src/uart1.c: 254:     return U1ERRIRbits.TXMTIF;
-[e ) -> . . _U1ERRIRbits 0 7 `a ]
-[e $UE 1937  ]
-"255
-[; ;mcc_generated_files/uart/src/uart1.c: 255: }
+"290
+[; ;mcc_generated_files/uart/src/uart1.c: 290:     PIE4bits.U1RXIE = 1;
+[e = . . _PIE4bits 0 0 -> -> 1 `i `uc ]
+"291
+[; ;mcc_generated_files/uart/src/uart1.c: 291: }
 [e :UE 1937 ]
 }
-"257
-[; ;mcc_generated_files/uart/src/uart1.c: 257: size_t UART1_ErrorGet(void)
-[v _UART1_ErrorGet `(ui ~T0 @X0 1 ef ]
-"258
-[; ;mcc_generated_files/uart/src/uart1.c: 258: {
+[v F14248 `(v ~T0 @X0 1 tf ]
+"292
+[; ;mcc_generated_files/uart/src/uart1.c: 292: __attribute__((inline)) void UART1_ReceiveInterruptDisable(void)
+[v _UART1_ReceiveInterruptDisable `TF14248 ~T0 @X0 1 e ]
+"293
+[; ;mcc_generated_files/uart/src/uart1.c: 293: {
 {
-[e :U _UART1_ErrorGet ]
+[e :U _UART1_ReceiveInterruptDisable ]
 [f ]
-"259
-[; ;mcc_generated_files/uart/src/uart1.c: 259:     uart1RxLastError.status = 0;
-[e = . _uart1RxLastError 1 -> -> 0 `i `ui ]
-"261
-[; ;mcc_generated_files/uart/src/uart1.c: 261:     if(U1ERRIRbits.FERIF)
-[e $ ! != -> . . _U1ERRIRbits 0 3 `i -> 0 `i 1939  ]
-"262
-[; ;mcc_generated_files/uart/src/uart1.c: 262:     {
-{
-"263
-[; ;mcc_generated_files/uart/src/uart1.c: 263:         uart1RxLastError.ferr = 1;
-[e = . . _uart1RxLastError 0 1 -> -> 1 `i `uc ]
-"264
-[; ;mcc_generated_files/uart/src/uart1.c: 264:         if(((void*)0) != UART1_FramingErrorHandler)
-[e $ ! != -> -> -> 0 `i `*v `*F14146 _UART1_FramingErrorHandler 1940  ]
-"265
-[; ;mcc_generated_files/uart/src/uart1.c: 265:         {
-{
-"266
-[; ;mcc_generated_files/uart/src/uart1.c: 266:             UART1_FramingErrorHandler();
-[e ( *U _UART1_FramingErrorHandler ..  ]
-"267
-[; ;mcc_generated_files/uart/src/uart1.c: 267:         }
-}
-[e :U 1940 ]
-"268
-[; ;mcc_generated_files/uart/src/uart1.c: 268:     }
-}
-[e :U 1939 ]
-"269
-[; ;mcc_generated_files/uart/src/uart1.c: 269:     if(U1ERRIRbits.RXFOIF)
-[e $ ! != -> . . _U1ERRIRbits 0 1 `i -> 0 `i 1941  ]
-"270
-[; ;mcc_generated_files/uart/src/uart1.c: 270:     {
-{
-"271
-[; ;mcc_generated_files/uart/src/uart1.c: 271:         uart1RxLastError.oerr = 1;
-[e = . . _uart1RxLastError 0 2 -> -> 1 `i `uc ]
-"272
-[; ;mcc_generated_files/uart/src/uart1.c: 272:         if(((void*)0) != UART1_OverrunErrorHandler)
-[e $ ! != -> -> -> 0 `i `*v `*F14147 _UART1_OverrunErrorHandler 1942  ]
-"273
-[; ;mcc_generated_files/uart/src/uart1.c: 273:         {
-{
-"274
-[; ;mcc_generated_files/uart/src/uart1.c: 274:             UART1_OverrunErrorHandler();
-[e ( *U _UART1_OverrunErrorHandler ..  ]
-"275
-[; ;mcc_generated_files/uart/src/uart1.c: 275:         }
-}
-[e :U 1942 ]
-"276
-[; ;mcc_generated_files/uart/src/uart1.c: 276:     }
-}
-[e :U 1941 ]
-"278
-[; ;mcc_generated_files/uart/src/uart1.c: 278:     return uart1RxLastError.status;
-[e ) . _uart1RxLastError 1 ]
-[e $UE 1938  ]
-"279
-[; ;mcc_generated_files/uart/src/uart1.c: 279: }
+"294
+[; ;mcc_generated_files/uart/src/uart1.c: 294:     PIE4bits.U1RXIE = 0;
+[e = . . _PIE4bits 0 0 -> -> 0 `i `uc ]
+"295
+[; ;mcc_generated_files/uart/src/uart1.c: 295: }
 [e :UE 1938 ]
 }
-"281
-[; ;mcc_generated_files/uart/src/uart1.c: 281: uint8_t UART1_Read(void)
-[v _UART1_Read `(uc ~T0 @X0 1 ef ]
-"282
-[; ;mcc_generated_files/uart/src/uart1.c: 282: {
-{
-[e :U _UART1_Read ]
-[f ]
-"283
-[; ;mcc_generated_files/uart/src/uart1.c: 283:     return U1RXB;
-[e ) _U1RXB ]
-[e $UE 1943  ]
-"284
-[; ;mcc_generated_files/uart/src/uart1.c: 284: }
-[e :UE 1943 ]
-}
-"287
-[; ;mcc_generated_files/uart/src/uart1.c: 287: void UART1_Write(uint8_t txData)
-[v _UART1_Write `(v ~T0 @X0 1 ef1`uc ]
-"288
-[; ;mcc_generated_files/uart/src/uart1.c: 288: {
-{
-[e :U _UART1_Write ]
-"287
-[; ;mcc_generated_files/uart/src/uart1.c: 287: void UART1_Write(uint8_t txData)
-[v _txData `uc ~T0 @X0 1 r1 ]
-"288
-[; ;mcc_generated_files/uart/src/uart1.c: 288: {
-[f ]
-"289
-[; ;mcc_generated_files/uart/src/uart1.c: 289:     U1TXB = txData;
-[e = _U1TXB _txData ]
-"290
-[; ;mcc_generated_files/uart/src/uart1.c: 290: }
-[e :UE 1944 ]
-}
 "297
-[; ;mcc_generated_files/uart/src/uart1.c: 297: static void UART1_DefaultFramingErrorCallback(void)
-[v _UART1_DefaultFramingErrorCallback `(v ~T0 @X0 1 sf ]
+[; ;mcc_generated_files/uart/src/uart1.c: 297: _Bool UART1_IsRxReady(void)
+[v _UART1_IsRxReady `(a ~T0 @X0 1 ef ]
 "298
 [; ;mcc_generated_files/uart/src/uart1.c: 298: {
 {
-[e :U _UART1_DefaultFramingErrorCallback ]
+[e :U _UART1_IsRxReady ]
 [f ]
+"299
+[; ;mcc_generated_files/uart/src/uart1.c: 299:     return (uart1RxCount ? 1 : 0);
+[e ) -> ? != -> _uart1RxCount `i -> 0 `i : -> 1 `i -> 0 `i `a ]
+[e $UE 1939  ]
 "300
 [; ;mcc_generated_files/uart/src/uart1.c: 300: }
-[e :UE 1945 ]
+[e :UE 1939 ]
 }
 "302
-[; ;mcc_generated_files/uart/src/uart1.c: 302: static void UART1_DefaultOverrunErrorCallback(void)
-[v _UART1_DefaultOverrunErrorCallback `(v ~T0 @X0 1 sf ]
+[; ;mcc_generated_files/uart/src/uart1.c: 302: _Bool UART1_IsTxReady(void)
+[v _UART1_IsTxReady `(a ~T0 @X0 1 ef ]
 "303
 [; ;mcc_generated_files/uart/src/uart1.c: 303: {
 {
-[e :U _UART1_DefaultOverrunErrorCallback ]
+[e :U _UART1_IsTxReady ]
 [f ]
+"304
+[; ;mcc_generated_files/uart/src/uart1.c: 304:     return (uart1TxBufferRemaining ? 1 : 0);
+[e ) -> ? != -> _uart1TxBufferRemaining `i -> 0 `i : -> 1 `i -> 0 `i `a ]
+[e $UE 1940  ]
 "305
 [; ;mcc_generated_files/uart/src/uart1.c: 305: }
-[e :UE 1946 ]
+[e :UE 1940 ]
 }
 "307
-[; ;mcc_generated_files/uart/src/uart1.c: 307: static void UART1_DefaultParityErrorCallback(void)
-[v _UART1_DefaultParityErrorCallback `(v ~T0 @X0 1 sf ]
+[; ;mcc_generated_files/uart/src/uart1.c: 307: _Bool UART1_IsTxDone(void)
+[v _UART1_IsTxDone `(a ~T0 @X0 1 ef ]
 "308
 [; ;mcc_generated_files/uart/src/uart1.c: 308: {
 {
-[e :U _UART1_DefaultParityErrorCallback ]
+[e :U _UART1_IsTxDone ]
 [f ]
+"309
+[; ;mcc_generated_files/uart/src/uart1.c: 309:     return U1ERRIRbits.TXMTIF;
+[e ) -> . . _U1ERRIRbits 0 7 `a ]
+[e $UE 1941  ]
 "310
 [; ;mcc_generated_files/uart/src/uart1.c: 310: }
-[e :UE 1947 ]
+[e :UE 1941 ]
 }
 "312
-[; ;mcc_generated_files/uart/src/uart1.c: 312: void UART1_FramingErrorCallbackRegister(void (* callbackHandler)(void))
-[v _UART1_FramingErrorCallbackRegister `(v ~T0 @X0 1 ef1`*F14155 ]
+[; ;mcc_generated_files/uart/src/uart1.c: 312: size_t UART1_ErrorGet(void)
+[v _UART1_ErrorGet `(ui ~T0 @X0 1 ef ]
 "313
 [; ;mcc_generated_files/uart/src/uart1.c: 313: {
 {
-[e :U _UART1_FramingErrorCallbackRegister ]
-"312
-[; ;mcc_generated_files/uart/src/uart1.c: 312: void UART1_FramingErrorCallbackRegister(void (* callbackHandler)(void))
-[v _callbackHandler `*F14157 ~T0 @X0 1 r1 ]
-"313
-[; ;mcc_generated_files/uart/src/uart1.c: 313: {
+[e :U _UART1_ErrorGet ]
 [f ]
 "314
-[; ;mcc_generated_files/uart/src/uart1.c: 314:     if(((void*)0) != callbackHandler)
-[e $ ! != -> -> -> 0 `i `*v `*F14158 _callbackHandler 1949  ]
-"315
-[; ;mcc_generated_files/uart/src/uart1.c: 315:     {
-{
+[; ;mcc_generated_files/uart/src/uart1.c: 314:     uart1RxLastError.status = uart1RxStatusBuffer[(uart1RxTail + 1) & ((8) - 1)].status;
+[e = . _uart1RxLastError 1 . *U + &U _uart1RxStatusBuffer * -> -> & + -> _uart1RxTail `i -> 1 `i - -> 8 `i -> 1 `i `ui `ux -> -> # *U &U _uart1RxStatusBuffer `ui `ux 1 ]
 "316
-[; ;mcc_generated_files/uart/src/uart1.c: 316:         UART1_FramingErrorHandler = callbackHandler;
-[e = _UART1_FramingErrorHandler _callbackHandler ]
+[; ;mcc_generated_files/uart/src/uart1.c: 316:     return uart1RxLastError.status;
+[e ) . _uart1RxLastError 1 ]
+[e $UE 1942  ]
 "317
-[; ;mcc_generated_files/uart/src/uart1.c: 317:     }
+[; ;mcc_generated_files/uart/src/uart1.c: 317: }
+[e :UE 1942 ]
 }
-[e :U 1949 ]
-"318
-[; ;mcc_generated_files/uart/src/uart1.c: 318: }
-[e :UE 1948 ]
-}
+"319
+[; ;mcc_generated_files/uart/src/uart1.c: 319: uint8_t UART1_Read(void)
+[v _UART1_Read `(uc ~T0 @X0 1 ef ]
 "320
-[; ;mcc_generated_files/uart/src/uart1.c: 320: void UART1_OverrunErrorCallbackRegister(void (* callbackHandler)(void))
-[v _UART1_OverrunErrorCallbackRegister `(v ~T0 @X0 1 ef1`*F14161 ]
-"321
-[; ;mcc_generated_files/uart/src/uart1.c: 321: {
+[; ;mcc_generated_files/uart/src/uart1.c: 320: {
 {
-[e :U _UART1_OverrunErrorCallbackRegister ]
-"320
-[; ;mcc_generated_files/uart/src/uart1.c: 320: void UART1_OverrunErrorCallbackRegister(void (* callbackHandler)(void))
-[v _callbackHandler `*F14163 ~T0 @X0 1 r1 ]
-"321
-[; ;mcc_generated_files/uart/src/uart1.c: 321: {
+[e :U _UART1_Read ]
 [f ]
+"321
+[; ;mcc_generated_files/uart/src/uart1.c: 321:     uint8_t readValue = 0;
+[v _readValue `uc ~T0 @X0 1 a ]
+[e = _readValue -> -> 0 `i `uc ]
 "322
-[; ;mcc_generated_files/uart/src/uart1.c: 322:     if(((void*)0) != callbackHandler)
-[e $ ! != -> -> -> 0 `i `*v `*F14164 _callbackHandler 1951  ]
-"323
-[; ;mcc_generated_files/uart/src/uart1.c: 323:     {
-{
+[; ;mcc_generated_files/uart/src/uart1.c: 322:     uint8_t tempRxTail;
+[v _tempRxTail `uc ~T0 @X0 1 a ]
 "324
-[; ;mcc_generated_files/uart/src/uart1.c: 324:         UART1_OverrunErrorHandler = callbackHandler;
-[e = _UART1_OverrunErrorHandler _callbackHandler ]
+[; ;mcc_generated_files/uart/src/uart1.c: 324:     readValue = uart1RxBuffer[uart1RxTail];
+[e = _readValue *U + &U _uart1RxBuffer * -> _uart1RxTail `ux -> -> # *U &U _uart1RxBuffer `ui `ux ]
 "325
-[; ;mcc_generated_files/uart/src/uart1.c: 325:     }
-}
-[e :U 1951 ]
+[; ;mcc_generated_files/uart/src/uart1.c: 325:     tempRxTail = (uart1RxTail + 1) & ((8) - 1);
+[e = _tempRxTail -> & + -> _uart1RxTail `i -> 1 `i - -> 8 `i -> 1 `i `uc ]
 "326
-[; ;mcc_generated_files/uart/src/uart1.c: 326: }
-[e :UE 1950 ]
-}
+[; ;mcc_generated_files/uart/src/uart1.c: 326:     uart1RxTail = tempRxTail;
+[e = _uart1RxTail _tempRxTail ]
+"327
+[; ;mcc_generated_files/uart/src/uart1.c: 327:     PIE4bits.U1RXIE = 0;
+[e = . . _PIE4bits 0 0 -> -> 0 `i `uc ]
 "328
-[; ;mcc_generated_files/uart/src/uart1.c: 328: void UART1_ParityErrorCallbackRegister(void (* callbackHandler)(void))
-[v _UART1_ParityErrorCallbackRegister `(v ~T0 @X0 1 ef1`*F14167 ]
+[; ;mcc_generated_files/uart/src/uart1.c: 328:     if(uart1RxCount != 0)
+[e $ ! != -> _uart1RxCount `i -> 0 `i 1944  ]
 "329
-[; ;mcc_generated_files/uart/src/uart1.c: 329: {
+[; ;mcc_generated_files/uart/src/uart1.c: 329:     {
 {
-[e :U _UART1_ParityErrorCallbackRegister ]
-"328
-[; ;mcc_generated_files/uart/src/uart1.c: 328: void UART1_ParityErrorCallbackRegister(void (* callbackHandler)(void))
-[v _callbackHandler `*F14169 ~T0 @X0 1 r1 ]
-"329
-[; ;mcc_generated_files/uart/src/uart1.c: 329: {
-[f ]
 "330
-[; ;mcc_generated_files/uart/src/uart1.c: 330:     if(((void*)0) != callbackHandler)
-[e $ ! != -> -> -> 0 `i `*v `*F14170 _callbackHandler 1953  ]
+[; ;mcc_generated_files/uart/src/uart1.c: 330:         uart1RxCount--;
+[e -- _uart1RxCount -> -> 1 `i `Vuc ]
 "331
-[; ;mcc_generated_files/uart/src/uart1.c: 331:     {
-{
-"332
-[; ;mcc_generated_files/uart/src/uart1.c: 332:         UART1_ParityErrorHandler = callbackHandler;
-[e = _UART1_ParityErrorHandler _callbackHandler ]
-"333
-[; ;mcc_generated_files/uart/src/uart1.c: 333:     }
+[; ;mcc_generated_files/uart/src/uart1.c: 331:     }
 }
-[e :U 1953 ]
+[e :U 1944 ]
+"332
+[; ;mcc_generated_files/uart/src/uart1.c: 332:     PIE4bits.U1RXIE = 1;
+[e = . . _PIE4bits 0 0 -> -> 1 `i `uc ]
+"333
+[; ;mcc_generated_files/uart/src/uart1.c: 333:     return readValue;
+[e ) _readValue ]
+[e $UE 1943  ]
 "334
 [; ;mcc_generated_files/uart/src/uart1.c: 334: }
-[e :UE 1952 ]
+[e :UE 1943 ]
+}
+"337
+[; ;mcc_generated_files/uart/src/uart1.c: 337: void UART1_ReceiveISR(void)
+[v _UART1_ReceiveISR `(v ~T0 @X0 1 ef ]
+"338
+[; ;mcc_generated_files/uart/src/uart1.c: 338: {
+{
+[e :U _UART1_ReceiveISR ]
+[f ]
+"339
+[; ;mcc_generated_files/uart/src/uart1.c: 339:     uint8_t regValue;
+[v _regValue `uc ~T0 @X0 1 a ]
+"340
+[; ;mcc_generated_files/uart/src/uart1.c: 340:  uint8_t tempRxHead;
+[v _tempRxHead `uc ~T0 @X0 1 a ]
+"342
+[; ;mcc_generated_files/uart/src/uart1.c: 342:     uart1RxStatusBuffer[uart1RxHead].status = 0;
+[e = . *U + &U _uart1RxStatusBuffer * -> _uart1RxHead `ux -> -> # *U &U _uart1RxStatusBuffer `ui `ux 1 -> -> 0 `i `ui ]
+"344
+[; ;mcc_generated_files/uart/src/uart1.c: 344:     if(U1ERRIRbits.FERIF)
+[e $ ! != -> . . _U1ERRIRbits 0 3 `i -> 0 `i 1946  ]
+"345
+[; ;mcc_generated_files/uart/src/uart1.c: 345:     {
+{
+"346
+[; ;mcc_generated_files/uart/src/uart1.c: 346:         uart1RxStatusBuffer[uart1RxHead].ferr = 1;
+[e = . . *U + &U _uart1RxStatusBuffer * -> _uart1RxHead `ux -> -> # *U &U _uart1RxStatusBuffer `ui `ux 0 1 -> -> 1 `i `uc ]
+"347
+[; ;mcc_generated_files/uart/src/uart1.c: 347:         if(((void*)0) != UART1_FramingErrorHandler)
+[e $ ! != -> -> -> 0 `i `*v `*F14259 _UART1_FramingErrorHandler 1947  ]
+"348
+[; ;mcc_generated_files/uart/src/uart1.c: 348:         {
+{
+"349
+[; ;mcc_generated_files/uart/src/uart1.c: 349:             UART1_FramingErrorHandler();
+[e ( *U _UART1_FramingErrorHandler ..  ]
+"350
+[; ;mcc_generated_files/uart/src/uart1.c: 350:         }
+}
+[e :U 1947 ]
+"351
+[; ;mcc_generated_files/uart/src/uart1.c: 351:     }
+}
+[e :U 1946 ]
+"352
+[; ;mcc_generated_files/uart/src/uart1.c: 352:     if(U1ERRIRbits.RXFOIF)
+[e $ ! != -> . . _U1ERRIRbits 0 1 `i -> 0 `i 1948  ]
+"353
+[; ;mcc_generated_files/uart/src/uart1.c: 353:     {
+{
+"354
+[; ;mcc_generated_files/uart/src/uart1.c: 354:         uart1RxStatusBuffer[uart1RxHead].oerr = 1;
+[e = . . *U + &U _uart1RxStatusBuffer * -> _uart1RxHead `ux -> -> # *U &U _uart1RxStatusBuffer `ui `ux 0 2 -> -> 1 `i `uc ]
+"355
+[; ;mcc_generated_files/uart/src/uart1.c: 355:         if(((void*)0) != UART1_OverrunErrorHandler)
+[e $ ! != -> -> -> 0 `i `*v `*F14260 _UART1_OverrunErrorHandler 1949  ]
+"356
+[; ;mcc_generated_files/uart/src/uart1.c: 356:         {
+{
+"357
+[; ;mcc_generated_files/uart/src/uart1.c: 357:             UART1_OverrunErrorHandler();
+[e ( *U _UART1_OverrunErrorHandler ..  ]
+"358
+[; ;mcc_generated_files/uart/src/uart1.c: 358:         }
+}
+[e :U 1949 ]
+"359
+[; ;mcc_generated_files/uart/src/uart1.c: 359:     }
+}
+[e :U 1948 ]
+"361
+[; ;mcc_generated_files/uart/src/uart1.c: 361:     regValue = U1RXB;
+[e = _regValue _U1RXB ]
+"363
+[; ;mcc_generated_files/uart/src/uart1.c: 363:     tempRxHead = (uart1RxHead + 1) & ((8) - 1);
+[e = _tempRxHead -> & + -> _uart1RxHead `i -> 1 `i - -> 8 `i -> 1 `i `uc ]
+"364
+[; ;mcc_generated_files/uart/src/uart1.c: 364:     if (tempRxHead == uart1RxTail)
+[e $ ! == -> _tempRxHead `i -> _uart1RxTail `i 1950  ]
+"365
+[; ;mcc_generated_files/uart/src/uart1.c: 365:     {
+{
+"367
+[; ;mcc_generated_files/uart/src/uart1.c: 367:  }
+}
+[e $U 1951  ]
+"368
+[; ;mcc_generated_files/uart/src/uart1.c: 368:     else
+[e :U 1950 ]
+"369
+[; ;mcc_generated_files/uart/src/uart1.c: 369:     {
+{
+"370
+[; ;mcc_generated_files/uart/src/uart1.c: 370:         uart1RxBuffer[uart1RxHead] = regValue;
+[e = *U + &U _uart1RxBuffer * -> _uart1RxHead `ux -> -> # *U &U _uart1RxBuffer `ui `ux _regValue ]
+"371
+[; ;mcc_generated_files/uart/src/uart1.c: 371:   uart1RxHead = tempRxHead;
+[e = _uart1RxHead _tempRxHead ]
+"372
+[; ;mcc_generated_files/uart/src/uart1.c: 372:   uart1RxCount++;
+[e ++ _uart1RxCount -> -> 1 `i `Vuc ]
+"373
+[; ;mcc_generated_files/uart/src/uart1.c: 373:  }
+}
+[e :U 1951 ]
+"375
+[; ;mcc_generated_files/uart/src/uart1.c: 375:     if(UART1_RxCompleteInterruptHandler != ((void*)0))
+[e $ ! != _UART1_RxCompleteInterruptHandler -> -> -> 0 `i `*v `*F14261 1952  ]
+"376
+[; ;mcc_generated_files/uart/src/uart1.c: 376:     {
+{
+"377
+[; ;mcc_generated_files/uart/src/uart1.c: 377:         (*UART1_RxCompleteInterruptHandler)();
+[e ( *U _UART1_RxCompleteInterruptHandler ..  ]
+"378
+[; ;mcc_generated_files/uart/src/uart1.c: 378:     }
+}
+[e :U 1952 ]
+"379
+[; ;mcc_generated_files/uart/src/uart1.c: 379: }
+[e :UE 1945 ]
+}
+"381
+[; ;mcc_generated_files/uart/src/uart1.c: 381: void UART1_Write(uint8_t txData)
+[v _UART1_Write `(v ~T0 @X0 1 ef1`uc ]
+"382
+[; ;mcc_generated_files/uart/src/uart1.c: 382: {
+{
+[e :U _UART1_Write ]
+"381
+[; ;mcc_generated_files/uart/src/uart1.c: 381: void UART1_Write(uint8_t txData)
+[v _txData `uc ~T0 @X0 1 r1 ]
+"382
+[; ;mcc_generated_files/uart/src/uart1.c: 382: {
+[f ]
+"383
+[; ;mcc_generated_files/uart/src/uart1.c: 383:     uint8_t tempTxHead;
+[v _tempTxHead `uc ~T0 @X0 1 a ]
+"385
+[; ;mcc_generated_files/uart/src/uart1.c: 385:     if(0 == PIE4bits.U1TXIE)
+[e $ ! == -> 0 `i -> . . _PIE4bits 0 1 `i 1954  ]
+"386
+[; ;mcc_generated_files/uart/src/uart1.c: 386:     {
+{
+"387
+[; ;mcc_generated_files/uart/src/uart1.c: 387:         U1TXB = txData;
+[e = _U1TXB _txData ]
+"388
+[; ;mcc_generated_files/uart/src/uart1.c: 388:     }
+}
+[e $U 1955  ]
+"389
+[; ;mcc_generated_files/uart/src/uart1.c: 389:     else if(uart1TxBufferRemaining)
+[e :U 1954 ]
+[e $ ! != -> _uart1TxBufferRemaining `i -> 0 `i 1956  ]
+"390
+[; ;mcc_generated_files/uart/src/uart1.c: 390:     {
+{
+"391
+[; ;mcc_generated_files/uart/src/uart1.c: 391:        uart1TxBuffer[uart1TxHead] = txData;
+[e = *U + &U _uart1TxBuffer * -> _uart1TxHead `ux -> -> # *U &U _uart1TxBuffer `ui `ux _txData ]
+"392
+[; ;mcc_generated_files/uart/src/uart1.c: 392:        tempTxHead = (uart1TxHead + 1) & ((8) - 1);
+[e = _tempTxHead -> & + -> _uart1TxHead `i -> 1 `i - -> 8 `i -> 1 `i `uc ]
+"394
+[; ;mcc_generated_files/uart/src/uart1.c: 394:        uart1TxHead = tempTxHead;
+[e = _uart1TxHead _tempTxHead ]
+"395
+[; ;mcc_generated_files/uart/src/uart1.c: 395:        PIE4bits.U1TXIE = 0;
+[e = . . _PIE4bits 0 1 -> -> 0 `i `uc ]
+"396
+[; ;mcc_generated_files/uart/src/uart1.c: 396:        uart1TxBufferRemaining--;
+[e -- _uart1TxBufferRemaining -> -> 1 `i `Vuc ]
+"397
+[; ;mcc_generated_files/uart/src/uart1.c: 397:     }
+}
+[e $U 1957  ]
+"398
+[; ;mcc_generated_files/uart/src/uart1.c: 398:     else
+[e :U 1956 ]
+"399
+[; ;mcc_generated_files/uart/src/uart1.c: 399:     {
+{
+"401
+[; ;mcc_generated_files/uart/src/uart1.c: 401:     }
+}
+[e :U 1957 ]
+[e :U 1955 ]
+"402
+[; ;mcc_generated_files/uart/src/uart1.c: 402:     PIE4bits.U1TXIE = 1;
+[e = . . _PIE4bits 0 1 -> -> 1 `i `uc ]
+"403
+[; ;mcc_generated_files/uart/src/uart1.c: 403: }
+[e :UE 1953 ]
+}
+"406
+[; ;mcc_generated_files/uart/src/uart1.c: 406: void UART1_TransmitISR(void)
+[v _UART1_TransmitISR `(v ~T0 @X0 1 ef ]
+"407
+[; ;mcc_generated_files/uart/src/uart1.c: 407: {
+{
+[e :U _UART1_TransmitISR ]
+[f ]
+"408
+[; ;mcc_generated_files/uart/src/uart1.c: 408:     uint8_t tempTxTail;
+[v _tempTxTail `uc ~T0 @X0 1 a ]
+"410
+[; ;mcc_generated_files/uart/src/uart1.c: 410:     if(sizeof(uart1TxBuffer) > uart1TxBufferRemaining)
+[e $ ! > -> # _uart1TxBuffer `ui -> _uart1TxBufferRemaining `ui 1959  ]
+"411
+[; ;mcc_generated_files/uart/src/uart1.c: 411:     {
+{
+"412
+[; ;mcc_generated_files/uart/src/uart1.c: 412:        U1TXB = uart1TxBuffer[uart1TxTail];
+[e = _U1TXB *U + &U _uart1TxBuffer * -> _uart1TxTail `ux -> -> # *U &U _uart1TxBuffer `ui `ux ]
+"413
+[; ;mcc_generated_files/uart/src/uart1.c: 413:        tempTxTail = (uart1TxTail + 1) & ((8) - 1);
+[e = _tempTxTail -> & + -> _uart1TxTail `i -> 1 `i - -> 8 `i -> 1 `i `uc ]
+"415
+[; ;mcc_generated_files/uart/src/uart1.c: 415:        uart1TxTail = tempTxTail;
+[e = _uart1TxTail _tempTxTail ]
+"416
+[; ;mcc_generated_files/uart/src/uart1.c: 416:        uart1TxBufferRemaining++;
+[e ++ _uart1TxBufferRemaining -> -> 1 `i `Vuc ]
+"417
+[; ;mcc_generated_files/uart/src/uart1.c: 417:     }
+}
+[e $U 1960  ]
+"418
+[; ;mcc_generated_files/uart/src/uart1.c: 418:     else
+[e :U 1959 ]
+"419
+[; ;mcc_generated_files/uart/src/uart1.c: 419:     {
+{
+"420
+[; ;mcc_generated_files/uart/src/uart1.c: 420:         PIE4bits.U1TXIE = 0;
+[e = . . _PIE4bits 0 1 -> -> 0 `i `uc ]
+"421
+[; ;mcc_generated_files/uart/src/uart1.c: 421:     }
+}
+[e :U 1960 ]
+"422
+[; ;mcc_generated_files/uart/src/uart1.c: 422:     if(UART1_TxCompleteInterruptHandler != ((void*)0))
+[e $ ! != _UART1_TxCompleteInterruptHandler -> -> -> 0 `i `*v `*F14267 1961  ]
+"423
+[; ;mcc_generated_files/uart/src/uart1.c: 423:     {
+{
+"424
+[; ;mcc_generated_files/uart/src/uart1.c: 424:         (*UART1_TxCompleteInterruptHandler)();
+[e ( *U _UART1_TxCompleteInterruptHandler ..  ]
+"425
+[; ;mcc_generated_files/uart/src/uart1.c: 425:     }
+}
+[e :U 1961 ]
+"426
+[; ;mcc_generated_files/uart/src/uart1.c: 426: }
+[e :UE 1958 ]
+}
+"432
+[; ;mcc_generated_files/uart/src/uart1.c: 432: static void UART1_DefaultFramingErrorCallback(void)
+[v _UART1_DefaultFramingErrorCallback `(v ~T0 @X0 1 sf ]
+"433
+[; ;mcc_generated_files/uart/src/uart1.c: 433: {
+{
+[e :U _UART1_DefaultFramingErrorCallback ]
+[f ]
+"435
+[; ;mcc_generated_files/uart/src/uart1.c: 435: }
+[e :UE 1962 ]
+}
+"437
+[; ;mcc_generated_files/uart/src/uart1.c: 437: static void UART1_DefaultOverrunErrorCallback(void)
+[v _UART1_DefaultOverrunErrorCallback `(v ~T0 @X0 1 sf ]
+"438
+[; ;mcc_generated_files/uart/src/uart1.c: 438: {
+{
+[e :U _UART1_DefaultOverrunErrorCallback ]
+[f ]
+"440
+[; ;mcc_generated_files/uart/src/uart1.c: 440: }
+[e :UE 1963 ]
+}
+"442
+[; ;mcc_generated_files/uart/src/uart1.c: 442: static void UART1_DefaultParityErrorCallback(void)
+[v _UART1_DefaultParityErrorCallback `(v ~T0 @X0 1 sf ]
+"443
+[; ;mcc_generated_files/uart/src/uart1.c: 443: {
+{
+[e :U _UART1_DefaultParityErrorCallback ]
+[f ]
+"445
+[; ;mcc_generated_files/uart/src/uart1.c: 445: }
+[e :UE 1964 ]
+}
+"447
+[; ;mcc_generated_files/uart/src/uart1.c: 447: void UART1_FramingErrorCallbackRegister(void (* callbackHandler)(void))
+[v _UART1_FramingErrorCallbackRegister `(v ~T0 @X0 1 ef1`*F14272 ]
+"448
+[; ;mcc_generated_files/uart/src/uart1.c: 448: {
+{
+[e :U _UART1_FramingErrorCallbackRegister ]
+"447
+[; ;mcc_generated_files/uart/src/uart1.c: 447: void UART1_FramingErrorCallbackRegister(void (* callbackHandler)(void))
+[v _callbackHandler `*F14274 ~T0 @X0 1 r1 ]
+"448
+[; ;mcc_generated_files/uart/src/uart1.c: 448: {
+[f ]
+"449
+[; ;mcc_generated_files/uart/src/uart1.c: 449:     if(((void*)0) != callbackHandler)
+[e $ ! != -> -> -> 0 `i `*v `*F14275 _callbackHandler 1966  ]
+"450
+[; ;mcc_generated_files/uart/src/uart1.c: 450:     {
+{
+"451
+[; ;mcc_generated_files/uart/src/uart1.c: 451:         UART1_FramingErrorHandler = callbackHandler;
+[e = _UART1_FramingErrorHandler _callbackHandler ]
+"452
+[; ;mcc_generated_files/uart/src/uart1.c: 452:     }
+}
+[e :U 1966 ]
+"453
+[; ;mcc_generated_files/uart/src/uart1.c: 453: }
+[e :UE 1965 ]
+}
+"455
+[; ;mcc_generated_files/uart/src/uart1.c: 455: void UART1_OverrunErrorCallbackRegister(void (* callbackHandler)(void))
+[v _UART1_OverrunErrorCallbackRegister `(v ~T0 @X0 1 ef1`*F14278 ]
+"456
+[; ;mcc_generated_files/uart/src/uart1.c: 456: {
+{
+[e :U _UART1_OverrunErrorCallbackRegister ]
+"455
+[; ;mcc_generated_files/uart/src/uart1.c: 455: void UART1_OverrunErrorCallbackRegister(void (* callbackHandler)(void))
+[v _callbackHandler `*F14280 ~T0 @X0 1 r1 ]
+"456
+[; ;mcc_generated_files/uart/src/uart1.c: 456: {
+[f ]
+"457
+[; ;mcc_generated_files/uart/src/uart1.c: 457:     if(((void*)0) != callbackHandler)
+[e $ ! != -> -> -> 0 `i `*v `*F14281 _callbackHandler 1968  ]
+"458
+[; ;mcc_generated_files/uart/src/uart1.c: 458:     {
+{
+"459
+[; ;mcc_generated_files/uart/src/uart1.c: 459:         UART1_OverrunErrorHandler = callbackHandler;
+[e = _UART1_OverrunErrorHandler _callbackHandler ]
+"460
+[; ;mcc_generated_files/uart/src/uart1.c: 460:     }
+}
+[e :U 1968 ]
+"461
+[; ;mcc_generated_files/uart/src/uart1.c: 461: }
+[e :UE 1967 ]
+}
+"463
+[; ;mcc_generated_files/uart/src/uart1.c: 463: void UART1_ParityErrorCallbackRegister(void (* callbackHandler)(void))
+[v _UART1_ParityErrorCallbackRegister `(v ~T0 @X0 1 ef1`*F14284 ]
+"464
+[; ;mcc_generated_files/uart/src/uart1.c: 464: {
+{
+[e :U _UART1_ParityErrorCallbackRegister ]
+"463
+[; ;mcc_generated_files/uart/src/uart1.c: 463: void UART1_ParityErrorCallbackRegister(void (* callbackHandler)(void))
+[v _callbackHandler `*F14286 ~T0 @X0 1 r1 ]
+"464
+[; ;mcc_generated_files/uart/src/uart1.c: 464: {
+[f ]
+"465
+[; ;mcc_generated_files/uart/src/uart1.c: 465:     if(((void*)0) != callbackHandler)
+[e $ ! != -> -> -> 0 `i `*v `*F14287 _callbackHandler 1970  ]
+"466
+[; ;mcc_generated_files/uart/src/uart1.c: 466:     {
+{
+"467
+[; ;mcc_generated_files/uart/src/uart1.c: 467:         UART1_ParityErrorHandler = callbackHandler;
+[e = _UART1_ParityErrorHandler _callbackHandler ]
+"468
+[; ;mcc_generated_files/uart/src/uart1.c: 468:     }
+}
+[e :U 1970 ]
+"469
+[; ;mcc_generated_files/uart/src/uart1.c: 469: }
+[e :UE 1969 ]
+}
+"470
+[; ;mcc_generated_files/uart/src/uart1.c: 470: void UART1_RxCompleteCallbackRegister(void (* callbackHandler)(void))
+[v _UART1_RxCompleteCallbackRegister `(v ~T0 @X0 1 ef1`*F14290 ]
+"471
+[; ;mcc_generated_files/uart/src/uart1.c: 471: {
+{
+[e :U _UART1_RxCompleteCallbackRegister ]
+"470
+[; ;mcc_generated_files/uart/src/uart1.c: 470: void UART1_RxCompleteCallbackRegister(void (* callbackHandler)(void))
+[v _callbackHandler `*F14292 ~T0 @X0 1 r1 ]
+"471
+[; ;mcc_generated_files/uart/src/uart1.c: 471: {
+[f ]
+"472
+[; ;mcc_generated_files/uart/src/uart1.c: 472:     if(((void*)0) != callbackHandler)
+[e $ ! != -> -> -> 0 `i `*v `*F14293 _callbackHandler 1972  ]
+"473
+[; ;mcc_generated_files/uart/src/uart1.c: 473:     {
+{
+"474
+[; ;mcc_generated_files/uart/src/uart1.c: 474:        UART1_RxCompleteInterruptHandler = callbackHandler;
+[e = _UART1_RxCompleteInterruptHandler _callbackHandler ]
+"475
+[; ;mcc_generated_files/uart/src/uart1.c: 475:     }
+}
+[e :U 1972 ]
+"476
+[; ;mcc_generated_files/uart/src/uart1.c: 476: }
+[e :UE 1971 ]
+}
+"478
+[; ;mcc_generated_files/uart/src/uart1.c: 478: void UART1_TxCompleteCallbackRegister(void (* callbackHandler)(void))
+[v _UART1_TxCompleteCallbackRegister `(v ~T0 @X0 1 ef1`*F14296 ]
+"479
+[; ;mcc_generated_files/uart/src/uart1.c: 479: {
+{
+[e :U _UART1_TxCompleteCallbackRegister ]
+"478
+[; ;mcc_generated_files/uart/src/uart1.c: 478: void UART1_TxCompleteCallbackRegister(void (* callbackHandler)(void))
+[v _callbackHandler `*F14298 ~T0 @X0 1 r1 ]
+"479
+[; ;mcc_generated_files/uart/src/uart1.c: 479: {
+[f ]
+"480
+[; ;mcc_generated_files/uart/src/uart1.c: 480:     if(((void*)0) != callbackHandler)
+[e $ ! != -> -> -> 0 `i `*v `*F14299 _callbackHandler 1974  ]
+"481
+[; ;mcc_generated_files/uart/src/uart1.c: 481:     {
+{
+"482
+[; ;mcc_generated_files/uart/src/uart1.c: 482:        UART1_TxCompleteInterruptHandler = callbackHandler;
+[e = _UART1_TxCompleteInterruptHandler _callbackHandler ]
+"483
+[; ;mcc_generated_files/uart/src/uart1.c: 483:     }
+}
+[e :U 1974 ]
+"484
+[; ;mcc_generated_files/uart/src/uart1.c: 484: }
+[e :UE 1973 ]
 }
